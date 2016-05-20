@@ -1,0 +1,8 @@
+ == Datasets to enrich xBRL-CDP dataset ==
+1- opencorporates.com: The biggest repository of data about companies 
+ Example: looking for "banca" y filter in "Spain" here: https://opencorporates.com/companies/es?q=banca
+ API Reference: http://api.opencorporates.com/documentation/API-Reference 
+ 
+2- KBO dataset (Belgium dataset) at http://kbodata.be/
+3- Recently "panama papers as Linked data" at http://data.ontotext.com/ (Ontotext)
+4- More data in the LOD cloud in Finance at http://linkeddatacatalog.dws.informatik.uni-mannheim.de/dataset?q=finance  

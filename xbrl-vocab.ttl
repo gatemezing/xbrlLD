@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctype: <http://purl.org/dc/dcmitype/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix v: <http://www.w3.org/2006/vcard/ns#>.
+@prefix schema: <http://schema.org/>.
+@prefix org: <http://www.w3.org/ns/org#> .
+
+#TODO: Write some rules with Shapes Constraint at https://www.w3.org/TR/shacl/
+ 
+# metadata info for the ontology here 
+<http://data.cdp.org/vocab/xbrl>
+    a owl:Ontology, voaf:Vocabulary;
+    rdfs:label "A small XBRL vocabulary"@en;
+    rdfs:label "El vocabulario para informe financiero"@es;
+    dct:creator [foaf:name "Ghislain Atemezing"; schema:affiliation [foaf:homepage <http://www.mondeca.com>; foaf:name "Mondeca"], 
+                 [foaf:name "Maria Moreno"; schema:affiliation [foaf:homepage <http:www.cdp.net>; foaf:name "CDP"]];
+    dct:issued "2016-05-18"^^xsd:date;
+    dct:modified "2016-05-20"^^xsd:date;
+    vann:preferredNamespacePrefix "xbrl" ;
+    .
+
+## classes here 
+# todo: http://dev.poderopedia.com/vocab/FinancialInformation
+
+xbrl:FinancialReport a rdfs:Class , owl:Class ; 
+	rdfs:label "Financial report"@en , "informe financiero"@es ;
+	.
+
+# maybe more simpler with startDate/endDate
+xbrl:Period a rdfs:Class , owl:Class ;
+	rdfs:label "Period"@en ;
+	.
+
+#todo: Find the classes of this type of entity
+
+xbrl:FinancialEntity a rdfs:Class , owl:Class ;
+	rdfs:label "Financial entity"@en ;
+	rdfs:subClassOf org:Organization ;
+	.
+
+
+## object properties here 
+## todo: remove global constraints 
+xbrl:period a owl:ObjectProperty, rdf:Property ;
+	 rdfs:range xbrl:Period ;
+	.
+
+

@@ -1,0 +1,5 @@
+= Facts about XRBL in Linked Data = 
+==work in progress ==
+1- What is a "context" in a financial report?  A context is where information about the period of the report, company id is defined. There is much more information in case dimensional structures are defined, in that case the different columns and rows that are involved are represented (very painful)/
+2- What is the relation between a context and a report? We can have several contexts in one report, the reason is beacuse it includes period and sometines it changes depending on the fact represented, also becuase of dimensioanl structures. 
+3- Can we have a taxonomy of financial entities in XBRL. find here https://mega.nz/#!G1UnCB5b!lcU034P2iONCX3R-UrBeH4HKMjjTz6fGHRv7kHA5cgo
