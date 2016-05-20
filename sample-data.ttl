@@ -1,0 +1,71 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctype: <http://purl.org/dc/dcmitype/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix v: <http://www.w3.org/2006/vcard/ns#>.
+@prefix rov: <http://www.w3.org/ns/regorg#>. 
+@prefix schema: <http://schema.org/>.
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xbrll: <http://data.cdp.net/def/xbrll#> .
+@prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix frpt: <http://data.cdp.net/id/financialreport/> .
+@prefix dpt: <http://data.cdp.net/id/datapoint/> .
+@prefix ent: <http://data.cdp.net/id/entity/> .
+@prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/enc/> .
+
+
+## A small dataset sample in RDF using xbrll vocabulary
+
+# Metadata about the report 
+# the year is not bounded to a specific context
+frpt:1 a xbrll:FinancialReport ;
+	dct:creator [ a Person; foaf:name ""
+				   schema:email "email@name.fr"] ;
+	xbrll:dataPoint dpt:11, dpt:12 ;
+	dct:title "title of the report"@en ;
+	dct:publisher ent:1 ;     # use of the dct:publisher instead of a local property xbrll:entity
+    xbrll:reportYear "2015" ;
+    xbrll:fiscalYear "2015-12-31"^^xsd:date ;
+
+    .
+
+# data points here xbrll:fiscalYear 
+dpt:11 a xbrll:DataPoint ;
+	xbrll:context   
+
+
+
+# Contexts here only for datapoint.. I left the general metadata without context. 
+:c1 a xbrll:Context , skos:ConceptScheme ;
+	skos:hasTopConcept ipp-enc:CuentaPerdidasGananciasIndividual ;
+	.
+
+
+# info about the entity of the report
+ent:1 a xbrll:FinancialEntity ;
+	rov:legalName "ABANCA CORPORACION BANCARIA, S.A."@es ;
+	v:street-address "Calle Claudino Pita n 2 Betanzos" ;
+	rov:registration "CIF-A70302039" ; #CIF + code 
+	xbrll:contactPerson [ a foaf:Person ; foaf:name "Pablo Ramil Frean" ; 
+							schema:email "pabloramil@abanca.com";
+							org:role [ a skos:Concept ; rdfs:label "Gerente Información Financiera"@es];
+					 ] ;
+    
+    .
+
+
+## skos concepts here 
+
+ipp-enc:CuentaPerdidasGananciasIndividual a skos:Concept ;
+	 skos:inScheme dpt:11 ;
+	 rdfs:label "cuenta perdidas ganancias individual"@es ;
+	 .
+
