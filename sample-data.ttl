@@ -30,10 +30,10 @@
 # uri of the report code used the one of the entity?
 frpt:1 a xbrll:FinancialReport ;
 	xbrll:dataPoint dpt:11, dpt:12 ;
-	dct:title "title of the report"@en ;
+	dct:title "financial report "@en, "informe financiero"@es ;
 	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property xbrll:entity
-    xbrll:reportYear "2015" ;
-    xbrll:fiscalYear "2015-12-31"^^xsd:date ;
+        xbrll:reportYear "2015" ;
+        xbrll:fiscalYear "2015-12-31"^^xsd:date ;
 
     .
 
@@ -48,6 +48,7 @@ dpt:11 a xbrll:DataPoint ;
 # Contexts here only for datapoint.. I left the general metadata without context. 
 ctx:1 a xbrll:Context , skos:ConceptScheme ;
 	skos:hasTopConcept ipp-enc:CuentaPerdidasGananciasIndividual ;
+	rdfs:label "first context"@en ;
 	.
 
 
