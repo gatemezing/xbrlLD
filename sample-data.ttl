@@ -27,8 +27,6 @@
 # Metadata about the report 
 # the year is not bounded to a specific context
 frpt:1 a xbrll:FinancialReport ;
-	dct:creator [ a Person; foaf:name ""
-				   schema:email "email@name.fr"] ;
 	xbrll:dataPoint dpt:11, dpt:12 ;
 	dct:title "title of the report"@en ;
 	dct:publisher ent:1 ;     # use of the dct:publisher instead of a local property xbrll:entity
