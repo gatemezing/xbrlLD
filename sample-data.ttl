@@ -19,6 +19,7 @@
 @prefix frpt: <http://data.cdp.net/id/financialreport/> .
 @prefix dpt: <http://data.cdp.net/id/datapoint/> .
 @prefix ent: <http://data.cdp.net/id/entity/> .
+@prefix ctx: <http://data.cdp.net/id/context/> .
 @prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/enc/> .
 
 
@@ -26,10 +27,11 @@
 
 # Metadata about the report 
 # the year is not bounded to a specific context
+# uri of the report code used the one of the entity?
 frpt:1 a xbrll:FinancialReport ;
 	xbrll:dataPoint dpt:11, dpt:12 ;
 	dct:title "title of the report"@en ;
-	dct:publisher ent:1 ;     # use of the dct:publisher instead of a local property xbrll:entity
+	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property xbrll:entity
     xbrll:reportYear "2015" ;
     xbrll:fiscalYear "2015-12-31"^^xsd:date ;
 
@@ -37,18 +39,21 @@ frpt:1 a xbrll:FinancialReport ;
 
 # data points here xbrll:fiscalYear 
 dpt:11 a xbrll:DataPoint ;
-	xbrll:context   
+	xbrll:context ctx:1, ctx:2 ;
+	
+	.
 
 
 
 # Contexts here only for datapoint.. I left the general metadata without context. 
-:c1 a xbrll:Context , skos:ConceptScheme ;
+ctx:1 a xbrll:Context , skos:ConceptScheme ;
 	skos:hasTopConcept ipp-enc:CuentaPerdidasGananciasIndividual ;
 	.
 
 
 # info about the entity of the report
-ent:1 a xbrll:FinancialEntity ;
+#uri of the entity based on the code registration (tbd)
+ent:cifa70302039 a xbrll:FinancialEntity ;
 	rov:legalName "ABANCA CORPORACION BANCARIA, S.A."@es ;
 	v:street-address "Calle Claudino Pita n 2 Betanzos" ;
 	rov:registration "CIF-A70302039" ; #CIF + code 
