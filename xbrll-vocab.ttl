@@ -31,7 +31,7 @@
     dct:issued "2016-05-18"^^xsd:date;
     dct:modified "2016-05-20"^^xsd:date;
     vann:preferredNamespacePrefix "xbrll" ;
-    owl:version "0.1" ;
+    owl:versionInfo "0.1" ;
     .
 
 ## classes here 
