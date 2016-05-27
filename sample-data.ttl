@@ -32,7 +32,7 @@ frpt:1 a xbrll:FinancialReport ;
 	xbrll:dataPoint dpt:11, dpt:12 ;
 	dct:title "financial report "@en, "informe financiero"@es ;
 	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property xbrll:entity
-        xbrll:reportYear "2015" ;
+        xbrll:reportYear "2015"^^xsd:gYear ;
         xbrll:fiscalYear "2015-12-31"^^xsd:date ;
 
     .
@@ -40,7 +40,7 @@ frpt:1 a xbrll:FinancialReport ;
 # data points here xbrll:fiscalYear 
 dpt:11 a xbrll:DataPoint ;
 	xbrll:context ctx:1, ctx:2 ;
-	
+	# to be continued
 	.
 
 
@@ -49,6 +49,7 @@ dpt:11 a xbrll:DataPoint ;
 ctx:1 a xbrll:Context , skos:ConceptScheme ;
 	skos:hasTopConcept ipp-enc:CuentaPerdidasGananciasIndividual ;
 	rdfs:label "first context"@en ;
+	# to be continued... 
 	.
 
 
@@ -71,5 +72,6 @@ ent:cifa70302039 a xbrll:FinancialEntity ;
 ipp-enc:CuentaPerdidasGananciasIndividual a skos:Concept ;
 	 skos:inScheme dpt:11 ;
 	 rdfs:label "cuenta perdidas ganancias individual"@es ;
+	 # more relationships to be determined according to the schema I arrived
 	 .
 
