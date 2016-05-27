@@ -57,7 +57,7 @@ ctx:1 a xbrll:Context , skos:ConceptScheme ;
 ent:cifa70302039 a xbrll:FinancialEntity ;
 	rov:legalName "ABANCA CORPORACION BANCARIA, S.A."@es ;
 	v:street-address "Calle Claudino Pita n 2 Betanzos" ;
-	rov:registration "CIF-A70302039" ; #CIF + code 
+	rov:registration "A70302039" ; #only the code 
 	xbrll:contactPerson [ a foaf:Person ; foaf:name "Pablo Ramil Frean" ; 
 							schema:email "pabloramil@abanca.com";
 							org:role [ a skos:Concept ; rdfs:label "Gerente Información Financiera"@es];
