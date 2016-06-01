@@ -30,8 +30,9 @@
                  
     dct:issued "2016-05-18"^^xsd:date;
     dct:modified "2016-05-20"^^xsd:date;
+    dct:modified "2016-06-01"^^xsd:date;
     vann:preferredNamespacePrefix "xbrll" ;
-    owl:versionInfo "0.1" ;
+    owl:versionInfo "0.1.1" ;
     .
 
 ## classes here 
@@ -55,6 +56,11 @@ xbrll:DataPoint a rdfs:Class, owl:Class ;
 			owl:onClass xbrll:Context;
 			owl:onProperty xbrll:context;
 			owl:minCardinality "1"^^xsd:nonNegativeInteger] ;
+	rdfs:subClassOf
+              [ a owl:Restriction ;
+                owl:someValuesFrom xbrll:Dimension ;
+                owl:onProperty xbrll:hasDimension
+              ] ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
@@ -70,6 +76,12 @@ xbrll:Period a rdfs:Class , owl:Class ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
+xbrll:Dimension a rdfs:Class , owl:Class ;
+	rdfs:label "Dimension"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:comment "The dimension defining whether the dimensions in the axis are explicit member or implicit ones"@en;
+	.
+
 #todo: Find the classes of this type of entity
 xbrll:FinancialEntity a rdfs:Class , owl:Class ;
 	rdfs:label "Financial entity"@en ;
@@ -80,31 +92,31 @@ xbrll:FinancialEntity a rdfs:Class , owl:Class ;
 ## object properties here 
 ## todo: remove global constraints 
 xbrll:period a owl:ObjectProperty, rdf:Property ;
-	 rdfs:label "period"@en ;
+	 rdfs:label "Period"@en ;
 	 rdfs:range xbrll:Period ;
 	 rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 xbrll:dataPoint a owl:ObjectProperty, rdf:Property ;
 	rdfs:domain xbrll:FinancialReport ;
-	rdfs:label "data point property"@en ;
-	rdfs:comment "data point property from a financial report"@en ;
+	rdfs:label "Data point property"@en ;
+	rdfs:comment "Data point property from a financial report"@en ;
 	rdfs:range xbrll:DataPoint ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 xbrll:context a owl:ObjectProperty, rdf:Property ;
 	rdfs:domain xbrll:DataPoint ;
-	rdfs:label "context property"@en ;
-	rdfs:comment "context property from a data point"@en ;
+	rdfs:label "Context property"@en ;
+	rdfs:comment "Context property from a data point"@en ;
 	rdfs:range xbrll:Context ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 #todo: see if this can be removed later
 xbrll:contactPerson a rdf:Property, owl:ObjectProperty;
-	rdfs:label "contact person"@en ;
-	rdfs:comment "the person of contact in the metadata info of a company"@en ;
+	rdfs:label "Contact person"@en ;
+	rdfs:comment "The person of contact in the metadata info of a company"@en ;
 	rdfs:range foaf:Agent ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
@@ -112,7 +124,7 @@ xbrll:contactPerson a rdf:Property, owl:ObjectProperty;
 ##Data properties here
 
 xbrll:startDate a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "start date"@en ;
+	rdfs:label "Start date"@en ;
 	rdfs:comment "Starting date of a period"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:Date ;
@@ -120,15 +132,15 @@ xbrll:startDate a rdf:Property, owl:DatatypeProperty;
 	.
 
 xbrll:endDate a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "end date"@en ;
-	rdfs:comment "end date of a period"@en ;
+	rdfs:label "End date"@en ;
+	rdfs:comment "End date of a period"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:Date ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 xbrll:isInstant a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "is instant"@en ;
+	rdfs:label "Is instant"@en ;
 	rdfs:comment "boolean for the instant moment"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:boolean ;
@@ -136,34 +148,42 @@ xbrll:isInstant a rdf:Property, owl:DatatypeProperty;
 	.
 
 xbrll:isForever a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "is forever"@en ;
-	rdfs:comment "boolean telling the period is forever or not"@en ;
+	rdfs:label "Is forever"@en ;
+	rdfs:comment "Boolean telling the period is forever or not"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:boolean ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 xbrll:decimals a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "decimals"@en ;
-	rdfs:comment "number of decimals used for a currency"@en ;
+	rdfs:label "Decimals"@en ;
+	rdfs:comment "Number of decimals used for a currency"@en ;
 	rdfs:range xsd:integer ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 xbrll:reportYear a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "report year"@en ;
+	rdfs:label "Report year"@en ;
 	rdfs:comment "year of the report"@en ;
 	rdfs:range xsd:string ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
 xbrll:fiscalYear a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "fiscal year"@en ;
-	rdfs:comment "end of fiscal year"@en ;
+	rdfs:label "Fiscal year"@en ;
+	rdfs:comment "End of fiscal year"@en ;
 	rdfs:range xsd:date ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
 	.
 
+## Restriction for the 2 members in the dimension part of axis
+## todo: See if this is not too much restrictions
+xbrll:hasDimension a rdf:Property, owl:DatatypeProperty ;
+	rdfs:label "Has dimension"@en ;
+	rdfs:domain xbrll:Dimension ;
+	rdfs:range [ a owl:DataRange;  owl:oneOf ("Explicit Member" "Typed Member") ] ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
 # TODO: find if we can use QUDT for currency here
 ## external resource.
 
@@ -172,3 +192,5 @@ geop:nameCurrencyEN a owl:DatatypeProperty ;
 	rdfs:range xsd:string ;
 	rdfs:label "name currency EN"@en ;
 	.
+	
+
