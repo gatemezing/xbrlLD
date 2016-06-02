@@ -20,8 +20,9 @@
 @prefix dpt: <http://data.cdp.net/id/datapoint/> .
 @prefix ent: <http://data.cdp.net/id/entity/> .
 @prefix ctx: <http://data.cdp.net/id/context/> .
-@prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/enc/> .
-
+@prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/> .
+@prefix ippsch: <http://data.cdp.net/id/scheme/ipp> .
+@prefix slc: <http://data.cdp.net/id/slice/> .
 
 ## A small dataset sample in RDF using xbrll vocabulary
 
@@ -29,7 +30,7 @@
 # the year is not bounded to a specific context
 # uri of the report code used the one of the entity?
 frpt:1 a xbrll:FinancialReport ;
-	xbrll:dataPoint dpt:11, dpt:12 ;
+	xbrll:dataPoint dpt:d11, dpt:d12 ;  # these are actually observations
 	dct:title "financial report "@en, "informe financiero"@es ;
 	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property xbrll:entity
         xbrll:reportYear "2015"^^xsd:gYear ;
@@ -37,28 +38,12 @@ frpt:1 a xbrll:FinancialReport ;
 
     .
 
-# data points here xbrll:fiscalYear 
-dpt:11 a xbrll:DataPoint ;
-	xbrll:context ctx:1, ctx:2 ;
-	# to be continued
-	.
-
-
-
-# Contexts here only for datapoint.. I left the general metadata without context. 
-ctx:1 a xbrll:Context , skos:ConceptScheme ;
-	skos:hasTopConcept ipp-enc:CuentaPerdidasGananciasIndividual ;
-	rdfs:label "first context"@en ;
-	# to be continued... 
-	.
-
-
 # info about the entity of the report
 #uri of the entity based on the code registration (tbd)
 ent:cifa70302039 a xbrll:FinancialEntity ;
 	rov:legalName "ABANCA CORPORACION BANCARIA, S.A."@es ;
 	v:street-address "Calle Claudino Pita n 2 Betanzos" ;
-	rov:registration "A70302039" ; #only the code 
+	rov:registration "CIF-A70302039" ; #CIF + code 
 	xbrll:contactPerson [ a foaf:Person ; foaf:name "Pablo Ramil Frean" ; 
 							schema:email "pabloramil@abanca.com";
 							org:role [ a skos:Concept ; rdfs:label "Gerente Información Financiera"@es];
@@ -66,12 +51,55 @@ ent:cifa70302039 a xbrll:FinancialEntity ;
     
     .
 
+# first column corresponding to qb:Slice?
+# data point d11-- first column
+dpt:d11 a xbrll:DataPoint ;
+	xbrll:context ctx:S22015_A70302039_ici ;
+	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
+    ifrs-gp:cashAndBalancesWithCentralBanks          429839000 ;
+    xbrll:decimals 0 ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+dpt:d12 a xbrll:DataPoint ;
+	xbrll:context ctx:S22014_A70302039_ipai ;
+	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
+    ifrs-gp:cashAndBalancesWithCentralBanks          493743000 ;
+    xbrll:decimals 0 ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+
+dpt:d13 a xbrll:DataPoint ;
+	xbrll:context ctx:S22015_A70302039_ici ;
+	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
+    ifrs-gp:financialAssetsHeldForTradingTotal          246805000 ;
+    xbrll:decimals 0 ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+
+dpt:d14 a xbrll:DataPoint ;
+	xbrll:context ctx:S22014_A70302039_ipai ;
+	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
+    ifrs-gp:financialAssetsHeldForTradingTotal          220307000 ;
+    xbrll:decimals 0 ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+
+
+## todo: find a QB-alike view with this data
+## Not sure to add this now!!
+slc:1 a qb:Slice;
+    qb:sliceStructure  eg:sliceByConcept ;
+    #eg:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2004-01-01T00:00:00/P3Y> ;
+    xbrl-dimension:currency         xbrl-code:euro ;
+    qb:observation eg:o11, eg:o12, eg:o13, eg:o14 ;
+
+    .
 
 ## skos concepts here 
-
-ipp-enc:CuentaPerdidasGananciasIndividual a skos:Concept ;
-	 skos:inScheme dpt:11 ;
+## TODO: Do we define 5 concepts scheme for ifrs-gp, es-be-fs, ifrs-gp, ipp-enc and ipp-com?
+## Maybe all in one concept schemes for the beginning 
+ipp-enc:cuentaPerdidasGananciasIndividual a skos:Concept ;
+	 skos:inScheme ippsch: ;
 	 rdfs:label "cuenta perdidas ganancias individual"@es ;
-	 # more relationships to be determined according to the schema I arrived
 	 .
 
