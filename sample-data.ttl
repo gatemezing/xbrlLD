@@ -23,6 +23,8 @@
 @prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/> .
 @prefix ippsch: <http://data.cdp.net/id/scheme/ipp> .
 @prefix slc: <http://data.cdp.net/id/slice/> .
+@prefix xbrl-attribute: <http://data.cdp.net/id/xbrl/attribute#> .
+
 
 ## A small dataset sample in RDF using xbrll vocabulary
 
@@ -51,55 +53,113 @@ ent:cifa70302039 a xbrll:FinancialEntity ;
     
     .
 
-# first column corresponding to qb:Slice?
-# data point d11-- first column
+# Q: first column corresponding to qb:Slice?
+# data point d1x-- first column
 dpt:d11 a xbrll:DataPoint ;
-	xbrll:context ctx:S22015_A70302039_ici ;
-	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
-    ifrs-gp:cashAndBalancesWithCentralBanks          429839000 ;
-    xbrll:decimals 0 ;
+	xbrll:context ctx:s22015_a70302039_ici ;
+	xbrll:refConcept   ipp-enc:balanceindividual ;                  
+    xbrl-attribute:cashAndBalancesWithCentralBanks    "429839000" ;
+    xbrll:unitRef "euro" ;
+    xbrll:decimals "0" ;
     xbrll:report frpt:1 # link from a fact to the report
 	.
 dpt:d12 a xbrll:DataPoint ;
-	xbrll:context ctx:S22014_A70302039_ipai ;
-	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
-    ifrs-gp:cashAndBalancesWithCentralBanks          493743000 ;
-    xbrll:decimals 0 ;
+	xbrll:context ctx:s22014_a70302039_ipai ;
+	xbrll:refConcept   ipp-enc:balanceindividual ;
+	xbrll:unitRef "euro" ;                  
+    xbrl-attribute:cashAndBalancesWithCentralBanks  "493743000" ;
+    xbrll:decimals "0" ;
     xbrll:report frpt:1 # link from a fact to the report
 	.
 
 dpt:d13 a xbrll:DataPoint ;
-	xbrll:context ctx:S22015_A70302039_ici ;
-	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
-    ifrs-gp:financialAssetsHeldForTradingTotal          246805000 ;
-    xbrll:decimals 0 ;
+	xbrll:context ctx:s22015_a70302039_ici ;
+	xbrll:refConcept   ipp-enc:balanceindividual ;                  
+    xbrl-attribute:financialAssetsHeldForTradingTotal    "246805000" ;
+    xbrll:decimals "0" ;
+    xbrll:unitRef "euro" ;
     xbrll:report frpt:1 # link from a fact to the report
 	.
 
 dpt:d14 a xbrll:DataPoint ;
-	xbrll:context ctx:S22014_A70302039_ipai ;
-	xbrll:refConcept                 ipp-enc:balanceindividual ;                  
-    ifrs-gp:financialAssetsHeldForTradingTotal          220307000 ;
-    xbrll:decimals 0 ;
+	xbrll:context ctx:s22014_a70302039_ipai ;
+	xbrll:refConcept  ipp-enc:balanceindividual ;                  
+    xbrl-attribute:financialAssetsHeldForTradingTotal    "220307000" ;
+    xbrll:decimals "0" ;
+    xbrll:unitRef "euro" ;
     xbrll:report frpt:1 # link from a fact to the report
 	.
+
+
+# data point d2x-- second column here
+
+
+
+
+## skos concepts here 
+## TODO: Do we define 5 concepts scheme for ifrs-gp, es-be-fs, ifrs-gp, ipp-enc and ipp-com?
+## Maybe all in one concept schemes for the beginning 
+ipp-enc:cuentaperdidasgananciasindividual a skos:Concept ;
+	 skos:inScheme ippsch: ;
+	 rdfs:label "Cuenta perdidas ganancias individual"@es ;
+	 .
+
+
+## TODO: define the concept ipp-enc:balanceindividual
+ipp-enc:balanceindividual a skos:Concept ;
+		rdfs:label "Balance individual"@es ;
+		skos:inScheme ippsch: ;
+		## TODO: find a relationship such as narrower, broader, etc.
+		.
+
+
 
 
 ## todo: find a QB-alike view with this data
 ## Not sure to add this now!!
 slc:1 a qb:Slice;
-    qb:sliceStructure  eg:sliceByConcept ;
+    qb:sliceStructure  eg:sliceByConcept ; # TODO: Find an appropriate namespace
     #eg:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2004-01-01T00:00:00/P3Y> ;
-    xbrl-dimension:currency         xbrl-code:euro ;
-    qb:observation eg:o11, eg:o12, eg:o13, eg:o14 ;
+    xbrl-dimension:currency         xbrll-code:euro ;
+    qb:observation dpt:d11, dpt:d12, dpt:d13, dpt:d14 ; ## TODO: a link from an observation and data points
 
     .
 
-## skos concepts here 
-## TODO: Do we define 5 concepts scheme for ifrs-gp, es-be-fs, ifrs-gp, ipp-enc and ipp-com?
-## Maybe all in one concept schemes for the beginning 
-ipp-enc:cuentaPerdidasGananciasIndividual a skos:Concept ;
-	 skos:inScheme ippsch: ;
-	 rdfs:label "cuenta perdidas ganancias individual"@es ;
-	 .
+## TODO: create xbrl-attribute with the properties from the sample XBRL dataset
 
+## all the contexts of the sample are listed below
+ctx:s22015_a70302039_ici a xbrll:Context ;
+	dct:identifier "S22015_A70302039_ici" .
+
+ctx:s22015_a70302039_icc a xbrll:Context ;
+	dct:identifier "S22015_A70302039_icc" .
+
+ctx:s22015_a70302039_dcoi a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dcoi" .
+
+ctx:s22015_a70302039_dcoc a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dcoc" .
+
+ctx:s22015_a70302039_dci a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dci" .
+
+ctx:s22015_a70302039_dcc a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dcc" .
+
+ctx:s22014_a70302039_ipai a xbrll:Context ;
+	dct:identifier "S22014_A70302039_ipai" .
+
+ctx:s22014_a70302039_ipac a xbrll:Context ;
+	dct:identifier "S22014_A70302039_ipac" .
+
+ctx:s22014_a70302039_dpoi a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpoi" .
+
+ctx:s22014_a70302039_dpoc a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpoc" .
+
+ctx:s22014_a70302039_dpai a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpai" .
+
+ctx:s22014_a70302039_dpac a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpac" .
