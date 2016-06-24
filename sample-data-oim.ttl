@@ -33,7 +33,7 @@
 # the year is not bounded to a specific context
 # uri of the report code used the one of the entity?
 frpt:1 a oim:FinancialReport ;
-	oim:dataPoint dpt:d11, dpt:d12, d13,d21,d22 ;  # these are actually observations, add them at the end
+	oim:dataPoint dpt:f11, dpt:f12, f13, f14, f15, f21,f22,f23,f24,f25 ;  # these are actually facts, add them at the end
 	dct:title "financial report "@en, "informe financiero"@es ;
 	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property oim:entity
     oim:reportYear "2015"^^xsd:gYear ;   # TODO: find if to remove this from OIM model
