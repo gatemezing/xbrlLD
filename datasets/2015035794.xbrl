@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ipp-enc="http://www.cnmv.es/ipp/enc/1-2008/2008-01-01" xmlns:es-be-fs="http://www.bde.es/es/fr/ifrs/basi/bde/4-2004/2006-01-01" xmlns:ipp-com="http://www.cnmv.es/ipp/com/1-2008/2008-01-01" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2007/dgi/gp/lc-es/2007-05-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2007/dgi/gp/lc-int/2007-05-30" xmlns:ifrs-gp="http://xbrl.iasb.org/int/fr/ifrs/gp/2005-05-15" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2007/dgi/gp/est-gen/2007-05-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ipp="http://www.cnmv.es/ipp/2008">
+	<xbrll:schemaRef xlink:type="simple" xlink:href="../ipp_2008-01-01/ipp-enc-2008-01-01.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	<xbrli:context id="S22014_A70302039_dci">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2014-01-01</xbrli:startDate>
+			<xbrli:endDate>2014-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22014_A70302039_dcc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2014-01-01</xbrli:startDate>
+			<xbrli:endDate>2014-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22013_A70302039_dpai">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-01</xbrli:startDate>
+			<xbrli:endDate>2013-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22013_A70302039_dpac">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-01</xbrli:startDate>
+			<xbrli:endDate>2013-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22014_A70302039_dcoi">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2014-07-01</xbrli:startDate>
+			<xbrli:endDate>2014-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22014_A70302039_dcoc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2014-07-01</xbrli:startDate>
+			<xbrli:endDate>2014-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22013_A70302039_dpoi">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-07-01</xbrli:startDate>
+			<xbrli:endDate>2013-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22013_A70302039_dpoc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-07-01</xbrli:startDate>
+			<xbrli:endDate>2013-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22014_A70302039_ici">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2014-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22014_A70302039_icc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2014-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22013_A70302039_ipai">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2013-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22013_A70302039_ipac">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2013-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>EN</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:unit id="euro">
+		<xbrli:measure>iso4217:EUR</xbrli:measure>
+	</xbrli:unit>
+	<xbrli:unit id="pure">
+		<xbrli:measure>xbrli:pure</xbrli:measure>
+	</xbrli:unit>
+	<ipp-enc:InformeFinancieroEntidadesCredito>
+		<ipp-com:IdentificacionInforme>
+			<ipp-com:CierreEjercicioInforme contextRef="S22014_A70302039_ici">2014-12-31</ipp-com:CierreEjercicioInforme>
+			<ipp-com:AnoInforme contextRef="S22014_A70302039_ici">2014</ipp-com:AnoInforme>
+			<ipp-com:PeriodoInforme>
+				<ipp-com:Xcode_Periodo_E2 contextRef="S22014_A70302039_ici">E2</ipp-com:Xcode_Periodo_E2>
+			</ipp-com:PeriodoInforme>
+			<ipp-com:ModeloInforme>
+				<ipp-com:Xcode_Modelo_EN contextRef="S22014_A70302039_ici">EN</ipp-com:Xcode_Modelo_EN>
+			</ipp-com:ModeloInforme>
+			<ipp-com:Version contextRef="S22014_A70302039_ici">6.1.0</ipp-com:Version>
+		</ipp-com:IdentificacionInforme>
+		<ipp-com:DatosIdentificativos>
+			<dgi-est-gen:EntityName>
+				<dgi-est-gen:LegalName>
+					<dgi-est-gen:LegalNameType>
+						<dgi-lc-es:Xcode_NMT.DS contextRef="S22014_A70302039_ici">DS</dgi-lc-es:Xcode_NMT.DS>
+					</dgi-est-gen:LegalNameType>
+					<dgi-est-gen:LegalNameValue contextRef="S22014_A70302039_ici">ABANCA CORPORACION BANCARIA, S.A.</dgi-est-gen:LegalNameValue>
+				</dgi-est-gen:LegalName>
+			</dgi-est-gen:EntityName>
+			<dgi-est-gen:EntityAddress>
+				<dgi-est-gen:AddressTypeList>
+					<dgi-lc-es:Xcode_ADL.01 contextRef="S22014_A70302039_ici">01</dgi-lc-es:Xcode_ADL.01>
+				</dgi-est-gen:AddressTypeList>
+				<dgi-est-gen:Address>
+					<dgi-est-gen:AddressFormat>
+						<dgi-lc-int:Xcode_UN3477.05 contextRef="S22014_A70302039_ici">05</dgi-lc-int:Xcode_UN3477.05>
+					</dgi-est-gen:AddressFormat>
+					<dgi-est-gen:AddressLine contextRef="S22014_A70302039_ici">Calle Cantón Claudino Pita Betanzos</dgi-est-gen:AddressLine>
+				</dgi-est-gen:Address>
+			</dgi-est-gen:EntityAddress>
+			<dgi-est-gen:Identifier>
+				<dgi-est-gen:IdentifierCode>
+					<dgi-lc-es:Xcode_IDC.CIF contextRef="S22014_A70302039_ici">CIF</dgi-lc-es:Xcode_IDC.CIF>
+					<dgi-est-gen:IdentifierValue contextRef="S22014_A70302039_ici">A70302039</dgi-est-gen:IdentifierValue>
+				</dgi-est-gen:IdentifierCode>
+			</dgi-est-gen:Identifier>
+			<ipp-com:PersonasContacto>
+				<dgi-est-gen:ContactPerson>
+					<dgi-est-gen:PersonName>
+						<dgi-est-gen:FormattedName contextRef="S22014_A70302039_ici">Pablo Ramil Freán</dgi-est-gen:FormattedName>
+					</dgi-est-gen:PersonName>
+					<dgi-est-gen:Position>
+						<dgi-est-gen:PositionType contextRef="S22014_A70302039_ici">Responsable Información Financiera y Reporting</dgi-est-gen:PositionType>
+					</dgi-est-gen:Position>
+					<dgi-est-gen:CommunicationWays>
+						<dgi-est-gen:CommunicationType>
+							<dgi-lc-int:Xcode_UN3155.TE contextRef="S22014_A70302039_ici">TE</dgi-lc-int:Xcode_UN3155.TE>
+						</dgi-est-gen:CommunicationType>
+						<dgi-est-gen:CommunicationValue contextRef="S22014_A70302039_ici">981186342</dgi-est-gen:CommunicationValue>
+					</dgi-est-gen:CommunicationWays>
+					<dgi-est-gen:CommunicationWays>
+						<dgi-est-gen:CommunicationType>
+							<dgi-lc-int:Xcode_UN3155.EM contextRef="S22014_A70302039_ici">EM</dgi-lc-int:Xcode_UN3155.EM>
+						</dgi-est-gen:CommunicationType>
+						<dgi-est-gen:CommunicationValue contextRef="S22014_A70302039_ici">pramil@abanca.com</dgi-est-gen:CommunicationValue>
+					</dgi-est-gen:CommunicationWays>
+				</dgi-est-gen:ContactPerson>
+			</ipp-com:PersonasContacto>
+		</ipp-com:DatosIdentificativos>
+		<ipp-com:InformacionComplementariaInformacionReguladaPreviamentePublicada>
+			<ipp-com:InformacionComplementariaValor contextRef="S22014_A70302039_ici">La información relativa al ejercicio 2013 que se incluye en esta memoria se presenta, única y exclusivamente, a efectos comparativos con la información del ejercicio 2014 y, por tanto, no constituyen las cuentas anuales consolidadas del Grupo del ejercicio 2013.
+La entrada en vigor en el ejercicio 2014 de la Interpretación del Comité de interpretaciones de las NIIF sobre gravámenes (denominada CINIIF 21) ha supuesto un cambio de la política contable del Grupo respecto a las aportaciones realizadas al Fondo de Garantía de Depósitos u otros tributos similares a nivel Grupo. Por aplicación de la Norma Internacional de Contabilidad sobre cambios de políticas contables (denominada NIC 8), la CINIIF 21 se ha aplicado con carácter retroactivo produciéndose la reexpresión de ciertos importes presentados, a efectos comparativos, de los ejercicios anteriores. A continuación se muestran los impactos contables del cambio indicado:
+-	En los estados financieros al 31 de diciembre de 2013, supuso un incremento de 46.514 miles de euros del epígrafe “Otros pasivos financieros”, un incremento de 44.691 miles de euros del epígrafe “Otros pasivos”, una disminución del resultado del ejercicio de 40.123 miles de euros y una disminución del epígrafe “Reservas” de 51.082 miles de euros. Consecuentemente se han reexpresado los estados financieros correspondientes al ejercicio terminado el 31 de diciembre de 2013.
+Por otro lado, durante el ejercicio 2014, como consecuencia de las nuevas condiciones establecidas en el Term Sheet vigente, aprobado por la Comisión Europea, el Grupo ha procedido a realizar las siguientes reclasificaciones:
+-	Reclasificación de determinadas participaciones que se encontraban registradas en el epígrafe “Activos no corrientes en venta” al epígrafe “Participaciones- Entidades Asociadas”. Por aplicación de la Norma Internacional de Contabilidad sobre Inversiones en sociedades asociadas y negocios conjuntos (denominada NIC 28), las inversiones en empresas asociadas previamente clasificadas como mantenidas para la venta que han dejado de cumplir los criterios para ser clasificadas como tal, se han contabilizado utilizando el método de la participación con efectos retroactivos desde la fecha de su clasificación como mantenidas para la venta (ejercicio 2012), reexpresándose los estados financieros de todos los periodos posteriores a su clasificación como mantenida para la venta. 
+-	En el caso de las sociedades participadas cuyo valor en ejercicios anteriores se esperaba recuperar mediante la enajenación, y se consolidaban por integración global figurando los activos y pasivos integrados en los capítulos del balance consolidado “Activos no corrientes en venta” y “Pasivos asociados con activos no corrientes en venta” respectivamente, en el ejercicio 2014, al haber dejado de cumplir los criterios para ser clasificados como tal, han sido consolidadas por integración global figurando los activos y pasivos en los capítulos correspondientes del balance consolidado en función de su naturaleza. Por este motivo, y en aplicación de la Norma Internacional de Información Financiera sobre Activos no corrientes mantenidos para la venta y actividades interrumpidas (denominada NIIF 5), los estados financieros correspondientes a los ejercicios 2013 y 2012 (fecha de la clasificación de las sociedades participadas como activos/pasivos como mantenido para la venta) han sido modificados.
+Como consecuencia de la aplicación de las citadas políticas contables retroactivamente y de la reexpresión retroactiva de partidas en los estados financieros, y de acuerdo con la Norma Internacional de Contabilidad sobre presentación de estados financieros (denominada NIC 1), el Grupo presenta tres balances, al 31 de diciembre de 2014, 2013 y 2012 respectivamente.
+En los Anexos VI y VII de las cuentas consolidadas a 31 de Diciembre de 2014 colgadas en la web de la CNMV se muestran los impactos contables de los cambios indicados anteriormente.
+</ipp-com:InformacionComplementariaValor>
+		</ipp-com:InformacionComplementariaInformacionReguladaPreviamentePublicada>
+		<ipp-enc:InformacionFinancieraSeleccionada>
+			<ipp-enc:BalanceIndividual>
+				<ifrs-gp:CashAndBalancesWithCentralBanks decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">493743000</ifrs-gp:CashAndBalancesWithCentralBanks>
+				<ifrs-gp:CashAndBalancesWithCentralBanks decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">495364000</ifrs-gp:CashAndBalancesWithCentralBanks>
+				<ifrs-gp:FinancialAssetsHeldForTradingTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">220307000</ifrs-gp:FinancialAssetsHeldForTradingTotal>
+				<ifrs-gp:FinancialAssetsHeldForTradingTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">254289000</ifrs-gp:FinancialAssetsHeldForTradingTotal>
+				<ifrs-gp:AvailableForSaleFinancialAssetsTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">5111707000</ifrs-gp:AvailableForSaleFinancialAssetsTotal>
+				<ifrs-gp:AvailableForSaleFinancialAssetsTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">6956392000</ifrs-gp:AvailableForSaleFinancialAssetsTotal>
+				<ifrs-gp:LoansAndReceivablesTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">31930877000</ifrs-gp:LoansAndReceivablesTotal>
+				<ifrs-gp:LoansAndReceivablesTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">26856524000</ifrs-gp:LoansAndReceivablesTotal>
+				<ifrs-gp:HeldToMaturityInvestmentsTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">9922764000</ifrs-gp:HeldToMaturityInvestmentsTotal>
+				<ifrs-gp:HeldToMaturityInvestmentsTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">12434901000</ifrs-gp:HeldToMaturityInvestmentsTotal>
+				<es-be-fs:DerivadosCoberturaActivoPresentacion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2171000</es-be-fs:DerivadosCoberturaActivoPresentacion>
+				<es-be-fs:DerivadosCoberturaActivoPresentacion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">6291000</es-be-fs:DerivadosCoberturaActivoPresentacion>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">202059000</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1840018000</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ipp-enc:ParticipacionesNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2315632000</ipp-enc:ParticipacionesNacional>
+				<ipp-enc:ParticipacionesNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">656288000</ipp-enc:ParticipacionesNacional>
+				<ifrs-gp:InvestmentsInAssociatesAtCost decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">16851000</ifrs-gp:InvestmentsInAssociatesAtCost>
+				<ifrs-gp:InvestmentsInAssociatesAtCost decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">12800000</ifrs-gp:InvestmentsInAssociatesAtCost>
+				<ifrs-gp:InvestmentsInSubsidiariesAtCost decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2298781000</ifrs-gp:InvestmentsInSubsidiariesAtCost>
+				<ifrs-gp:InvestmentsInSubsidiariesAtCost decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">643488000</ifrs-gp:InvestmentsInSubsidiariesAtCost>
+				<es-be-fs:ContratosSegurosVinculadosPensiones decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">164318000</es-be-fs:ContratosSegurosVinculadosPensiones>
+				<es-be-fs:ContratosSegurosVinculadosPensiones decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">154014000</es-be-fs:ContratosSegurosVinculadosPensiones>
+				<es-be-fs:ActivoMaterialActivoPresentacion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">639497000</es-be-fs:ActivoMaterialActivoPresentacion>
+				<es-be-fs:ActivoMaterialActivoPresentacion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">632118000</es-be-fs:ActivoMaterialActivoPresentacion>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">589497000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">570470000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">50000000</ifrs-gp:InvestmentProperty>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">61648000</ifrs-gp:InvestmentProperty>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">3191000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1119000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">3191000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1119000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:TaxAssetsTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2740347000</ifrs-gp:TaxAssetsTotal>
+				<ifrs-gp:TaxAssetsTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2231160000</ifrs-gp:TaxAssetsTotal>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">163751000</ifrs-gp:CurrentTaxReceivables>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">95740000</ifrs-gp:CurrentTaxReceivables>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2576596000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2135420000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:OtherAssetsTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">140643000</ifrs-gp:OtherAssetsTotal>
+				<ifrs-gp:OtherAssetsTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">218645000</ifrs-gp:OtherAssetsTotal>
+				<ipp-enc:TotalActivoNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">53887256000</ipp-enc:TotalActivoNacional>
+				<ipp-enc:TotalActivoNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">52737123000</ipp-enc:TotalActivoNacional>
+				<ipp-enc:TotalPasivoNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">50107200000</ipp-enc:TotalPasivoNacional>
+				<ipp-enc:TotalPasivoNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">50117205000</ipp-enc:TotalPasivoNacional>
+				<ifrs-gp:FinancialLiabilitiesHeldForTradingTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">184480000</ifrs-gp:FinancialLiabilitiesHeldForTradingTotal>
+				<ifrs-gp:FinancialLiabilitiesHeldForTradingTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">233554000</ifrs-gp:FinancialLiabilitiesHeldForTradingTotal>
+				<es-be-fs:PasivosFinancierosCosteAmortizadoBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">48963586000</es-be-fs:PasivosFinancierosCosteAmortizadoBalance>
+				<es-be-fs:PasivosFinancierosCosteAmortizadoBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">48699051000</es-be-fs:PasivosFinancierosCosteAmortizadoBalance>
+				<es-be-fs:DerivadosCoberturaPasivoPresentacion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">61244000</es-be-fs:DerivadosCoberturaPasivoPresentacion>
+				<es-be-fs:DerivadosCoberturaPasivoPresentacion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">74911000</es-be-fs:DerivadosCoberturaPasivoPresentacion>
+				<es-be-fs:Provisiones decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">670230000</es-be-fs:Provisiones>
+				<es-be-fs:Provisiones decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">848268000</es-be-fs:Provisiones>
+				<ifrs-gp:TaxLiabilitiesTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">68562000</ifrs-gp:TaxLiabilitiesTotal>
+				<ifrs-gp:TaxLiabilitiesTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">99120000</ifrs-gp:TaxLiabilitiesTotal>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">68562000</ifrs-gp:DeferredTaxLiabilities>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">99120000</ifrs-gp:DeferredTaxLiabilities>
+				<es-be-fs:OtrosPasivos decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">159098000</es-be-fs:OtrosPasivos>
+				<es-be-fs:OtrosPasivos decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">162301000</es-be-fs:OtrosPasivos>
+				<ipp-enc:TotalPatrimonioNetoNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">3780056000</ipp-enc:TotalPatrimonioNetoNacional>
+				<ipp-enc:TotalPatrimonioNetoNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2619918000</ipp-enc:TotalPatrimonioNetoNacional>
+				<ipp-enc:FondosPropiosNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">3822677000</ipp-enc:FondosPropiosNacional>
+				<ipp-enc:FondosPropiosNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2609429000</ipp-enc:FondosPropiosNacional>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2453657000</es-be-fs:CapitalFondoDotacion>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2359246000</es-be-fs:CapitalFondoDotacion>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2453657000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2359246000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">433901000</ifrs-gp:SharePremiumTotal>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">5571998000</ifrs-gp:SharePremiumTotal>
+				<es-be-fs:ReservasFondosPropios decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-102591000</es-be-fs:ReservasFondosPropios>
+				<es-be-fs:ReservasFondosPropios decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-5033259000</es-be-fs:ReservasFondosPropios>
+				<es-be-fs:ValoresPropiosBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-160953000</es-be-fs:ValoresPropiosBalance>
+				<es-be-fs:ValoresPropiosBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-83072000</es-be-fs:ValoresPropiosBalance>
+				<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1198663000</es-be-fs:ResultadoEjercicioBalance>
+				<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-205484000</es-be-fs:ResultadoEjercicioBalance>
+				<ipp-enc:AjustesValoracionNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-42621000</ipp-enc:AjustesValoracionNacional>
+				<ipp-enc:AjustesValoracionNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">10489000</ipp-enc:AjustesValoracionNacional>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">12562000</ifrs-gp:AvailableForSaleReserves>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">61986000</ifrs-gp:AvailableForSaleReserves>
+				<es-be-fs:CoberturasFlujosEfectivoBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-44467000</es-be-fs:CoberturasFlujosEfectivoBalance>
+				<es-be-fs:CoberturasFlujosEfectivoBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-54505000</es-be-fs:CoberturasFlujosEfectivoBalance>
+				<es-be-fs:CoberturasInversionesNetasNegociosExtranjeroBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">518000</es-be-fs:CoberturasInversionesNetasNegociosExtranjeroBalance>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-10716000</ipp-com:OtrosAjustesValoracion>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2490000</ipp-com:OtrosAjustesValoracion>
+				<ipp-enc:TotalPatrimonioNetoPasivoNacional decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">53887256000</ipp-enc:TotalPatrimonioNetoPasivoNacional>
+				<ipp-enc:TotalPatrimonioNetoPasivoNacional decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">52737123000</ipp-enc:TotalPatrimonioNetoPasivoNacional>
+				<es-be-fs:RiesgosContingentes decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1260103000</es-be-fs:RiesgosContingentes>
+				<es-be-fs:RiesgosContingentes decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1279682000</es-be-fs:RiesgosContingentes>
+				<es-be-fs:CompromisosContingentes decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2966578000</es-be-fs:CompromisosContingentes>
+				<es-be-fs:CompromisosContingentes decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2345324000</es-be-fs:CompromisosContingentes>
+			</ipp-enc:BalanceIndividual>
+			<ipp-enc:CuentaPerdidasGananciasIndividual>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">539365000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">675126000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1113674000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">1457707000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-268076000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-365849000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-555844000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-788842000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">271289000</ipp-enc:MargenIntereses>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">309277000</ipp-enc:MargenIntereses>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">557830000</ipp-enc:MargenIntereses>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">668865000</ipp-enc:MargenIntereses>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">1637000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">1056000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">2244000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">1852000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">83793000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">86114000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">159791000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">182009000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-10301000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-12136000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-18931000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-24557000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">32133000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">18542000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">422948000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">609018000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">2754000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">3227000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">4988000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">4393000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">139246000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">11598000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">158280000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">21362000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-48228000</ifrs-gp:OtherOperatingExpenses>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-51585000</ifrs-gp:OtherOperatingExpenses>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-103987000</ifrs-gp:OtherOperatingExpenses>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-128615000</ifrs-gp:OtherOperatingExpenses>
+				<ipp-enc:MargenBrutoNacional decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">472323000</ipp-enc:MargenBrutoNacional>
+				<ipp-enc:MargenBrutoNacional decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">366093000</ipp-enc:MargenBrutoNacional>
+				<ipp-enc:MargenBrutoNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1183163000</ipp-enc:MargenBrutoNacional>
+				<ipp-enc:MargenBrutoNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">1334327000</ipp-enc:MargenBrutoNacional>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-236115000</ipp-enc:GastosAdministracion>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-225482000</ipp-enc:GastosAdministracion>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-447000000</ipp-enc:GastosAdministracion>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-506689000</ipp-enc:GastosAdministracion>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-145743000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-126109000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-274462000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-328084000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-90372000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-99373000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-172538000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-178605000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-18821000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-22039000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-36452000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-45405000</ifrs-gp:DepreciationAndAmortisation>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">4834000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-45316000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-25074000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-396492000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">-105763000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">65772000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-47914000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-247547000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ipp-enc:ResultadoActividadExplotacionNacional decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">116458000</ipp-enc:ResultadoActividadExplotacionNacional>
+				<ipp-enc:ResultadoActividadExplotacionNacional decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">139028000</ipp-enc:ResultadoActividadExplotacionNacional>
+				<ipp-enc:ResultadoActividadExplotacionNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">626723000</ipp-enc:ResultadoActividadExplotacionNacional>
+				<ipp-enc:ResultadoActividadExplotacionNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">138194000</ipp-enc:ResultadoActividadExplotacionNacional>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">204056000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-353325000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">111692000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-315116000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">13988000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-3311000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">13367000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-6865000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">1767000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-369383000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">74000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-385932000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">336269000</ipp-enc:ResultadoAntesImpuestosNacional>
+				<ipp-enc:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-586991000</ipp-enc:ResultadoAntesImpuestosNacional>
+				<ipp-enc:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">751856000</ipp-enc:ResultadoAntesImpuestosNacional>
+				<ipp-enc:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-569719000</ipp-enc:ResultadoAntesImpuestosNacional>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">571407000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">381228000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">446807000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">364235000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ipp-enc:ResultadoActividadOrdinariaNacional decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">907676000</ipp-enc:ResultadoActividadOrdinariaNacional>
+				<ipp-enc:ResultadoActividadOrdinariaNacional decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-205763000</ipp-enc:ResultadoActividadOrdinariaNacional>
+				<ipp-enc:ResultadoActividadOrdinariaNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1198663000</ipp-enc:ResultadoActividadOrdinariaNacional>
+				<ipp-enc:ResultadoActividadOrdinariaNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-205484000</ipp-enc:ResultadoActividadOrdinariaNacional>
+				<ipp-enc:ResultadoEjercicioNacional decimals="0" contextRef="S22014_A70302039_dcoi" unitRef="euro">907676000</ipp-enc:ResultadoEjercicioNacional>
+				<ipp-enc:ResultadoEjercicioNacional decimals="0" contextRef="S22013_A70302039_dpoi" unitRef="euro">-205763000</ipp-enc:ResultadoEjercicioNacional>
+				<ipp-enc:ResultadoEjercicioNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1198663000</ipp-enc:ResultadoEjercicioNacional>
+				<ipp-enc:ResultadoEjercicioNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-205484000</ipp-enc:ResultadoEjercicioNacional>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dcoi" unitRef="pure">0.40</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpoi" unitRef="pure">0.09</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dci" unitRef="pure">0.53</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpai" unitRef="pure">-0.11</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dcoi" unitRef="pure">0.40</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpoi" unitRef="pure">0.09</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dci" unitRef="pure">0.53</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpai" unitRef="pure">-0.11</ifrs-gp:DilutedEarningsLossPerShare>
+			</ipp-enc:CuentaPerdidasGananciasIndividual>
+			<ipp-enc:EstadoIngresosGastosReconocidosIndividual>
+				<es-be-fs:ResultadoEjercicioPatrimonioNetoIndividual decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1198663000</es-be-fs:ResultadoEjercicioPatrimonioNetoIndividual>
+				<es-be-fs:ResultadoEjercicioPatrimonioNetoIndividual decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-205484000</es-be-fs:ResultadoEjercicioPatrimonioNetoIndividual>
+				<ipp-enc:OtrosIngresosGastosReconocidosNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-53110000</ipp-enc:OtrosIngresosGastosReconocidosNacional>
+				<ipp-enc:OtrosIngresosGastosReconocidosNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">177002000</ipp-enc:OtrosIngresosGastosReconocidosNacional>
+				<es-be-fs:ActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-71481000</es-be-fs:ActivosFinancierosDisponiblesVenta>
+				<es-be-fs:ActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">153444000</es-be-fs:ActivosFinancierosDisponiblesVenta>
+				<es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">96485000</es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta>
+				<es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">210067000</es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta>
+				<es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-167966000</es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta>
+				<es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-56623000</es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta>
+				<es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">10038000</es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto>
+				<es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">77331000</es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto>
+				<es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">10038000</es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo>
+				<es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">77331000</es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo>
+				<es-be-fs:CoberturasInversionesNetasNegociosExtranjeroPatrimonioNeto decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-518000</es-be-fs:CoberturasInversionesNetasNegociosExtranjeroPatrimonioNeto>
+				<es-be-fs:GananciasPerdidasValoracionCoberturasInversionesNetasNegociosExtranjero decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-518000</es-be-fs:GananciasPerdidasValoracionCoberturasInversionesNetasNegociosExtranjero>
+				<ipp-com:OtrosIngresosGastosReconocidos decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-13206000</ipp-com:OtrosIngresosGastosReconocidos>
+				<ipp-com:OtrosIngresosGastosReconocidos decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">15459000</ipp-com:OtrosIngresosGastosReconocidos>
+				<ipp-com:ImpuestoSobreBeneficios decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">22057000</ipp-com:ImpuestoSobreBeneficios>
+				<ipp-com:ImpuestoSobreBeneficios decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-69232000</ipp-com:ImpuestoSobreBeneficios>
+				<ipp-enc:IngresosGastosTotalesEjercicioNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1145553000</ipp-enc:IngresosGastosTotalesEjercicioNacional>
+				<ipp-enc:IngresosGastosTotalesEjercicioNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-28482000</ipp-enc:IngresosGastosTotalesEjercicioNacional>
+			</ipp-enc:EstadoIngresosGastosReconocidosIndividual>
+			<ipp-enc:EstadoTotalCambiosPatrimonioNetoIndividual>
+				<ipp-enc:SaldoInicial>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2359246000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">589821000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-165361000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">10489000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2711123000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicial>
+				<ipp-enc:SaldoInicial>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1480524000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">7504017000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-7390399000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-166513000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1427629000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicial>
+				<ipp-enc:AjusteCambiosCriteriosContrables>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-51082000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-40123000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-91205000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AjusteCambiosCriteriosContrables>
+				<ipp-enc:AjusteCambiosCriteriosContrables>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-51082000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-51082000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AjusteCambiosCriteriosContrables>
+				<ipp-enc:SaldoInicialAjustado>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2359246000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">538739000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-205484000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">10489000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2619918000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicialAjustado>
+				<ipp-enc:SaldoInicialAjustado>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1480524000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">7452935000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-7390399000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-166513000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1376547000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicialAjustado>
+				<ipp-enc:TotalIngresosGastosReconocidos>
+					<ipp-enc:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1198663000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-53110000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1145553000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TotalIngresosGastosReconocidos>
+				<ipp-enc:TotalIngresosGastosReconocidos>
+					<ipp-enc:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-205484000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">177002000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-28482000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TotalIngresosGastosReconocidos>
+				<ipp-enc:OtrasVariacionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">94411000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-207429000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-77881000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">205484000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">14585000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:OtrasVariacionesPatrimonioNeto>
+				<ipp-enc:OtrasVariacionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">878722000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-6914196000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">7390399000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1271853000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:OtrasVariacionesPatrimonioNeto>
+				<ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">94411000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">9441000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">103852000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+				<ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">878722000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">476203000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1271853000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+				<ipp-enc:TraspasosPartidasPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-205484000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">205484000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">0</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TraspasosPartidasPatrimonioNeto>
+				<ipp-enc:TraspasosPartidasPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-7390399000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">7390399000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">0</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TraspasosPartidasPatrimonioNeto>
+				<ipp-enc:RestoIncrementosReduccionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-11386000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-77881000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-89267000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:RestoIncrementosReduccionesPatrimonioNeto>
+				<ipp-enc:SaldoFinal>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2453657000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">331310000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-160953000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1198663000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">-42621000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">3780056000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoFinal>
+				<ipp-enc:SaldoFinal>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2359246000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">538739000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">-205484000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">10489000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2619918000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoFinal>
+			</ipp-enc:EstadoTotalCambiosPatrimonioNetoIndividual>
+			<ipp-enc:EstadoFlujosEfectivoIndividualMetodoIndirecto>
+				<ipp-enc:FlujosEfectivoNetosActividadesExplotacionNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">2133416000</ipp-enc:FlujosEfectivoNetosActividadesExplotacionNacional>
+				<ipp-enc:FlujosEfectivoNetosActividadesExplotacionNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-357141000</ipp-enc:FlujosEfectivoNetosActividadesExplotacionNacional>
+				<ifrs-gp:ProfitLoss decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">1198663000</ifrs-gp:ProfitLoss>
+				<ifrs-gp:ProfitLoss decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-205484000</ifrs-gp:ProfitLoss>
+				<ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-1247477000</ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion>
+				<ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">500672000</ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">36452000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">45405000</ifrs-gp:DepreciationAndAmortisation>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-1283929000</ipp-com:OtrosAjustes>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">455267000</ipp-com:OtrosAjustes>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">2182230000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-652329000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<es-be-fs:AumentoDisminucionNetaActivosExplotacion decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">4205142000</es-be-fs:AumentoDisminucionNetaActivosExplotacion>
+				<es-be-fs:AumentoDisminucionNetaActivosExplotacion decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">4257098000</es-be-fs:AumentoDisminucionNetaActivosExplotacion>
+				<es-be-fs:AumentoDisminucionNetaPasivosExplotacion decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-2022912000</es-be-fs:AumentoDisminucionNetaPasivosExplotacion>
+				<es-be-fs:AumentoDisminucionNetaPasivosExplotacion decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-4909427000</es-be-fs:AumentoDisminucionNetaPasivosExplotacion>
+				<ipp-enc:FlujosEfectivoNetosActividadesInversionNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-2057156000</ipp-enc:FlujosEfectivoNetosActividadesInversionNacional>
+				<ipp-enc:FlujosEfectivoNetosActividadesInversionNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">637171000</ipp-enc:FlujosEfectivoNetosActividadesInversionNacional>
+				<ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-8966503000</ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNacional>
+				<ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-48294000</ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNacional>
+				<ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-27810000</ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment>
+				<ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-10747000</ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment>
+				<ifrs-gp:PaymentsToAcquireIntangibleAssets decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-1081000</ifrs-gp:PaymentsToAcquireIntangibleAssets>
+				<ifrs-gp:PaymentsToAcquireNonCurrentAssetsAndDisposalGroupsHeldForSaleAndDiscontinuedOperations decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-34156000</ifrs-gp:PaymentsToAcquireNonCurrentAssetsAndDisposalGroupsHeldForSaleAndDiscontinuedOperations>
+				<ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-8937612000</ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments>
+				<ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-3391000</ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments>
+				<ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">6909347000</ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNacional>
+				<ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">685465000</ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNacional>
+				<es-be-fs:ActivosMaterialesDesinversiones decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">30108000</es-be-fs:ActivosMaterialesDesinversiones>
+				<es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">13487000</es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones>
+				<ifrs-gp:ProceedsFromDisposalOfNonCurrentAssetsHeldForSaleAndDiscontinuedOperations decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">98520000</ifrs-gp:ProceedsFromDisposalOfNonCurrentAssetsHeldForSaleAndDiscontinuedOperations>
+				<ifrs-gp:ProceedsFromDisposalOfNonCurrentAssetsHeldForSaleAndDiscontinuedOperations decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">32888000</ifrs-gp:ProceedsFromDisposalOfNonCurrentAssetsHeldForSaleAndDiscontinuedOperations>
+				<ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">6797340000</ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments>
+				<ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">622469000</ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments>
+				<es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-77881000</es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion>
+				<es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-186651000</es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion>
+				<ipp-com:PagosFlujosEfectivosActividadesFinanciacion decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-77881000</ipp-com:PagosFlujosEfectivosActividadesFinanciacion>
+				<ipp-com:PagosFlujosEfectivosActividadesFinanciacion decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-186651000</ipp-com:PagosFlujosEfectivosActividadesFinanciacion>
+				<ifrs-gp:RepaymentOfSubordinatedLiabilities decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-103579000</ifrs-gp:RepaymentOfSubordinatedLiabilities>
+				<ifrs-gp:PurchaseOfTreasuryShares decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-77881000</ifrs-gp:PurchaseOfTreasuryShares>
+				<ifrs-gp:PurchaseOfTreasuryShares decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">-83072000</ifrs-gp:PurchaseOfTreasuryShares>
+				<ipp-enc:AumentoDisminucionEfectivoEquivalentesNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">-1621000</ipp-enc:AumentoDisminucionEfectivoEquivalentesNacional>
+				<ipp-enc:AumentoDisminucionEfectivoEquivalentesNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">93379000</ipp-enc:AumentoDisminucionEfectivoEquivalentesNacional>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">495364000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">401985000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-enc:EfectivoEquivalentesFinalEjercicioNacional decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">493743000</ipp-enc:EfectivoEquivalentesFinalEjercicioNacional>
+				<ipp-enc:EfectivoEquivalentesFinalEjercicioNacional decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">495364000</ipp-enc:EfectivoEquivalentesFinalEjercicioNacional>
+				<ipp-enc:Caja decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">143761000</ipp-enc:Caja>
+				<ipp-enc:Caja decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">133486000</ipp-enc:Caja>
+				<ipp-enc:SaldosEquivalentesEfectivoBancosCentrales decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">349982000</ipp-enc:SaldosEquivalentesEfectivoBancosCentrales>
+				<ipp-enc:SaldosEquivalentesEfectivoBancosCentrales decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">361878000</ipp-enc:SaldosEquivalentesEfectivoBancosCentrales>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">493743000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22013_A70302039_dpai" unitRef="euro">495364000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+			</ipp-enc:EstadoFlujosEfectivoIndividualMetodoIndirecto>
+			<ipp-enc:BalanceConsolidado>
+				<ifrs-gp:CashAndBalancesWithCentralBanks decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">493743000</ifrs-gp:CashAndBalancesWithCentralBanks>
+				<ifrs-gp:CashAndBalancesWithCentralBanks decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">495364000</ifrs-gp:CashAndBalancesWithCentralBanks>
+				<ifrs-gp:FinancialAssetsHeldForTradingTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">220307000</ifrs-gp:FinancialAssetsHeldForTradingTotal>
+				<ifrs-gp:FinancialAssetsHeldForTradingTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">254289000</ifrs-gp:FinancialAssetsHeldForTradingTotal>
+				<ifrs-gp:AvailableForSaleFinancialAssetsTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">6425163000</ifrs-gp:AvailableForSaleFinancialAssetsTotal>
+				<ifrs-gp:AvailableForSaleFinancialAssetsTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">7418166000</ifrs-gp:AvailableForSaleFinancialAssetsTotal>
+				<ifrs-gp:LoansAndReceivablesTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">31533241000</ifrs-gp:LoansAndReceivablesTotal>
+				<ifrs-gp:LoansAndReceivablesTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">26446960000</ifrs-gp:LoansAndReceivablesTotal>
+				<ifrs-gp:HeldToMaturityInvestmentsTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">9936466000</ifrs-gp:HeldToMaturityInvestmentsTotal>
+				<ifrs-gp:HeldToMaturityInvestmentsTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">12434901000</ifrs-gp:HeldToMaturityInvestmentsTotal>
+				<es-be-fs:DerivadosCoberturaActivoPresentacion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2171000</es-be-fs:DerivadosCoberturaActivoPresentacion>
+				<es-be-fs:DerivadosCoberturaActivoPresentacion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">6291000</es-be-fs:DerivadosCoberturaActivoPresentacion>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">673487000</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1593232000</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ipp-enc:ParticipacionesNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">334798000</ipp-enc:ParticipacionesNiif>
+				<ipp-enc:ParticipacionesNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">358630000</ipp-enc:ParticipacionesNiif>
+				<ifrs-gp:EquityMethodAccountedInvestmentsInAssociates decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">334798000</ifrs-gp:EquityMethodAccountedInvestmentsInAssociates>
+				<ifrs-gp:EquityMethodAccountedInvestmentsInAssociates decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">358630000</ifrs-gp:EquityMethodAccountedInvestmentsInAssociates>
+				<es-be-fs:ContratosSegurosVinculadosPensiones decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">164318000</es-be-fs:ContratosSegurosVinculadosPensiones>
+				<es-be-fs:ContratosSegurosVinculadosPensiones decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">154014000</es-be-fs:ContratosSegurosVinculadosPensiones>
+				<es-be-fs:ActivosReaseguros decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3165000</es-be-fs:ActivosReaseguros>
+				<es-be-fs:ActivoMaterialActivoPresentacion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">665591000</es-be-fs:ActivoMaterialActivoPresentacion>
+				<es-be-fs:ActivoMaterialActivoPresentacion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">656475000</es-be-fs:ActivoMaterialActivoPresentacion>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">591833000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">572183000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">73758000</ifrs-gp:InvestmentProperty>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">84292000</ifrs-gp:InvestmentProperty>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">194748000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">30817000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:GoodwillNet decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">163299000</ifrs-gp:GoodwillNet>
+				<ifrs-gp:GoodwillNet decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">851000</ifrs-gp:GoodwillNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">31449000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">29966000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:TaxAssetsTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3286519000</ifrs-gp:TaxAssetsTotal>
+				<ifrs-gp:TaxAssetsTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2620381000</ifrs-gp:TaxAssetsTotal>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">141160000</ifrs-gp:CurrentTaxReceivables>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">76565000</ifrs-gp:CurrentTaxReceivables>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3145359000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2543816000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:OtherAssetsTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">208409000</ifrs-gp:OtherAssetsTotal>
+				<ifrs-gp:OtherAssetsTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">275004000</ifrs-gp:OtherAssetsTotal>
+				<ipp-enc:TotalActivoNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">54142126000</ipp-enc:TotalActivoNiif>
+				<ipp-enc:TotalActivoNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">52744524000</ipp-enc:TotalActivoNiif>
+				<ipp-enc:TotalPasivoNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">50286048000</ipp-enc:TotalPasivoNiif>
+				<ipp-enc:TotalPasivoNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">50015465000</ipp-enc:TotalPasivoNiif>
+				<ifrs-gp:FinancialLiabilitiesHeldForTradingTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">184480000</ifrs-gp:FinancialLiabilitiesHeldForTradingTotal>
+				<ifrs-gp:FinancialLiabilitiesHeldForTradingTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">233554000</ifrs-gp:FinancialLiabilitiesHeldForTradingTotal>
+				<es-be-fs:PasivosFinancierosCosteAmortizadoBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">48263852000</es-be-fs:PasivosFinancierosCosteAmortizadoBalance>
+				<es-be-fs:PasivosFinancierosCosteAmortizadoBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">46616055000</es-be-fs:PasivosFinancierosCosteAmortizadoBalance>
+				<es-be-fs:DerivadosCoberturaPasivoPresentacion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">61244000</es-be-fs:DerivadosCoberturaPasivoPresentacion>
+				<es-be-fs:DerivadosCoberturaPasivoPresentacion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">74911000</es-be-fs:DerivadosCoberturaPasivoPresentacion>
+				<ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">29489000</ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale>
+				<ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1919599000</ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale>
+				<ipp-enc:PasivosContratosSegurosReaseguros decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">753792000</ipp-enc:PasivosContratosSegurosReaseguros>
+				<es-be-fs:Provisiones decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">710501000</es-be-fs:Provisiones>
+				<es-be-fs:Provisiones decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">885267000</es-be-fs:Provisiones>
+				<ifrs-gp:TaxLiabilitiesTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">122711000</ifrs-gp:TaxLiabilitiesTotal>
+				<ifrs-gp:TaxLiabilitiesTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">121734000</ifrs-gp:TaxLiabilitiesTotal>
+				<ifrs-gp:CurrentTaxPayables decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">5516000</ifrs-gp:CurrentTaxPayables>
+				<ifrs-gp:CurrentTaxPayables decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">12546000</ifrs-gp:CurrentTaxPayables>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">117195000</ifrs-gp:DeferredTaxLiabilities>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">109188000</ifrs-gp:DeferredTaxLiabilities>
+				<es-be-fs:OtrosPasivos decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">159979000</es-be-fs:OtrosPasivos>
+				<es-be-fs:OtrosPasivos decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">164345000</es-be-fs:OtrosPasivos>
+				<ipp-enc:TotalPatrimonioNetoNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3856078000</ipp-enc:TotalPatrimonioNetoNiif>
+				<ipp-enc:TotalPatrimonioNetoNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2729059000</ipp-enc:TotalPatrimonioNetoNiif>
+				<ipp-enc:FondosPropiosNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3882504000</ipp-enc:FondosPropiosNiif>
+				<ipp-enc:FondosPropiosNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2698426000</ipp-enc:FondosPropiosNiif>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2453657000</es-be-fs:CapitalFondoDotacion>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2359246000</es-be-fs:CapitalFondoDotacion>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2453657000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2359246000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">433901000</ifrs-gp:SharePremiumTotal>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">5571998000</ifrs-gp:SharePremiumTotal>
+				<es-be-fs:ReservasFondosPropios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-1588000</es-be-fs:ReservasFondosPropios>
+				<es-be-fs:ReservasFondosPropios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-5170978000</es-be-fs:ReservasFondosPropios>
+				<es-be-fs:ValoresPropiosBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-160953000</es-be-fs:ValoresPropiosBalance>
+				<es-be-fs:ValoresPropiosBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-83072000</es-be-fs:ValoresPropiosBalance>
+				<es-be-fs:ResultadoAtribuidoGrupoBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1157487000</es-be-fs:ResultadoAtribuidoGrupoBalance>
+				<es-be-fs:ResultadoAtribuidoGrupoBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">21232000</es-be-fs:ResultadoAtribuidoGrupoBalance>
+				<ipp-enc:AjustesValoracionNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-38079000</ipp-enc:AjustesValoracionNiif>
+				<ipp-enc:AjustesValoracionNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">7896000</ipp-enc:AjustesValoracionNiif>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">22255000</ifrs-gp:AvailableForSaleReserves>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">61986000</ifrs-gp:AvailableForSaleReserves>
+				<es-be-fs:CoberturasFlujosEfectivoBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-44467000</es-be-fs:CoberturasFlujosEfectivoBalance>
+				<es-be-fs:CoberturasFlujosEfectivoBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-54505000</es-be-fs:CoberturasFlujosEfectivoBalance>
+				<ifrs-gp:TranslationReserves decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">518000</ifrs-gp:TranslationReserves>
+				<ipp-com:EntidadesValoradasMetodoParticipacion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-6158000</ipp-com:EntidadesValoradasMetodoParticipacion>
+				<ipp-com:EntidadesValoradasMetodoParticipacion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-3196000</ipp-com:EntidadesValoradasMetodoParticipacion>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-9709000</ipp-com:OtrosAjustesValoracion>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">3093000</ipp-com:OtrosAjustesValoracion>
+				<ifrs-gp:EquityAttributableToEquityHoldersOfParent decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3844425000</ifrs-gp:EquityAttributableToEquityHoldersOfParent>
+				<ifrs-gp:EquityAttributableToEquityHoldersOfParent decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2706322000</ifrs-gp:EquityAttributableToEquityHoldersOfParent>
+				<ifrs-gp:MinorityInterest decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">11653000</ifrs-gp:MinorityInterest>
+				<ifrs-gp:MinorityInterest decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">22737000</ifrs-gp:MinorityInterest>
+				<ipp-enc:AjustesValoracionInteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">3000</ipp-enc:AjustesValoracionInteresesMinoritarios>
+				<ipp-enc:RestoInteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">11653000</ipp-enc:RestoInteresesMinoritarios>
+				<ipp-enc:RestoInteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">22734000</ipp-enc:RestoInteresesMinoritarios>
+				<ipp-enc:TotalPatrimonioNetoPasivoNiif decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">54142126000</ipp-enc:TotalPatrimonioNetoPasivoNiif>
+				<ipp-enc:TotalPatrimonioNetoPasivoNiif decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">52744524000</ipp-enc:TotalPatrimonioNetoPasivoNiif>
+				<es-be-fs:RiesgosContingentes decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1224906000</es-be-fs:RiesgosContingentes>
+				<es-be-fs:RiesgosContingentes decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1239162000</es-be-fs:RiesgosContingentes>
+				<es-be-fs:CompromisosContingentes decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2538665000</es-be-fs:CompromisosContingentes>
+				<es-be-fs:CompromisosContingentes decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2433511000</es-be-fs:CompromisosContingentes>
+			</ipp-enc:BalanceConsolidado>
+			<ipp-enc:CuentaPerdidasGananciasConsolidada>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">528996000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">662345000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1089235000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">1442127000</ifrs-gp:InterestIncomeTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-255587000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-356831000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-530364000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ifrs-gp:InterestExpenseTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-777097000</ifrs-gp:InterestExpenseTotalFinancialInstitutions>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">273409000</ipp-enc:MargenIntereses>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">305514000</ipp-enc:MargenIntereses>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">558871000</ipp-enc:MargenIntereses>
+				<ipp-enc:MargenIntereses decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">665030000</ipp-enc:MargenIntereses>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">6750000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">6788000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">13353000</ifrs-gp:DividendIncomeTotal>
+				<ifrs-gp:DividendIncomeTotal decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">12417000</ifrs-gp:DividendIncomeTotal>
+				<es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">9075000</es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado>
+				<es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">7606000</es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado>
+				<es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">18711000</es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado>
+				<es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">22379000</es-be-fs:ResultadoEntidadesValoradasMetodoParticipacionNetoDividendosAjustesResultado>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">85287000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">89075000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">163292000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionIncomeTotal decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">187450000</ifrs-gp:FeesAndCommissionIncomeTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-10743000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-12514000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-19373000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<ifrs-gp:FeesAndCommissionExpenseTotal decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-24935000</ifrs-gp:FeesAndCommissionExpenseTotal>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">38652000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">59420000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">432279000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<es-be-fs:ResultadosOperacionesFinancierasNeto decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">649864000</es-be-fs:ResultadosOperacionesFinancierasNeto>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">5779000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">1542000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">8273000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">2951000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">55416000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">47716000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">93416000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">83811000</ifrs-gp:OtherOperatingIncomeTotalFinancialInstitutions>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-58990000</ifrs-gp:OtherOperatingExpenses>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-64650000</ifrs-gp:OtherOperatingExpenses>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-122846000</ifrs-gp:OtherOperatingExpenses>
+				<ifrs-gp:OtherOperatingExpenses decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-153942000</ifrs-gp:OtherOperatingExpenses>
+				<ipp-enc:MargenBrutoNiif decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">404635000</ipp-enc:MargenBrutoNiif>
+				<ipp-enc:MargenBrutoNiif decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">440497000</ipp-enc:MargenBrutoNiif>
+				<ipp-enc:MargenBrutoNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1145976000</ipp-enc:MargenBrutoNiif>
+				<ipp-enc:MargenBrutoNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">1445025000</ipp-enc:MargenBrutoNiif>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-260002000</ipp-enc:GastosAdministracion>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-259537000</ipp-enc:GastosAdministracion>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-488249000</ipp-enc:GastosAdministracion>
+				<ipp-enc:GastosAdministracion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-558011000</ipp-enc:GastosAdministracion>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-152618000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-140930000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-288014000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-349798000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-107384000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-118607000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-200235000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:OtherAdministrativeExpenses decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-208213000</ifrs-gp:OtherAdministrativeExpenses>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">20455000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-24624000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-39671000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-49682000</ifrs-gp:DepreciationAndAmortisation>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-6018000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-49488000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-23890000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<es-be-fs:DotacionesProvisionesNetoPerdidasGanancias decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-400628000</es-be-fs:DotacionesProvisionesNetoPerdidasGanancias>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">14997000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-184468000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-42587000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-426676000</ifrs-gp:ImpairmentLossesReversalsFinancialInstrumentsNet>
+				<ipp-enc:ResultadoActividadExplotacionNiif decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">174067000</ipp-enc:ResultadoActividadExplotacionNiif>
+				<ipp-enc:ResultadoActividadExplotacionNiif decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-77620000</ipp-enc:ResultadoActividadExplotacionNiif>
+				<ipp-enc:ResultadoActividadExplotacionNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">551579000</ipp-enc:ResultadoActividadExplotacionNiif>
+				<ipp-enc:ResultadoActividadExplotacionNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">10028000</ipp-enc:ResultadoActividadExplotacionNiif>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-20328000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-130157000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-28781000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-197366000</ifrs-gp:ImpairmentLossesReversalsTangibleAndIntangibleAssetsNet>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">2050000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-3409000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1424000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">8649000</ipp-enc:GananciasPerdidasBajaActivosNoClasificadosComoNoCorrientesVenta>
+				<ifrs-gp:NegativeGoodwillImmediatelyRecognised decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">69288000</ifrs-gp:NegativeGoodwillImmediatelyRecognised>
+				<ifrs-gp:NegativeGoodwillImmediatelyRecognised decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">69288000</ifrs-gp:NegativeGoodwillImmediatelyRecognised>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-4878000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-272847000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">7880000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-235501000</ipp-enc:ResultadoActivosNoCorrientesGruposDisposicionVentaNoClasificadosOperacionesInterrumpidas>
+				<ipp-enc:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">220199000</ipp-enc:ResultadoAntesImpuestosNiif>
+				<ipp-enc:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-484033000</ipp-enc:ResultadoAntesImpuestosNiif>
+				<ipp-enc:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">601390000</ipp-enc:ResultadoAntesImpuestosNiif>
+				<ipp-enc:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-414190000</ipp-enc:ResultadoAntesImpuestosNiif>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">682206000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">454681000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">556020000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">435227000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ipp-enc:ResultadoActividadOrdinariaNiif decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">902405000</ipp-enc:ResultadoActividadOrdinariaNiif>
+				<ipp-enc:ResultadoActividadOrdinariaNiif decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-29352000</ipp-enc:ResultadoActividadOrdinariaNiif>
+				<ipp-enc:ResultadoActividadOrdinariaNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1157410000</ipp-enc:ResultadoActividadOrdinariaNiif>
+				<ipp-enc:ResultadoActividadOrdinariaNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">21037000</ipp-enc:ResultadoActividadOrdinariaNiif>
+				<ipp-enc:ResultadoConsolidadoEjercicioNiif decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">902405000</ipp-enc:ResultadoConsolidadoEjercicioNiif>
+				<ipp-enc:ResultadoConsolidadoEjercicioNiif decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-29352000</ipp-enc:ResultadoConsolidadoEjercicioNiif>
+				<ipp-enc:ResultadoConsolidadoEjercicioNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1157410000</ipp-enc:ResultadoConsolidadoEjercicioNiif>
+				<ipp-enc:ResultadoConsolidadoEjercicioNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">21037000</ipp-enc:ResultadoConsolidadoEjercicioNiif>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">902476000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-29238000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1157487000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">21232000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToMinorityInterest decimals="0" contextRef="S22014_A70302039_dcoc" unitRef="euro">-71000</ifrs-gp:ProfitLossAttributableToMinorityInterest>
+				<ifrs-gp:ProfitLossAttributableToMinorityInterest decimals="0" contextRef="S22013_A70302039_dpoc" unitRef="euro">-114000</ifrs-gp:ProfitLossAttributableToMinorityInterest>
+				<ifrs-gp:ProfitLossAttributableToMinorityInterest decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-77000</ifrs-gp:ProfitLossAttributableToMinorityInterest>
+				<ifrs-gp:ProfitLossAttributableToMinorityInterest decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-195000</ifrs-gp:ProfitLossAttributableToMinorityInterest>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dcoc" unitRef="pure">0.40</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpoc" unitRef="pure">-0.02</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dcc" unitRef="pure">0.51</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpac" unitRef="pure">0.01</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dcoc" unitRef="pure">0.40</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpoc" unitRef="pure">-0.02</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22014_A70302039_dcc" unitRef="pure">0.51</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22013_A70302039_dpac" unitRef="pure">0.01</ifrs-gp:DilutedEarningsLossPerShare>
+			</ipp-enc:CuentaPerdidasGananciasConsolidada>
+			<ipp-enc:EstadoIngresosGastosReconocidosConsolidado>
+				<es-be-fs:ResultadoEjercicioPatrimonioNeto decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1157410000</es-be-fs:ResultadoEjercicioPatrimonioNeto>
+				<es-be-fs:ResultadoEjercicioPatrimonioNeto decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">21037000</es-be-fs:ResultadoEjercicioPatrimonioNeto>
+				<ipp-enc:OtrosIngresosGastosReconocidosNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-54302000</ipp-enc:OtrosIngresosGastosReconocidosNiif>
+				<ipp-enc:OtrosIngresosGastosReconocidosNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">178323000</ipp-enc:OtrosIngresosGastosReconocidosNiif>
+				<es-be-fs:ActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-57634000</es-be-fs:ActivosFinancierosDisponiblesVenta>
+				<es-be-fs:ActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">147694000</es-be-fs:ActivosFinancierosDisponiblesVenta>
+				<es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">110332000</es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta>
+				<es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">204317000</es-be-fs:GananciasPerdidasValoracionActivosFinancierosDisponiblesVenta>
+				<es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-167966000</es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta>
+				<es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-56623000</es-be-fs:ImportesTransferidosCuentaPerdidasGananciasActivosFinancierosDisponiblesVenta>
+				<es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">10115000</es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto>
+				<es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">77526000</es-be-fs:CoberturasFlujosEfectivoPatrimonioNeto>
+				<es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">10115000</es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo>
+				<es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">77526000</es-be-fs:GananciasPerdidasValoracionCoberturasFlujosEfectivo>
+				<es-be-fs:DiferenciasCambioPatrimonioNeto decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-518000</es-be-fs:DiferenciasCambioPatrimonioNeto>
+				<es-be-fs:DiferenciasCambioPatrimonioNeto decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">877000</es-be-fs:DiferenciasCambioPatrimonioNeto>
+				<es-be-fs:GananciasPerdidasConversion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-518000</es-be-fs:GananciasPerdidasConversion>
+				<es-be-fs:GananciasPerdidasConversion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">877000</es-be-fs:GananciasPerdidasConversion>
+				<ipp-com:EntidadesValoradasMetodoParticipacionIngresosGastos decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-16126000</ipp-com:EntidadesValoradasMetodoParticipacionIngresosGastos>
+				<ipp-com:EntidadesValoradasMetodoParticipacionIngresosGastos decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">6334000</ipp-com:EntidadesValoradasMetodoParticipacionIngresosGastos>
+				<ipp-com:GananciasPerdidasValoracionEntidadesValoradasMetodoParticipacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-16126000</ipp-com:GananciasPerdidasValoracionEntidadesValoradasMetodoParticipacion>
+				<ipp-com:GananciasPerdidasValoracionEntidadesValoradasMetodoParticipacion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">6334000</ipp-com:GananciasPerdidasValoracionEntidadesValoradasMetodoParticipacion>
+				<ipp-com:OtrosIngresosGastosReconocidos decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-12196000</ipp-com:OtrosIngresosGastosReconocidos>
+				<ipp-com:OtrosIngresosGastosReconocidos decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">15459000</ipp-com:OtrosIngresosGastosReconocidos>
+				<ipp-com:ImpuestoSobreBeneficios decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">22057000</ipp-com:ImpuestoSobreBeneficios>
+				<ipp-com:ImpuestoSobreBeneficios decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-69567000</ipp-com:ImpuestoSobreBeneficios>
+				<ipp-enc:IngresosGastosTotalesEjercicioNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1103108000</ipp-enc:IngresosGastosTotalesEjercicioNiif>
+				<ipp-enc:IngresosGastosTotalesEjercicioNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">199360000</ipp-enc:IngresosGastosTotalesEjercicioNiif>
+				<es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1103185000</es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio>
+				<es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">199555000</es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio>
+				<es-be-fs:InteresesMinoritariosIngresosGastosTotalesEjercicio decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-77000</es-be-fs:InteresesMinoritariosIngresosGastosTotalesEjercicio>
+				<es-be-fs:InteresesMinoritariosIngresosGastosTotalesEjercicio decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-195000</es-be-fs:InteresesMinoritariosIngresosGastosTotalesEjercicio>
+			</ipp-enc:EstadoIngresosGastosReconocidosConsolidado>
+			<ipp-enc:EstadoTotalCambiosPatrimonioNetoConsolidado>
+				<ipp-enc:SaldoInicial>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2359246000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">380231000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">122619000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">29727000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">22737000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2831488000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicial>
+				<ipp-enc:SaldoInicial>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1480524000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">7903849000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-7936106000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-161564000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">22850000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1309553000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicial>
+				<ipp-enc:AjusteCambiosCriteriosContrables>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">20789000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-101387000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-21831000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-102429000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AjusteCambiosCriteriosContrables>
+				<ipp-enc:AjusteCambiosCriteriosContrables>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-2226000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">101387000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">12968000</es-be-fs:AjustesValoracion>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">112129000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AjusteCambiosCriteriosContrables>
+				<ipp-enc:SaldoInicialAjustado>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2359246000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">401020000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">21232000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">7896000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">22737000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2729059000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicialAjustado>
+				<ipp-enc:SaldoInicialAjustado>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1480524000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">7901623000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-7834719000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-148596000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">22850000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1421682000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoInicialAjustado>
+				<ipp-enc:TotalIngresosGastosReconocidos>
+					<ipp-enc:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1157487000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-54302000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-77000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1103108000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TotalIngresosGastosReconocidos>
+				<ipp-enc:TotalIngresosGastosReconocidos>
+					<ipp-enc:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">21232000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">178323000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-195000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">199360000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TotalIngresosGastosReconocidos>
+				<ipp-enc:OtrasVariacionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">94411000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">31293000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-77881000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-21232000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">8327000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-11007000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">23911000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:OtrasVariacionesPatrimonioNeto>
+				<ipp-enc:OtrasVariacionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">878722000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-7521392000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">7936106000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">82000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1210446000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:OtrasVariacionesPatrimonioNeto>
+				<ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">94411000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">50480000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">144891000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+				<ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">878722000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">476203000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1354925000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:AumentosReduccionesCapitalFondoDotacion>
+				<ipp-enc:TraspasosPartidasPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">17900000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-17900000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">0</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TraspasosPartidasPatrimonioNeto>
+				<ipp-enc:TraspasosPartidasPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-7936106000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">7936106000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">0</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:TraspasosPartidasPatrimonioNeto>
+				<ipp-enc:RestoIncrementosReduccionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-37087000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-77881000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-3332000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">8327000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-11007000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-120980000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:RestoIncrementosReduccionesPatrimonioNeto>
+				<ipp-enc:RestoIncrementosReduccionesPatrimonioNeto>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-61489000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">82000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-144479000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:RestoIncrementosReduccionesPatrimonioNeto>
+				<ipp-enc:SaldoFinal>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2453657000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">432313000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-160953000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1157487000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">-38079000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">11653000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">3856078000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoFinal>
+				<ipp-enc:SaldoFinal>
+					<ipp-enc:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2359246000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">380231000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:InstrumentosCapitalPropios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">-83072000</ipp-com:InstrumentosCapitalPropios>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">122619000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:AjustesValoracion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">29727000</es-be-fs:AjustesValoracion>
+						<ipp-com:InteresesMinoritarios decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">22737000</ipp-com:InteresesMinoritarios>
+						<es-be-fs:TotalPatrimonioNeto decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2831488000</es-be-fs:TotalPatrimonioNeto>
+					</ipp-enc:PatrimonioNeto>
+				</ipp-enc:SaldoFinal>
+			</ipp-enc:EstadoTotalCambiosPatrimonioNetoConsolidado>
+			<ipp-enc:EstadoFlujosEfectivoConsolidadoMetodoIndirecto>
+				<ipp-enc:FlujosEfectivoNetosActividadesExplotacionNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">3295578000</ipp-enc:FlujosEfectivoNetosActividadesExplotacionNiif>
+				<ipp-enc:FlujosEfectivoNetosActividadesExplotacionNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-25006000</ipp-enc:FlujosEfectivoNetosActividadesExplotacionNiif>
+				<es-be-fs:ResultadoEjercicioPatrimonioNeto decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">1157410000</es-be-fs:ResultadoEjercicioPatrimonioNeto>
+				<es-be-fs:ResultadoEjercicioPatrimonioNeto decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">21037000</es-be-fs:ResultadoEjercicioPatrimonioNeto>
+				<ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-1199544000</ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion>
+				<ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">450075000</ipp-enc:AjustesParaObtenerFlujosEfectivoActividadesExplotacion>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">39671000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">49682000</ifrs-gp:DepreciationAndAmortisation>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-1239215000</ipp-com:OtrosAjustes>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">400393000</ipp-com:OtrosAjustes>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">3337712000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-496118000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<es-be-fs:AumentoDisminucionNetaActivosExplotacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">3109329000</es-be-fs:AumentoDisminucionNetaActivosExplotacion>
+				<es-be-fs:AumentoDisminucionNetaActivosExplotacion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">6107742000</es-be-fs:AumentoDisminucionNetaActivosExplotacion>
+				<es-be-fs:AumentoDisminucionNetaPasivosExplotacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">228383000</es-be-fs:AumentoDisminucionNetaPasivosExplotacion>
+				<es-be-fs:AumentoDisminucionNetaPasivosExplotacion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-6603860000</es-be-fs:AumentoDisminucionNetaPasivosExplotacion>
+				<ipp-enc:FlujosEfectivoNetosActividadesInversionNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-3208209000</ipp-enc:FlujosEfectivoNetosActividadesInversionNiif>
+				<ipp-enc:FlujosEfectivoNetosActividadesInversionNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">318785000</ipp-enc:FlujosEfectivoNetosActividadesInversionNiif>
+				<ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-10021510000</ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNiif>
+				<ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-824139000</ipp-enc:PagosFlujosEfectivoNetosActividadesInversionNiif>
+				<ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-39950000</ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment>
+				<ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-16902000</ifrs-gp:PaymentsToAcquirePropertyPlantAndEquipment>
+				<ifrs-gp:PaymentsToAcquireIntangibleAssets decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-164549000</ifrs-gp:PaymentsToAcquireIntangibleAssets>
+				<ifrs-gp:PaymentsToAcquireIntangibleAssets decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-5000</ifrs-gp:PaymentsToAcquireIntangibleAssets>
+				<ifrs-gp:PaymentsToAcquireNonCurrentAssetsAndDisposalGroupsHeldForSaleAndDiscontinuedOperations decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-865697000</ifrs-gp:PaymentsToAcquireNonCurrentAssetsAndDisposalGroupsHeldForSaleAndDiscontinuedOperations>
+				<ifrs-gp:PaymentsToAcquireNonCurrentAssetsAndDisposalGroupsHeldForSaleAndDiscontinuedOperations decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-803841000</ifrs-gp:PaymentsToAcquireNonCurrentAssetsAndDisposalGroupsHeldForSaleAndDiscontinuedOperations>
+				<ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-8951314000</ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments>
+				<ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-3391000</ifrs-gp:PaymentsToAcquireHeldToMaturityInvestments>
+				<ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">6813301000</ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNiif>
+				<ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">1142924000</ipp-enc:CobrosFlujosEfectivoNetosActividadesInversionNiif>
+				<es-be-fs:ActivosMaterialesDesinversiones decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">46550000</es-be-fs:ActivosMaterialesDesinversiones>
+				<ifrs-gp:ProceedsFromDisposalOfIntangibleAssets decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">28897000</ifrs-gp:ProceedsFromDisposalOfIntangibleAssets>
+				<es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">15961000</es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones>
+				<es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">282016000</es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones>
+				<ifrs-gp:ProceedsFromDisposalOfNonCurrentAssetsHeldForSaleAndDiscontinuedOperations decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">162992000</ifrs-gp:ProceedsFromDisposalOfNonCurrentAssetsHeldForSaleAndDiscontinuedOperations>
+				<ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">6797340000</ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments>
+				<ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">622469000</ifrs-gp:ProceedsFromDisposalOfHeldToMaturityInvestments>
+				<es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-88990000</es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion>
+				<es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-200400000</es-be-fs:TotalFlujosEfectivoNetoActividadesFinanciacion>
+				<ipp-com:PagosFlujosEfectivosActividadesFinanciacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-88990000</ipp-com:PagosFlujosEfectivosActividadesFinanciacion>
+				<ipp-com:PagosFlujosEfectivosActividadesFinanciacion decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-200400000</ipp-com:PagosFlujosEfectivosActividadesFinanciacion>
+				<ifrs-gp:RepaymentOfSubordinatedLiabilities decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-103759000</ifrs-gp:RepaymentOfSubordinatedLiabilities>
+				<ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-77881000</ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled>
+				<ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">-96641000</ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled>
+				<ipp-com:OtrosPagosRelacionadosActividadesFinanciacion decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-11109000</ipp-com:OtrosPagosRelacionadosActividadesFinanciacion>
+				<ipp-enc:AumentoDisminucionEfectivoEquivalentesNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">-1621000</ipp-enc:AumentoDisminucionEfectivoEquivalentesNiif>
+				<ipp-enc:AumentoDisminucionEfectivoEquivalentesNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">93379000</ipp-enc:AumentoDisminucionEfectivoEquivalentesNiif>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">495364000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">401985000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-enc:EfectivoEquivalentesFinalPeriodoNiif decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">493743000</ipp-enc:EfectivoEquivalentesFinalPeriodoNiif>
+				<ipp-enc:EfectivoEquivalentesFinalPeriodoNiif decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">495364000</ipp-enc:EfectivoEquivalentesFinalPeriodoNiif>
+				<ipp-enc:Caja decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">143761000</ipp-enc:Caja>
+				<ipp-enc:Caja decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">133486000</ipp-enc:Caja>
+				<ipp-enc:SaldosEquivalentesEfectivoBancosCentrales decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">349982000</ipp-enc:SaldosEquivalentesEfectivoBancosCentrales>
+				<ipp-enc:SaldosEquivalentesEfectivoBancosCentrales decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">361878000</ipp-enc:SaldosEquivalentesEfectivoBancosCentrales>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22014_A70302039_dcc" unitRef="euro">493743000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22013_A70302039_dpac" unitRef="euro">495364000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+			</ipp-enc:EstadoFlujosEfectivoConsolidadoMetodoIndirecto>
+			<ipp-com:DividendosPagados>
+				<ipp-com:AccionesOrdinarias>
+					<ipp-com:DividendosPagadosElemento>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22014_A70302039_dci" unitRef="pure">100.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22014_A70302039_dci" unitRef="euro">0.06</ipp-com:ImportePorAccion>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">150000000</ipp-com:ImporteTotal>
+					</ipp-com:DividendosPagadosElemento>
+				</ipp-com:AccionesOrdinarias>
+				<ipp-com:TotalAcciones>
+					<ipp-com:DividendosPagadosElemento>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22014_A70302039_dci" unitRef="pure">100.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22014_A70302039_dci" unitRef="euro">0.06</ipp-com:ImportePorAccion>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">150000000</ipp-com:ImporteTotal>
+					</ipp-com:DividendosPagadosElemento>
+				</ipp-com:TotalAcciones>
+				<ipp-com:DividendosCargoResultados>
+					<ipp-com:DividendosPagadosElemento>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22014_A70302039_dci" unitRef="pure">100.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22014_A70302039_dci" unitRef="euro">0.06</ipp-com:ImportePorAccion>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22014_A70302039_dci" unitRef="euro">150000000</ipp-com:ImporteTotal>
+					</ipp-com:DividendosPagadosElemento>
+				</ipp-com:DividendosCargoResultados>
+			</ipp-com:DividendosPagados>
+			<ipp-com:InformacionSegmentada>
+				<ipp-com:AreaGeografica>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1068422000</ipp-com:MercadoInterior>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1404592000</ipp-com:MercadoInterior>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1040258000</ipp-com:MercadoInterior>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1387268000</ipp-com:MercadoInterior>
+					<ipp-com:Exportacion decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">45252000</ipp-com:Exportacion>
+					<ipp-com:Exportacion decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">53115000</ipp-com:Exportacion>
+					<ipp-com:Exportacion decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">48977000</ipp-com:Exportacion>
+					<ipp-com:Exportacion decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">54859000</ipp-com:Exportacion>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">28322000</ipp-com:UnionEuropea>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">32665000</ipp-com:UnionEuropea>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">29664000</ipp-com:UnionEuropea>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">33449000</ipp-com:UnionEuropea>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">16520000</ipp-com:PaisesOCDE>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">19885000</ipp-com:PaisesOCDE>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">18633000</ipp-com:PaisesOCDE>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">20625000</ipp-com:PaisesOCDE>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">410000</ipp-com:RestoPaises>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">565000</ipp-com:RestoPaises>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">680000</ipp-com:RestoPaises>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">785000</ipp-com:RestoPaises>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">1113674000</ipp-com:TotalAreaGeografica>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">1457707000</ipp-com:TotalAreaGeografica>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">1089235000</ipp-com:TotalAreaGeografica>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">1442127000</ipp-com:TotalAreaGeografica>
+				</ipp-com:AreaGeografica>
+			</ipp-com:InformacionSegmentada>
+			<ipp-com:PlantillaMediaTupla>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">4365</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">5243</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">4687</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">5648</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2208</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2700</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2365</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2905</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22014_A70302039_ici" unitRef="euro">2157</ipp-com:PlantillaMediaMujeres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22013_A70302039_ipai" unitRef="euro">2543</ipp-com:PlantillaMediaMujeres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22014_A70302039_icc" unitRef="euro">2322</ipp-com:PlantillaMediaMujeres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22013_A70302039_ipac" unitRef="euro">2743</ipp-com:PlantillaMediaMujeres>
+			</ipp-com:PlantillaMediaTupla>
+		</ipp-enc:InformacionFinancieraSeleccionada>
+	</ipp-enc:InformeFinancieroEntidadesCredito>
+</xbrli:xbrl>

@@ -1,0 +1,216 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctype: <http://purl.org/dc/dcmitype/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix v: <http://www.w3.org/2006/vcard/ns#>.
+@prefix rov: <http://www.w3.org/ns/regorg#>. 
+@prefix schema: <http://schema.org/>.
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix oim: <http://data.cdp.net/def/oim#> .
+@prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix frpt: <http://data.cdp.net/id/financialreport/> .
+@prefix fct: <http://data.cdp.net/id/fact/> .
+@prefix ent: <http://data.cdp.net/id/entity/> .
+@prefix ctx: <http://data.cdp.net/id/context/> .
+@prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/> .
+@prefix ippsch: <http://data.cdp.net/id/scheme/ipp> .
+@prefix ifrsgp: <http://data.cdp.net/id/scheme/ifrs-gp> .
+@prefix slc: <http://data.cdp.net/id/slice/> .
+@prefix xbrl-attribute: <http://data.cdp.net/id/xbrl/attribute#> .
+@prefix xbrll: <http://data.cdp.net/def/xbrll#> .
+
+
+## A small dataset sample in RDF using xbrll vocabulary
+
+# Metadata about the report 
+# the year is not bounded to a specific context
+# uri of the report code used the one of the entity?
+frpt:1 a xbrll:FinancialReport ;
+	xbrll:dataPoint fct:f11, fct:f12, fct:f13, fct:f14, fct:f15, fct:f21, fct:f22, fct:f23, ftc:f24, fct:f25 ;  # these are actually facts, add them at the end
+	dct:title "financial report "@en, "informe financiero"@es ;
+	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property oim:entity
+    xbrll:reportYear "2015"^^xsd:gYear ;   # TODO: find if to remove this from OIM model
+    xbrll:fiscalYear "2015-12-31"^^xsd:date ;  # TODO: find to remove this from OIM model
+
+    .
+
+# info about the entity of the report
+#uri of the entity based on the code registration (tbd)
+ent:cifa70302039 a xbrll:FinancialEntity ;
+	rov:legalName "ABANCA CORPORACION BANCARIA, S.A."@es ;
+	v:street-address "Calle Claudino Pita n 2 Betanzos" ;
+	rov:registration "CIF-A70302039" ; #CIF + code 
+	xbrll:contactPerson [ a foaf:Person ; foaf:name "Pablo Ramil Frean" ; 
+							schema:email "pabloramil@abanca.com";
+							org:role [ a skos:Concept ; rdfs:label "Gerente Información Financiera"@es];
+					 ] ;
+    
+    .
+
+# now we align with the Open Information Model (OIM) 
+
+# first defining tuple facts here
+
+fct:1 a oim:TupleFact ; # abstract
+	  skos:inScheme ippsch: ;
+	  oim:concept ipp-enc:balanceindividual ;
+	  rdfs:label "balance individual"@es ; 
+	.
+
+fct:2 a oim:TupleFact ;
+	  skos:inScheme ippsch: ;
+	  oim:concept ipp-enc:cuentaperdidasgananciasindividual ;
+	  rdfs:label "Cuentas perdidas ganancias individual"@es ;
+	.
+
+
+## now here comes the facts.
+
+fct:f11 a oim:Fact ;						
+	oim:tupleParent fct:1 ; 
+	oim:concept ifrsgp:cashAndBalancesWithCentralBanks ;             
+    rdfs:label "Cash and balences with central banks"@en ;		   
+	skos:inScheme ifrsgp: ;							
+    oim:value    "429839000"^^xsd:decimal; 		
+    oim:unitRef "iso4217:EUR" ;						
+    oim:decimals "0" ;								
+    oim:period "2014-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ; # solved. It's the financial entity	
+    oim:tupleOrder "1" ;		
+	.
+
+fct:f12 a oim:Fact ;
+	oim:tupleParent    fct:1 ;
+	oim:concept ifrsgp:cashAndBalancesWithCentralBanks ;
+	rdfs:label "Cash and balences with central banks"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "493743000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "2" ;
+	.
+
+fct:f13 a oim:Fact ;
+	oim:tupleParent    fct:1 ;
+	oim:concept ifrsgp:FinancialAssetsHeldForTradingTotal ;
+	rdfs:label "Financial assets held for trading total"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "246805000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "3" ;
+
+	.
+
+fct:f14 a oim:Fact ;
+	oim:tupleParent    fct:1 ;
+	oim:concept ifrsgp:FinancialAssetsHeldForTradingTotal ;
+	rdfs:label "Financial assets held for trading total"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "220307000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "4" ;
+
+	.
+
+fct:f15 a oim:Fact ;
+	oim:tupleParent    fct:1 ;
+	oim:concept ifrsgp:AvailableForSaleFinancialAssetsTotal ;
+	rdfs:label "Available for sale financial assets total"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "8010611000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "5" ;
+
+	.
+
+
+# facts for the second tuple here f2x 
+
+fct:f21 a oim:Fact ;
+	oim:tupleParent    fct:2 ;
+	oim:concept ifrsgp:InterestIncomeTotalFinancialInstitutions ;
+	rdfs:label "Interest income total financial institutions"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "370255000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "1" ;
+
+	.
+
+fct:f22 a oim:Fact ;
+	oim:tupleParent    fct:2 ;
+	oim:concept ifrsgp:InterestIncomeTotalFinancialInstitutions ;
+	rdfs:label "Interest income total financial institutions"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "539365000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "2" ;
+
+	.
+
+fct:f23 a oim:Fact ;
+	oim:tupleParent    fct:2 ;
+	oim:concept ifrsgp:InterestIncomeTotalFinancialInstitutions ;
+	rdfs:label "Interest income total financial institutions"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "802367000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "3" ;
+
+	.
+
+fct:f24 a oim:Fact ;
+	oim:tupleParent    fct:2 ;
+	oim:concept ifrsgp:InterestIncomeTotalFinancialInstitutions ;
+	rdfs:label "Interest income total financial institutions"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "1113674000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "4" ;
+
+	.
+
+fct:f25 a oim:Fact ;
+	oim:tupleParent    fct:2 ;
+	oim:concept ifrsgp:InterestIncomeTotalFinancialInstitutions ;
+	rdfs:label "Interest income total financial institutions"@en ;
+	skos:inScheme ifrsgp: ;
+	oim:unitRef "iso4217:EUR" ;                  
+    oim:value  "-187279000"^^xsd:decimal ;
+    oim:decimals "0" ;
+    oim:period "2015-01-01T00:00:00/P1Y" ;
+    oim:entity ent:cifa70302039 ;
+    oim:tupleOrder "5" ;
+
+	.
