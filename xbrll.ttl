@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctype: <http://purl.org/dc/dcmitype/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix v: <http://www.w3.org/2006/vcard/ns#>.
+@prefix schema: <http://schema.org/>.
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xbrll: <http://data.cdp.net/def/xbrll#> .
+@prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix rov: <http://www.w3.org/ns/regorg#>.
+
+#TODO: Write some rules with Shapes Constraint at https://www.w3.org/TR/shacl/
+
+# metadata info for the ontology here 
+<http://data.cdp.net/def/xbrll>
+    a owl:Ontology, voaf:Vocabulary;
+    rdfs:label "A leightweight XBRL vocabulary"@en;
+    rdfs:label "El vocabulario para informe financiero"@es;
+    dct:creator [foaf:name "Ghislain Atemezing"; schema:affiliation [foaf:homepage <http://www.mondeca.com>; foaf:name "Mondeca"]], 
+                [foaf:name "Maria Moreno"; schema:affiliation [foaf:homepage <http:www.cdp.net>; foaf:name "CDP"]
+                 ];
+    dct:description "A leightweight XBRL vocabulary to publish financial report on the Web"@en ;             
+    dct:issued "2016-05-18"^^xsd:date;
+    dct:modified "2016-05-20"^^xsd:date;
+    vann:preferredNamespacePrefix "xbrll" ;
+    owl:versionInfo "0.1" ;
+    .
+
+## classes here 
+# todo: http://dev.poderopedia.com/vocab/FinancialInformation
+
+xbrll:FinancialReport a rdfs:Class , owl:Class ; 
+	rdfs:label "Financial report"@en , "informe financiero"@es ;
+	rdfs:comment "A financial report may content many data points that are facts"@en ;
+	rdfs:subClassOf schema:Report ;
+	rdfs:subClassOf [a owl:Restriction;
+			 owl:someValuesFrom xbrll:DataPoint;
+			 owl:onProperty xbrll:dataPoint] ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+
+xbrll:DataPoint a rdfs:Class, owl:Class ;
+	rdfs:label "data point"@en ;
+	rdfs:comment "this define a fact in the report. A data point should have at least one context"@en ;
+	rdfs:subClassOf [a owl:Restriction;
+			owl:onClass xbrll:Context;
+			owl:onProperty xbrll:context;
+			owl:minCardinality "1"^^xsd:nonNegativeInteger] ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+# TODO: Do I need to put restriction with subclasses?
+xbrll:Context a rdfs:Class, owl:Class ;
+	rdfs:label "Context"@en ;
+	rdfs:comment "the context of a fact in a financial report"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:Period a rdfs:Class , owl:Class ;
+	rdfs:label "Period"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+#todo: Find the classes of this type of entity
+xbrll:FinancialEntity a rdfs:Class , owl:Class ;
+	rdfs:label "Financial entity"@en ;
+	rdfs:subClassOf rov:RegisteredOrganization ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+## object properties here 
+## todo: remove global constraints 
+xbrll:period a owl:ObjectProperty, rdf:Property ;
+	 rdfs:label "period"@en ;
+	 rdfs:range xbrll:Period ;
+	 rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:dataPoint a owl:ObjectProperty, rdf:Property ;
+	rdfs:domain xbrll:FinancialReport ;
+	rdfs:label "data point property"@en ;
+	rdfs:comment "data point property from a financial report"@en ;
+	rdfs:range xbrll:DataPoint ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:context a owl:ObjectProperty, rdf:Property ;
+	rdfs:domain xbrll:DataPoint ;
+	rdfs:label "context property"@en ;
+	rdfs:comment "context property from a data point"@en ;
+	rdfs:range xbrll:Context ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+#todo: see if this can be removed later
+xbrll:contactPerson a rdf:Property, owl:ObjectProperty;
+	rdfs:label "contact person"@en ;
+	rdfs:comment "the person of contact in the metadata info of a company"@en ;
+	rdfs:range foaf:Agent ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+
+xbrll:isContextOf a rdf:Property, owl:ObjectProperty;
+	rdfs:label "is context of"@en ;
+	rdfs:comment "the property linking a context to a data point"@en ;
+	rdfs:range xbrll:DataPoint ;
+	rdfs:domain xbrll:Context ;
+	.
+##Data properties here
+
+xbrll:startDate a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "start date"@en ;
+	rdfs:comment "Starting date of a period"@en ;
+	rdfs:domain xbrll:Period ;
+	rdfs:range xsd:date ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:endDate a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "end date"@en ;
+	rdfs:comment "end date of a period"@en ;
+	rdfs:domain xbrll:Period ;
+	rdfs:range xsd:date ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:isInstant a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "is instant"@en ;
+	rdfs:comment "boolean for the instant moment"@en ;
+	rdfs:domain xbrll:Period ;
+	rdfs:range xsd:boolean ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:isForever a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "is forever"@en ;
+	rdfs:comment "boolean telling the period is forever or not"@en ;
+	rdfs:domain xbrll:Period ;
+	rdfs:range xsd:boolean ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:decimals a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "decimals"@en ;
+	rdfs:comment "number of decimals used for a currency"@en ;
+	rdfs:range xsd:integer ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:reportYear a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "report year"@en ;
+	rdfs:comment "year of the report"@en ;
+	rdfs:range xsd:gYear ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+xbrll:fiscalYear a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "fiscal year"@en ;
+	rdfs:comment "end of fiscal year"@en ;
+	rdfs:range xsd:date ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	.
+
+
+
+## axioms here 
+
+xbrll:isContextOf owl:inverseOf xbrll:context .
+
+# TODO: find if we can use QUDT for currency here
+## External resources.
+
+schema:Report a owl:Class.
+geop:nameCurrencyEN a owl:DatatypeProperty ;
+	rdfs:range xsd:string ;
+	rdfs:label "name currency EN"@en ;
+	.

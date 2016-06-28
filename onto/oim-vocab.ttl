@@ -1,0 +1,201 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctype: <http://purl.org/dc/dcmitype/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix v: <http://www.w3.org/2006/vcard/ns#>.
+@prefix schema: <http://schema.org/>.
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix oim: <http://data.cdp.net/def/oim#> .
+@prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix rov: <http://www.w3.org/ns/regorg#>.
+@prefix qb:  <http://purl.org/linked-data/cube#> .
+@prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/> .
+@prefix ippsch: <http://data.cdp.net/id/scheme/ipp> .
+@prefix ifrsgp: <http://data.cdp.net/id/scheme/ifrs-gp> .
+
+#Ontology based on the OIM model
+## TODO: validate with the model presented by Maria
+
+# metadata info for the ontology here 
+<http://data.cdp.net/def/oim>
+    a owl:Ontology, voaf:Vocabulary;
+    rdfs:label "A leightweight XBRL vocabulary"@en;
+    rdfs:label "El vocabulario para informe financiero"@es;
+    dct:creator [foaf:name "Ghislain Atemezing"; schema:affiliation [foaf:homepage <http://www.mondeca.com>; foaf:name "Mondeca"]], 
+                [foaf:name "Maria Moreno"; schema:affiliation [foaf:homepage <http:www.cdp.net>; foaf:name "CDP"]
+                 ];
+                 
+    dct:issued "2016-06-17"^^xsd:date;
+   # dct:modified "2016-05-20"^^xsd:date;
+   # dct:modified "2016-06-01"^^xsd:date;
+    vann:preferredNamespacePrefix "oim" ;
+    owl:versionInfo "v1.0" ;
+    .
+
+## classes here 
+# todo: http://dev.poderopedia.com/vocab/FinancialInformation
+
+oim:FinancialReport a rdfs:Class , owl:Class ; 
+	rdfs:label "Financial report"@en , "informe financiero"@es ;
+	rdfs:comment "A financial report may content many data points that are facts"@en ;
+	rdfs:subClassOf schema:Report ;
+	rdfs:subClassOf [a owl:Restriction;
+			 owl:someValuesFrom oim:DataPoint;
+			 owl:onProperty oim:dataPoint] ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:DataPoint a rdfs:Class, owl:Class ;
+	rdfs:label "data point"@en ;
+	rdfs:comment "this define a fact in the report. A data point should have at least one context"@en ;
+	# TODO: ask Maria where its the restriction
+	rdfs:subClassOf
+              [ a owl:Restriction ;
+                owl:someValuesFrom oim:Dimension ;
+                owl:onProperty oim:hasDimension
+              ] ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+
+oim:Period a rdfs:Class , owl:Class ;
+	rdfs:label "Period"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:Dimension a rdfs:Class , owl:Class ;
+	rdfs:label "Dimension"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:comment "The dimension defining whether the dimensions in the axis are explicit member or implicit ones"@en;
+	.
+
+#todo: Find the classes of this type of entity.
+
+oim:FinancialEntity a rdfs:Class , owl:Class ;
+	rdfs:label "Financial entity"@en ;
+	rdfs:subClassOf rov:RegisteredOrganization ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+## object properties here 
+## todo: remove global constraints 
+oim:period a owl:ObjectProperty, rdf:Property ;
+	 rdfs:label "Period"@en ;
+	 rdfs:range oim:Period ;
+	 rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:dataPoint a owl:ObjectProperty, rdf:Property ;
+	rdfs:domain oim:FinancialReport ;
+	rdfs:label "Data point property"@en ;
+	rdfs:comment "Data point property from a financial report"@en ;
+	rdfs:range oim:DataPoint ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+
+#todo: see if this can be removed later
+oim:contactPerson a rdf:Property, owl:ObjectProperty;
+	rdfs:label "Contact person"@en ;
+	rdfs:comment "The person of contact in the metadata info of a company"@en ;
+	rdfs:range foaf:Agent ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:concept a rdf:Property, owl:ObjectProperty;
+	rdfs:label "Concept"@en ;
+	rdfs:comment "Property for taking into account the reference concept in a data point"@en ;
+	rdfs:domain oim:DataPoint ;
+	rdfs:range skos:Concept ;
+	.
+##Data properties here
+
+oim:startDate a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Start date"@en ;
+	rdfs:comment "Starting date of a period"@en ;
+	rdfs:domain oim:Period ;
+	rdfs:range xsd:Date ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:endDate a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "End date"@en ;
+	rdfs:comment "End date of a period"@en ;
+	rdfs:domain oim:Period ;
+	rdfs:range xsd:Date ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:isInstant a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Is instant"@en ;
+	rdfs:comment "boolean for the instant moment"@en ;
+	rdfs:domain oim:Period ;
+	rdfs:range xsd:boolean ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:isForever a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Is forever"@en ;
+	rdfs:comment "Boolean telling the period is forever or not"@en ;
+	rdfs:domain oim:Period ;
+	rdfs:range xsd:boolean ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:decimals a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Decimals"@en ;
+	rdfs:comment "Number of decimals used for a currency"@en ;
+	rdfs:range xsd:integer ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:reportYear a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Report year"@en ;
+	rdfs:comment "year of the report"@en ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+oim:fiscalYear a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Fiscal year"@en ;
+	rdfs:comment "End of fiscal year"@en ;
+	rdfs:range xsd:date ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+
+## Restriction for the 2 members in the dimension part of axis
+## todo: See if this is not too much restrictions
+oim:hasDimension a rdf:Property, owl:DatatypeProperty ;
+	rdfs:label "Has dimension"@en ;
+	rdfs:domain oim:Dimension ;
+	rdfs:range [ a owl:DataRange;  owl:oneOf ("Explicit Member" "Typed Member") ] ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+
+## Axioms here 
+
+oim:report owl:inverseOf oim:dataPoint .
+
+# TODO: find if we can use QUDT for currency here
+## external resource.
+
+schema:Report a owl:Class.
+
+# -------------------------- SKOS ConceptSchemes definition -----------------------------------------------
+
+ippsch: a skos:ConceptScheme ;
+	rdfs:label "ipp concept scheme"@en ;
+	.
+
+ifrsgp: a skos:ConceptScheme ;
+	rdfs:label "ifrs gp concept scheme"@en ;
+	.
