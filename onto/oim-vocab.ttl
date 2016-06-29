@@ -43,27 +43,6 @@
 ## classes here 
 # todo: http://dev.poderopedia.com/vocab/FinancialInformation
 
-oim:FinancialReport a rdfs:Class , owl:Class ; 
-	rdfs:label "Financial report"@en , "informe financiero"@es ;
-	rdfs:comment "A financial report may content many data points that are facts"@en ;
-	rdfs:subClassOf schema:Report ;
-	rdfs:subClassOf [a owl:Restriction;
-			 owl:someValuesFrom oim:DataPoint;
-			 owl:onProperty oim:dataPoint] ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	.
-
-oim:DataPoint a rdfs:Class, owl:Class ;
-	rdfs:label "data point"@en ;
-	rdfs:comment "this define a fact in the report. A data point should have at least one context"@en ;
-	# TODO: ask Maria where its the restriction
-	rdfs:subClassOf
-              [ a owl:Restriction ;
-                owl:someValuesFrom oim:Dimension ;
-                owl:onProperty oim:hasDimension
-              ] ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	.
 
 oim:Fact a rdfs:Class, owl:Class ;
 	rdfs:label "Fact"@en ;
@@ -83,19 +62,6 @@ oim:Period a rdfs:Class , owl:Class ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
-oim:Dimension a rdfs:Class , owl:Class ;
-	rdfs:label "Dimension"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	rdfs:comment "The dimension defining whether the dimensions in the axis are explicit member or implicit ones"@en;
-	.
-
-#todo: Find the classes of this type of entity.
-
-oim:FinancialEntity a rdfs:Class , owl:Class ;
-	rdfs:label "Financial entity"@en ;
-	rdfs:subClassOf rov:RegisteredOrganization ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	.
 
 ## object properties here 
  
@@ -154,30 +120,38 @@ oim:endPeriod a rdf:Property, owl:DatatypeProperty;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
-oim:isInstant a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "Is instant"@en ;
-	rdfs:comment "boolean for the instant moment"@en ;
-	rdfs:domain oim:Period ;
-	rdfs:range xsd:boolean ;
+oim:tupleOrder a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Tuple order"@en ;
+	rdfs:comment "Tuple order of a tuple fact or a simple fact"@en ;
+	rdfs:range xsd:Integer ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
-oim:isForever a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "Is forever"@en ;
-	rdfs:comment "Boolean telling the period is forever or not"@en ;
-	rdfs:domain oim:Period ;
-	rdfs:range xsd:boolean ;
+oim:tupleParent a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Tuple Parent"@en ;
+	rdfs:comment "Tuple parent to which a fact points to"@en ;
+	rdfs:range xsd:anyURI ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
-# todo: put it in the xbrll namespace
+oim:unitRef a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Unit ref"@en ;
+	rdfs:comment "The reference unit used in the fact"@en ;
+	rdfs:range xsd:string ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
 
-
-
-
-
+oim:value a rdf:Property, owl:DatatypeProperty;
+	rdfs:label "Value"@en ;
+	rdfs:comment "The actual value of a Fact"@en ;
+	rdfs:domain oim:Fact ;
+	rdfs:range xsd:double ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+	
 ## Restriction for the 2 members in the dimension part of axis
 ## todo: See if this is not too much restrictions
+
 oim:hasDimension a rdf:Property, owl:DatatypeProperty ;
 	rdfs:label "Has dimension"@en ;
 	rdfs:domain oim:Dimension ;
@@ -187,12 +161,14 @@ oim:hasDimension a rdf:Property, owl:DatatypeProperty ;
 
 ## Axioms here 
 
-oim:report owl:inverseOf oim:dataPoint .
+oim:entity owl:inverseOf xbrll:dataPoint .
+oim:Fact owl:disjointWith oim:TupleFact .
 
 # TODO: find if we can use QUDT for currency here
 ## external resource.
 
 schema:Report a owl:Class.
+
 
 # -------------------------- SKOS ConceptSchemes definition -----------------------------------------------
 
