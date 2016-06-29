@@ -20,6 +20,7 @@
 @prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/> .
 @prefix ippsch: <http://data.cdp.net/id/scheme/ipp> .
 @prefix ifrsgp: <http://data.cdp.net/id/scheme/ifrs-gp> .
+@prefix xbrll: <http://data.cdp.net/def/xbrll#> .
 
 #Ontology based on the OIM model
 ## TODO: validate with the model presented by Maria
