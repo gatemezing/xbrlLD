@@ -34,7 +34,7 @@
                  ];
                  
     dct:issued "2016-06-17"^^xsd:date;
-   # dct:modified "2016-05-20"^^xsd:date;
+    dct:modified "2016-06-29"^^xsd:date;
    # dct:modified "2016-06-01"^^xsd:date;
     vann:preferredNamespacePrefix "oim" ;
     owl:versionInfo "v1.0" ;
@@ -65,6 +65,18 @@ oim:DataPoint a rdfs:Class, owl:Class ;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
+oim:Fact a rdfs:Class, owl:Class ;
+	rdfs:label "Fact"@en ;
+	rdfs:comment "a fact as defined in the OIM model"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
+	
+
+oim:TupleFact a rdfs:Class, owl:Class ;
+	rdfs:label "Tuple Fact"@en ;
+	rdfs:comment "a tuple fact as defined in the OIM model and doesn't have instances"@en ;
+	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	.
 
 oim:Period a rdfs:Class , owl:Class ;
 	rdfs:label "Period"@en ;
@@ -86,7 +98,7 @@ oim:FinancialEntity a rdfs:Class , owl:Class ;
 	.
 
 ## object properties here 
-## todo: remove global constraints 
+ 
 oim:period a owl:ObjectProperty, rdf:Property ;
 	 rdfs:label "Period"@en ;
 	 rdfs:range oim:Period ;
@@ -112,13 +124,21 @@ oim:contactPerson a rdf:Property, owl:ObjectProperty;
 
 oim:concept a rdf:Property, owl:ObjectProperty;
 	rdfs:label "Concept"@en ;
-	rdfs:comment "Property for taking into account the reference concept in a data point"@en ;
-	rdfs:domain oim:DataPoint ;
+	rdfs:comment "Property for taking into account the reference concept in a fact"@en ;
+	rdfs:domain oim:Fact ;
 	rdfs:range skos:Concept ;
 	.
+	
+oim:entity a rdf:Property, owl:ObjectProperty;
+	rdfs:label "entity"@en ;
+	rdfs:comment "Property for linking a fact the entity reporting"@en ;
+	rdfs:domain oim:Fact ;
+	rdfs:range xbrll:FinancialEntity ;
+	.
+	
 ##Data properties here
 
-oim:startDate a rdf:Property, owl:DatatypeProperty;
+oim:startPeriod a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Start date"@en ;
 	rdfs:comment "Starting date of a period"@en ;
 	rdfs:domain oim:Period ;
@@ -126,7 +146,7 @@ oim:startDate a rdf:Property, owl:DatatypeProperty;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
-oim:endDate a rdf:Property, owl:DatatypeProperty;
+oim:endPeriod a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "End date"@en ;
 	rdfs:comment "End date of a period"@en ;
 	rdfs:domain oim:Period ;
@@ -150,26 +170,10 @@ oim:isForever a rdf:Property, owl:DatatypeProperty;
 	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
 	.
 
-oim:decimals a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "Decimals"@en ;
-	rdfs:comment "Number of decimals used for a currency"@en ;
-	rdfs:range xsd:integer ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	.
+# todo: put it in the xbrll namespace
 
-oim:reportYear a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "Report year"@en ;
-	rdfs:comment "year of the report"@en ;
-	rdfs:range xsd:string ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	.
 
-oim:fiscalYear a rdf:Property, owl:DatatypeProperty;
-	rdfs:label "Fiscal year"@en ;
-	rdfs:comment "End of fiscal year"@en ;
-	rdfs:range xsd:date ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
-	.
+
 
 
 ## Restriction for the 2 members in the dimension part of axis
