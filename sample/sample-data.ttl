@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dctype: <http://purl.org/dc/dcmitype/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix v: <http://www.w3.org/2006/vcard/ns#>.
+@prefix rov: <http://www.w3.org/ns/regorg#>. 
+@prefix schema: <http://schema.org/>.
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xbrll: <http://data.cdp.net/def/xbrll#> .
+@prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix frpt: <http://data.cdp.net/id/financialreport/> .
+@prefix dpt: <http://data.cdp.net/id/datapoint/> .
+@prefix ent: <http://data.cdp.net/id/entity/> .
+@prefix ctx: <http://data.cdp.net/id/context/> .
+@prefix ipp-enc: <http://data.cdp.net/id/skos/ipp/> .
+@prefix ippsch: <http://data.cdp.net/id/scheme/ipp> .
+@prefix slc: <http://data.cdp.net/id/slice/> .
+@prefix xbrl-attribute: <http://data.cdp.net/id/xbrl/attribute#> .
+
+
+## A small dataset sample in RDF using xbrll vocabulary
+
+# Metadata about the report 
+# the year is not bounded to a specific context
+# uri of the report code used the one of the entity?
+frpt:1 a xbrll:FinancialReport ;
+	xbrll:dataPoint dpt:d11, dpt:d12 ;  # these are actually observations
+	dct:title "financial report "@en, "informe financiero"@es ;
+	dct:publisher ent:cifa70302039 ;     # use of the dct:publisher instead of a local property xbrll:entity
+        xbrll:reportYear "2015"^^xsd:gYear ;
+        xbrll:fiscalYear "2015-12-31"^^xsd:date ;
+
+    .
+
+# info about the entity of the report
+#uri of the entity based on the code registration (tbd)
+ent:cifa70302039 a xbrll:FinancialEntity ;
+	rov:legalName "ABANCA CORPORACION BANCARIA, S.A."@es ;
+	v:street-address "Calle Claudino Pita n 2 Betanzos" ;
+	rov:registration "CIF-A70302039" ; #CIF + code 
+	xbrll:contactPerson [ a foaf:Person ; foaf:name "Pablo Ramil Frean" ; 
+							schema:email "pabloramil@abanca.com";
+							org:role [ a skos:Concept ; rdfs:label "Gerente Información Financiera"@es];
+					 ] ;
+    
+    .
+
+# Q: first column corresponding to qb:Slice?
+# data point d1x-- first column
+dpt:d11 a xbrll:DataPoint ;
+	xbrll:context ctx:s22015_a70302039_ici ;
+	xbrll:refConcept   ipp-enc:balanceindividual ;                  
+    xbrl-attribute:cashAndBalancesWithCentralBanks    "429839000" ;
+    xbrll:unitRef "euro" ;
+    xbrll:decimals "0" ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+dpt:d12 a xbrll:DataPoint ;
+	xbrll:context ctx:s22014_a70302039_ipai ;
+	xbrll:refConcept   ipp-enc:balanceindividual ;
+	xbrll:unitRef "euro" ;                  
+    xbrl-attribute:cashAndBalancesWithCentralBanks  "493743000" ;
+    xbrll:decimals "0" ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+
+dpt:d13 a xbrll:DataPoint ;
+	xbrll:context ctx:s22015_a70302039_ici ;
+	xbrll:refConcept   ipp-enc:balanceindividual ;                  
+    xbrl-attribute:financialAssetsHeldForTradingTotal    "246805000" ;
+    xbrll:decimals "0" ;
+    xbrll:unitRef "euro" ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+
+dpt:d14 a xbrll:DataPoint ;
+	xbrll:context ctx:s22014_a70302039_ipai ;
+	xbrll:refConcept  ipp-enc:balanceindividual ;                  
+    xbrl-attribute:financialAssetsHeldForTradingTotal    "220307000" ;
+    xbrll:decimals "0" ;
+    xbrll:unitRef "euro" ;
+    xbrll:report frpt:1 # link from a fact to the report
+	.
+
+
+# data point d2x-- second column here
+
+
+
+
+## skos concepts here 
+## TODO: Do we define 5 concepts scheme for ifrs-gp, es-be-fs, ifrs-gp, ipp-enc and ipp-com?
+## Maybe all in one concept schemes for the beginning 
+ipp-enc:cuentaperdidasgananciasindividual a skos:Concept ;
+	 skos:inScheme ippsch: ;
+	 rdfs:label "Cuenta perdidas ganancias individual"@es ;
+	 .
+
+
+## TODO: define the concept ipp-enc:balanceindividual
+ipp-enc:balanceindividual a skos:Concept ;
+		rdfs:label "Balance individual"@es ;
+		skos:inScheme ippsch: ;
+		## TODO: find a relationship such as narrower, broader, etc.
+		.
+
+
+
+
+## todo: find a QB-alike view with this data
+## Not sure to add this now!!
+slc:1 a qb:Slice;
+    qb:sliceStructure  eg:sliceByConcept ; # TODO: Find an appropriate namespace
+    #eg:refPeriod               <http://reference.data.gov.uk/id/gregorian-interval/2004-01-01T00:00:00/P3Y> ;
+    xbrl-dimension:currency         xbrll-code:euro ;
+    qb:observation dpt:d11, dpt:d12, dpt:d13, dpt:d14 ; ## TODO: a link from an observation and data points
+
+    .
+
+## TODO: create xbrl-attribute with the properties from the sample XBRL dataset
+
+## all the contexts of the sample are listed below
+ctx:s22015_a70302039_ici a xbrll:Context ;
+	dct:identifier "S22015_A70302039_ici" .
+
+ctx:s22015_a70302039_icc a xbrll:Context ;
+	dct:identifier "S22015_A70302039_icc" .
+
+ctx:s22015_a70302039_dcoi a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dcoi" .
+
+ctx:s22015_a70302039_dcoc a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dcoc" .
+
+ctx:s22015_a70302039_dci a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dci" .
+
+ctx:s22015_a70302039_dcc a xbrll:Context ;
+	dct:identifier "S22015_A70302039_dcc" .
+
+ctx:s22014_a70302039_ipai a xbrll:Context ;
+	dct:identifier "S22014_A70302039_ipai" .
+
+ctx:s22014_a70302039_ipac a xbrll:Context ;
+	dct:identifier "S22014_A70302039_ipac" .
+
+ctx:s22014_a70302039_dpoi a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpoi" .
+
+ctx:s22014_a70302039_dpoc a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpoc" .
+
+ctx:s22014_a70302039_dpai a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpai" .
+
+ctx:s22014_a70302039_dpac a xbrll:Context ;
+	dct:identifier "S22014_A70302039_dpac" .

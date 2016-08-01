@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ipp-enc="http://www.cnmv.es/ipp/enc/1-2008/2008-01-01" xmlns:es-be-fs="http://www.bde.es/es/fr/ifrs/basi/bde/4-2004/2006-01-01" xmlns:ipp-com="http://www.cnmv.es/ipp/com/1-2008/2008-01-01" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2007/dgi/gp/lc-es/2007-05-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2007/dgi/gp/lc-int/2007-05-30" xmlns:ifrs-gp="http://xbrl.iasb.org/int/fr/ifrs/gp/2005-05-15" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2007/dgi/gp/est-gen/2007-05-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ipp="http://www.cnmv.es/ipp/2008">
-	<xbrll:schemaRef xlink:type="simple" xlink:href="../ipp_2008-01-01/ipp-enc-2008-01-01.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	<xbrll:schemaRef xlink:type="simple" xlink:href="ipp-enc-2008-01-01.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
 	<xbrli:context id="S22015_A70302039_dci">
 		<xbrli:entity>
 			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A70302039">ABANCA CORPORACION BANCARIA, S.A.</xbrli:identifier>
