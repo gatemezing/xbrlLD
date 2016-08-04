@@ -2,71 +2,71 @@
 @prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns3: <https://w3id.org/vocab/xbrll#> .
 @prefix ns4: <http://www.w3.org/ns/org#> .
-@prefix ns5: <http://www.w3.org/ns/regorg#> .
-@prefix ns6: <http://xmlns.com/foaf/0.1/> .
-@prefix ns7: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://xmlns.com/foaf/0.1/> .
+@prefix ns6: <http://www.w3.org/ns/regorg#> .
+@prefix ns7: <http://schema.org/> .
 @prefix ns8: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns9: <http://schema.org/> .
+@prefix ns9: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.mondeca.com/id/entity/01606701j> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "01606701J" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-01606701J" .
 
 <http://data.mondeca.com/id/entity/07221654e> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "07221654E" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-07221654E" .
 
 <http://data.mondeca.com/id/entity/14212641k> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "14212641K" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-14212641K" .
 
 <http://data.mondeca.com/id/entity/15768843c> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "15768843C" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-15768843C" .
 
 <http://data.mondeca.com/id/entity/15986391b> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "15986391B" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-15986391B" .
 
 <http://data.mondeca.com/id/entity/32265810f> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "32265810F" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-32265810F" .
 
 <http://data.mondeca.com/id/entity/36456287e> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "36456287E" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-36456287E" .
 
 <http://data.mondeca.com/id/entity/40824513l> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "40824513L" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-40824513L" .
 
 <http://data.mondeca.com/id/entity/42712901s> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "42712901S" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-42712901S" .
 
 <http://data.mondeca.com/id/entity/46206989n> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "46206989N" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-46206989N" .
 
 <http://data.mondeca.com/id/entity/46213174x> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "46213174X" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-46213174X" .
 
 <http://data.mondeca.com/id/entity/51443745j> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "51443745J" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-51443745J" .
 
 <http://data.mondeca.com/id/entity/nn866brf3> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "NN866BRF3" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-NN866BRF3" .
 
 <http://data.mondeca.com/id/entity/y3988709v> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "Y3988709V" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-Y3988709V" .
 
 <http://data.mondeca.com/id/fact/2693196b1004> a ns1:Fact ;
     ns1:concept <http://data.mondeca.com/id/skos/ipp/importenetoadquisicion> ;
@@ -20120,63 +20120,63 @@
 <http://data.mondeca.com/id/financialreport/a-78374725> a ns3:FinancialReport ;
     rdfs:label "Financial report"@en,
         "Informe financiero"@es ;
-    ns7:publisher <http://data.mondeca.com/id/entity/a-78374725> ;
+    ns9:publisher <http://data.mondeca.com/id/entity/a-78374725> ;
     ns1:period [ ns1:endPeriod "2015-07-01"^^xsd:date ;
             ns1:startPeriod "2015-07-01"^^xsd:date ] ;
-    ns3:contactPerson [ a ns6:Person ;
-            ns4:role "Consejero Delegado" ;
-            ns6:name "D. Josu Jon Imaz San Miguel" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero y Secretario" ;
-            ns6:name "D. Luis Suárez de Lezo Mantilla" ],
-        [ a ns6:Person ;
+    ns3:contactPerson [ a ns5:Person ;
             ns4:role "Consejero" ;
-            ns6:name "D. Mario Fernández Pelaz" ],
-        [ a ns6:Person ;
-            ns4:role "Presidente" ;
-            ns6:name "D. Antonio Brufau Niubó" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. Ángel Durández Adeva" ],
-        [ a ns6:Person ;
-            ns9:email "abautistaf@repsol.com" ;
-            ns4:role "Director Relación con Inversores" ;
-            ns6:name "Ángel Luis Bautista Fernandez" ],
-        [ a ns6:Person ;
-            ns4:role "Vicepresidente 2º" ;
-            ns6:name "D. Manuel Manrique Cecilia" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. J. Robinson West" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. Luis Carlos Croissier Batista" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. Javier Echenique Landiribar" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "Dña. María Isabel Gabarró Miquel" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. Rene Dahan" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. José Manuel Loureda Mantiñán" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. Gonzalo Gortázar Rotaeche" ],
-        [ a ns6:Person ;
-            ns4:role "Consejero" ;
-            ns6:name "D. Artur Carulla Font" ],
-        [ a ns6:Person ;
+            ns5:name "D. Luis Carlos Croissier Batista" ],
+        [ a ns5:Person ;
             ns4:role "Vicepresidente 1º" ;
-            ns6:name "D. Isidro Fainé Casas" ] .
+            ns5:name "D. Isidro Fainé Casas" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero Delegado" ;
+            ns5:name "D. Josu Jon Imaz San Miguel" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. Ángel Durández Adeva" ],
+        [ a ns5:Person ;
+            ns4:role "Presidente" ;
+            ns5:name "D. Antonio Brufau Niubó" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. J. Robinson West" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. Mario Fernández Pelaz" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "Dña. María Isabel Gabarró Miquel" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. Rene Dahan" ],
+        [ a ns5:Person ;
+            ns4:role "Vicepresidente 2º" ;
+            ns5:name "D. Manuel Manrique Cecilia" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. Gonzalo Gortázar Rotaeche" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero y Secretario" ;
+            ns5:name "D. Luis Suárez de Lezo Mantilla" ],
+        [ a ns5:Person ;
+            ns7:email "abautistaf@repsol.com" ;
+            ns4:role "Director Relación con Inversores" ;
+            ns5:name "Ángel Luis Bautista Fernandez" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. Javier Echenique Landiribar" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. Artur Carulla Font" ],
+        [ a ns5:Person ;
+            ns4:role "Consejero" ;
+            ns5:name "D. José Manuel Loureda Mantiñán" ] .
 
 <http://data.mondeca.com/id/entity/a-78374725> a ns3:FinancialEntity ;
     ns8:street-address "Méndez Álvaro, 44 - 28045 - Madrid" ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "A-78374725" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-A-78374725" .
 
 <http://data.mondeca.com/id/fact/f88487> a ns1:TupleFact ;
     rdfs:label "DeclaracionResponsablesInformacion" ;
@@ -22647,6 +22647,6 @@
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88663> .
 
 <http://data.mondeca.com/id/entity/2693196b> a ns3:FinancialEntity ;
-    ns5:legalName "REPSOL, S.A" ;
-    ns5:registration "2693196B" .
+    ns6:legalName "REPSOL, S.A" ;
+    ns6:registration "CIF-2693196B" .
 
