@@ -5,6 +5,7 @@ from rdflib import Literal, BNode, Graph
 from string import capitalize
 from pprint import pprint
 from rdflib.namespace import XSD
+import re
 
 
 ## Author: @gatemezing ##
@@ -86,11 +87,14 @@ c = f1[u'oim:concept']
 
 t= c.find(":")
 sc = c[t+1:len(c)]
-#print sc 
+#time to split camalcase string 
+splitsc = re.sub('(?!^)([A-Z][a-z0-9]+)', r' \1', sc).split()
+sclabel = " ".join(splitsc)
+
 gxbrl.add((FCT[idf], RDF["type"], OIM["TupleFact"]))
 gxbrl.add((FCT[idf], SKOS["inScheme"], IPPSCH[""]))
 gxbrl.add((FCT[idf], OIM["concept"], IPPENC[sc]))
-gxbrl.add((FCT[idf], RDFS["label"], Literal(sc, lang=u'es')))
+gxbrl.add((FCT[idf], RDFS["label"], Literal(sclabel)))
 #gxbrl.add((FCT[idf], OIM["concept"], IPPENC["TupleFact"]))
 
 
@@ -115,41 +119,44 @@ for i in range(1,len(facts)) :
 			sbj1= tuple[u'oim:concept']
 			t = sbj1.find(":")
 			s = sbj1[t+1:len(sbj1)]
+			# spliting s to have labels 
+			splits = re.sub('(?!^)([A-Z][a-z0-9]+)', r' \1', s).split()
+			slabel = " ".join(splits)
 			l = sbj1[0:t]
 			#print l
 			if l == "dgi-lc-int":
 				gxbrl.add((FCT[v], OIM["concept"], DGI[s]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 				gxbrl.add((FCT[v], SKOS["inScheme"], DGIS[""]))
 
 			if l == "dgi-est-gen":
 				gxbrl.add((FCT[v], OIM["concept"], DGI[s]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 				gxbrl.add((FCT[v], SKOS["inScheme"], DGIS[""]))
 
 			if l == "dgi-lc-es":
 				gxbrl.add((FCT[v], OIM["concept"], DGI[s]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 				gxbrl.add((FCT[v], SKOS["inScheme"], DGIS[""]))
 
 			if l == "dgi-lc-int":
 				gxbrl.add((FCT[v], OIM["concept"], DGI[s]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 				gxbrl.add((FCT[v], SKOS["inScheme"], DGIS[""]))
 			if l == "ipp-com":
 				gxbrl.add((FCT[v], OIM["concept"], IPPCOM[s]))
 				gxbrl.add((FCT[v], SKOS["inScheme"], IPPSCH[""]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 
 			if l == "ipp-enc":
 				gxbrl.add((FCT[v], OIM["concept"], IPPENC[s]))
 				gxbrl.add((FCT[v], SKOS["inScheme"], IPPSCH[""]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 
 			if l == "ipp-gen":
 				gxbrl.add((FCT[v], OIM["concept"], IPPGEN[s]))
 				gxbrl.add((FCT[v], SKOS["inScheme"], IPPSCH[""]))
-				gxbrl.add((FCT[v], RDFS["label"], Literal(s)))
+				gxbrl.add((FCT[v], RDFS["label"], Literal(slabel)))
 
 			#gxbrl.add((FCT[v], OIM["concept"], IPPENC[s]))
 	
@@ -221,7 +228,7 @@ for i in range(1,len(facts)) :
 				if s3 == "ifrs-gp":
 					gxbrl.add((FCT[st], OIM["concept"], IFRSGP[s2]))
 				if s3 == "ipp-enc":
-					gxbrl.add((FCT[st], OIM["concept"], IPPENC[s2.lower()]))
+					gxbrl.add((FCT[st], OIM["concept"], IPPENC[s2]))
 				if s3 == "ipp-com":
 					gxbrl.add((FCT[st], OIM["concept"], IPPCOM[s2]))
 

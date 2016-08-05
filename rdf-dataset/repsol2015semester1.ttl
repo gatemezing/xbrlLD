@@ -2,11 +2,11 @@
 @prefix ns2: <https://w3id.org/vocab/xbrll#> .
 @prefix ns3: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ns4: <http://www.w3.org/ns/org#> .
-@prefix ns5: <http://schema.org/> .
-@prefix ns6: <http://www.w3.org/ns/regorg#> .
-@prefix ns7: <http://purl.org/dc/terms/> .
+@prefix ns5: <http://purl.org/dc/terms/> .
+@prefix ns6: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns7: <http://www.w3.org/ns/regorg#> .
 @prefix ns8: <http://xmlns.com/foaf/0.1/> .
-@prefix ns9: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns9: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -13981,56 +13981,56 @@
     ns2:decimals 0 .
 
 <http://data.mondeca.com/id/fact/f88510> a ns1:TupleFact ;
-    rdfs:label "InformacionComplementariaInformacionReguladaPreviamentePublicada" ;
+    rdfs:label "Informacion Complementaria Informacion Regulada Previamente Publicada" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/InformacionComplementariaInformacionReguladaPreviamentePublicada> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88389> .
 
 <http://data.mondeca.com/id/fact/f88514> a ns1:TupleFact ;
-    rdfs:label "PeriodoInforme" ;
+    rdfs:label "Periodo Informe" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PeriodoInforme> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88508> .
 
 <http://data.mondeca.com/id/fact/f88515> a ns1:TupleFact ;
-    rdfs:label "ModeloInforme" ;
+    rdfs:label "Modelo Informe" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/ModeloInforme> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88508> .
 
 <http://data.mondeca.com/id/fact/f88524> a ns1:TupleFact ;
-    rdfs:label "LegalNameType" ;
+    rdfs:label "Legal Name Type" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/LegalNameType> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88523> .
 
 <http://data.mondeca.com/id/fact/f88527> a ns1:TupleFact ;
-    rdfs:label "AddressTypeList" ;
+    rdfs:label "Address Type List" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/AddressTypeList> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88520> .
 
 <http://data.mondeca.com/id/fact/f88530> a ns1:TupleFact ;
-    rdfs:label "AddressFormat" ;
+    rdfs:label "Address Format" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/AddressFormat> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88528> .
 
 <http://data.mondeca.com/id/fact/f88533> a ns1:TupleFact ;
-    rdfs:label "IdentifierCode" ;
+    rdfs:label "Identifier Code" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/IdentifierCode> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88521> .
 
 <http://data.mondeca.com/id/fact/f88537> a ns1:TupleFact ;
-    rdfs:label "PersonName" ;
+    rdfs:label "Person Name" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/PersonName> ;
     ns1:tupleOrder 1 ;
@@ -14044,21 +14044,21 @@
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88536> .
 
 <http://data.mondeca.com/id/fact/f88543> a ns1:TupleFact ;
-    rdfs:label "CommunicationType" ;
+    rdfs:label "Communication Type" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/CommunicationType> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88539> .
 
 <http://data.mondeca.com/id/fact/f88546> a ns1:TupleFact ;
-    rdfs:label "CommunicationType" ;
+    rdfs:label "Communication Type" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/CommunicationType> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88540> .
 
 <http://data.mondeca.com/id/fact/f88562> a ns1:TupleFact ;
-    rdfs:label "PlantillaMediaTupla" ;
+    rdfs:label "Plantilla Media Tupla" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PlantillaMediaTupla> ;
     ns1:tupleOrder 13 ;
@@ -14067,16 +14067,16 @@
 <http://data.mondeca.com/id/financialreport/A-78374725> a ns2:FinancialReport ;
     rdfs:label "Financial report"@en,
         "Informe financiero"@es ;
-    ns7:publisher <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns5:publisher <http://data.mondeca.com/id/entity/A-78374725> ;
     ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
             ns1:startPeriod "2016-01-01"^^xsd:date ] ;
     ns2:contactPerson [ a ns8:Person ;
-            ns5:email "abautistaf@repsol.com" ;
+            ns9:email "abautistaf@repsol.com" ;
             ns4:role "DIRECTOR RELACIÓN CON INVERSORES" ;
             ns8:name "ÁNGEL LUIS BAUTISTA FERNÁNDEZ" ] .
 
 <http://data.mondeca.com/id/fact/f88519> a ns1:TupleFact ;
-    rdfs:label "EntityName" ;
+    rdfs:label "Entity Name" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/EntityName> ;
     ns1:tupleOrder 1 ;
@@ -14090,14 +14090,14 @@
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88509> .
 
 <http://data.mondeca.com/id/fact/f88522> a ns1:TupleFact ;
-    rdfs:label "PersonasContacto" ;
+    rdfs:label "Personas Contacto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PersonasContacto> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88509> .
 
 <http://data.mondeca.com/id/fact/f88523> a ns1:TupleFact ;
-    rdfs:label "LegalName" ;
+    rdfs:label "Legal Name" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/LegalName> ;
     ns1:tupleOrder 1 ;
@@ -14111,1664 +14111,1664 @@
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88520> .
 
 <http://data.mondeca.com/id/fact/f88539> a ns1:TupleFact ;
-    rdfs:label "CommunicationWays" ;
+    rdfs:label "Communication Ways" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/CommunicationWays> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88536> .
 
 <http://data.mondeca.com/id/fact/f88540> a ns1:TupleFact ;
-    rdfs:label "CommunicationWays" ;
+    rdfs:label "Communication Ways" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/CommunicationWays> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88536> .
 
 <http://data.mondeca.com/id/fact/f88561> a ns1:TupleFact ;
-    rdfs:label "InformacionSegmentada" ;
+    rdfs:label "Informacion Segmentada" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/InformacionSegmentada> ;
     ns1:tupleOrder 12 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88821> a ns1:TupleFact ;
-    rdfs:label "SaldoInicial" ;
+    rdfs:label "Saldo Inicial" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicial> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88822> a ns1:TupleFact ;
-    rdfs:label "AjusteCambiosCriteriosContrables" ;
+    rdfs:label "Ajuste Cambios Criterios Contrables" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteCambiosCriteriosContrables> ;
     ns1:tupleOrder 2 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88823> a ns1:TupleFact ;
-    rdfs:label "AjusteErrores" ;
+    rdfs:label "Ajuste Errores" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteErrores> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88824> a ns1:TupleFact ;
-    rdfs:label "SaldoInicialAjustado" ;
+    rdfs:label "Saldo Inicial Ajustado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicialAjustado> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88825> a ns1:TupleFact ;
-    rdfs:label "IngresosGastosReconocidos" ;
+    rdfs:label "Ingresos Gastos Reconocidos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IngresosGastosReconocidos> ;
     ns1:tupleOrder 5 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88826> a ns1:TupleFact ;
-    rdfs:label "OperacionesSociosPropietarios" ;
+    rdfs:label "Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesSociosPropietarios> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88827> a ns1:TupleFact ;
-    rdfs:label "AumentosReduccionesCapital" ;
+    rdfs:label "Aumentos Reducciones Capital" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AumentosReduccionesCapital> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88828> a ns1:TupleFact ;
-    rdfs:label "ConversionPasivosFinancierosPatrimonioNeto" ;
+    rdfs:label "Conversion Pasivos Financieros Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/ConversionPasivosFinancierosPatrimonioNeto> ;
     ns1:tupleOrder 8 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88829> a ns1:TupleFact ;
-    rdfs:label "DistribucionDividendos" ;
+    rdfs:label "Distribucion Dividendos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DistribucionDividendos> ;
     ns1:tupleOrder 9 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88830> a ns1:TupleFact ;
-    rdfs:label "OperacionesAccionesPropias" ;
+    rdfs:label "Operaciones Acciones Propias" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesAccionesPropias> ;
     ns1:tupleOrder 10 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88831> a ns1:TupleFact ;
-    rdfs:label "IncrementoReduccionCombinacionesNegocios" ;
+    rdfs:label "Incremento Reduccion Combinaciones Negocios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IncrementoReduccionCombinacionesNegocios> ;
     ns1:tupleOrder 11 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88832> a ns1:TupleFact ;
-    rdfs:label "OtrasOperacionesSociosPropietarios" ;
+    rdfs:label "Otras Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasOperacionesSociosPropietarios> ;
     ns1:tupleOrder 12 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88833> a ns1:TupleFact ;
-    rdfs:label "OtrasVariacionesPatrimonioNeto" ;
+    rdfs:label "Otras Variaciones Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariacionesPatrimonioNeto> ;
     ns1:tupleOrder 13 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88834> a ns1:TupleFact ;
-    rdfs:label "PagosBasadosAcciones" ;
+    rdfs:label "Pagos Basados Acciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PagosBasadosAcciones> ;
     ns1:tupleOrder 14 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88835> a ns1:TupleFact ;
-    rdfs:label "TraspasosPartidasPatrimonioNeto" ;
+    rdfs:label "Traspasos Partidas Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/TraspasosPartidasPatrimonioNeto> ;
     ns1:tupleOrder 15 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88836> a ns1:TupleFact ;
-    rdfs:label "OtrasVariaciones" ;
+    rdfs:label "Otras Variaciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariaciones> ;
     ns1:tupleOrder 16 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88837> a ns1:TupleFact ;
-    rdfs:label "SaldoFinal" ;
+    rdfs:label "Saldo Final" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoFinal> ;
     ns1:tupleOrder 17 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88838> a ns1:TupleFact ;
-    rdfs:label "SaldoInicial" ;
+    rdfs:label "Saldo Inicial" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicial> ;
     ns1:tupleOrder 18 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88839> a ns1:TupleFact ;
-    rdfs:label "AjusteCambiosCriteriosContrables" ;
+    rdfs:label "Ajuste Cambios Criterios Contrables" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteCambiosCriteriosContrables> ;
     ns1:tupleOrder 19 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88840> a ns1:TupleFact ;
-    rdfs:label "AjusteErrores" ;
+    rdfs:label "Ajuste Errores" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteErrores> ;
     ns1:tupleOrder 20 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88841> a ns1:TupleFact ;
-    rdfs:label "SaldoInicialAjustado" ;
+    rdfs:label "Saldo Inicial Ajustado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicialAjustado> ;
     ns1:tupleOrder 21 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88842> a ns1:TupleFact ;
-    rdfs:label "IngresosGastosReconocidos" ;
+    rdfs:label "Ingresos Gastos Reconocidos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IngresosGastosReconocidos> ;
     ns1:tupleOrder 22 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88843> a ns1:TupleFact ;
-    rdfs:label "OperacionesSociosPropietarios" ;
+    rdfs:label "Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesSociosPropietarios> ;
     ns1:tupleOrder 23 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88844> a ns1:TupleFact ;
-    rdfs:label "AumentosReduccionesCapital" ;
+    rdfs:label "Aumentos Reducciones Capital" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AumentosReduccionesCapital> ;
     ns1:tupleOrder 24 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88845> a ns1:TupleFact ;
-    rdfs:label "ConversionPasivosFinancierosPatrimonioNeto" ;
+    rdfs:label "Conversion Pasivos Financieros Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/ConversionPasivosFinancierosPatrimonioNeto> ;
     ns1:tupleOrder 25 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88846> a ns1:TupleFact ;
-    rdfs:label "DistribucionDividendos" ;
+    rdfs:label "Distribucion Dividendos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DistribucionDividendos> ;
     ns1:tupleOrder 26 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88847> a ns1:TupleFact ;
-    rdfs:label "OperacionesAccionesPropias" ;
+    rdfs:label "Operaciones Acciones Propias" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesAccionesPropias> ;
     ns1:tupleOrder 27 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88848> a ns1:TupleFact ;
-    rdfs:label "IncrementoReduccionCombinacionesNegocios" ;
+    rdfs:label "Incremento Reduccion Combinaciones Negocios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IncrementoReduccionCombinacionesNegocios> ;
     ns1:tupleOrder 28 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88849> a ns1:TupleFact ;
-    rdfs:label "OtrasOperacionesSociosPropietarios" ;
+    rdfs:label "Otras Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasOperacionesSociosPropietarios> ;
     ns1:tupleOrder 29 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88850> a ns1:TupleFact ;
-    rdfs:label "OtrasVariacionesPatrimonioNeto" ;
+    rdfs:label "Otras Variaciones Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariacionesPatrimonioNeto> ;
     ns1:tupleOrder 30 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88851> a ns1:TupleFact ;
-    rdfs:label "PagosBasadosAcciones" ;
+    rdfs:label "Pagos Basados Acciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PagosBasadosAcciones> ;
     ns1:tupleOrder 31 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88852> a ns1:TupleFact ;
-    rdfs:label "TraspasosPartidasPatrimonioNeto" ;
+    rdfs:label "Traspasos Partidas Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/TraspasosPartidasPatrimonioNeto> ;
     ns1:tupleOrder 32 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88853> a ns1:TupleFact ;
-    rdfs:label "OtrasVariaciones" ;
+    rdfs:label "Otras Variaciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariaciones> ;
     ns1:tupleOrder 33 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88854> a ns1:TupleFact ;
-    rdfs:label "SaldoFinal" ;
+    rdfs:label "Saldo Final" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoFinal> ;
     ns1:tupleOrder 34 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88553> .
 
 <http://data.mondeca.com/id/fact/f88862> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88855> .
 
 <http://data.mondeca.com/id/fact/f88871> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88865> .
 
 <http://data.mondeca.com/id/fact/f88880> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88874> .
 
 <http://data.mondeca.com/id/fact/f88890> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88883> .
 
 <http://data.mondeca.com/id/fact/f88900> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88893> .
 
 <http://data.mondeca.com/id/fact/f88910> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88903> .
 
 <http://data.mondeca.com/id/fact/f88919> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88913> .
 
 <http://data.mondeca.com/id/fact/f88928> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88922> .
 
 <http://data.mondeca.com/id/fact/f88938> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88931> .
 
 <http://data.mondeca.com/id/fact/f88947> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88941> .
 
 <http://data.mondeca.com/id/fact/f88956> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88950> .
 
 <http://data.mondeca.com/id/fact/f88965> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88959> .
 
 <http://data.mondeca.com/id/fact/f88975> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88968> .
 
 <http://data.mondeca.com/id/fact/f88984> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88978> .
 
 <http://data.mondeca.com/id/fact/f88994> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88987> .
 
 <http://data.mondeca.com/id/fact/f89003> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88997> .
 
 <http://data.mondeca.com/id/fact/f89013> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89006> .
 
 <http://data.mondeca.com/id/fact/f89023> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89016> .
 
 <http://data.mondeca.com/id/fact/f89033> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89026> .
 
 <http://data.mondeca.com/id/fact/f89043> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89036> .
 
 <http://data.mondeca.com/id/fact/f89053> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89046> .
 
 <http://data.mondeca.com/id/fact/f89063> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89056> .
 
 <http://data.mondeca.com/id/fact/f89073> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89066> .
 
 <http://data.mondeca.com/id/fact/f89083> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89076> .
 
 <http://data.mondeca.com/id/fact/f89093> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89086> .
 
 <http://data.mondeca.com/id/fact/f89103> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89096> .
 
 <http://data.mondeca.com/id/fact/f89113> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89106> .
 
 <http://data.mondeca.com/id/fact/f89123> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89116> .
 
 <http://data.mondeca.com/id/fact/f89133> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89126> .
 
 <http://data.mondeca.com/id/fact/f89143> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89136> .
 
 <http://data.mondeca.com/id/fact/f89153> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89146> .
 
 <http://data.mondeca.com/id/fact/f89163> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89156> .
 
 <http://data.mondeca.com/id/fact/f89173> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89166> .
 
 <http://data.mondeca.com/id/fact/f89183> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89176> .
 
 <http://data.mondeca.com/id/fact/f89550> a ns1:TupleFact ;
-    rdfs:label "SaldoInicial" ;
+    rdfs:label "Saldo Inicial" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicial> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89551> a ns1:TupleFact ;
-    rdfs:label "SaldoInicial" ;
+    rdfs:label "Saldo Inicial" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicial> ;
     ns1:tupleOrder 2 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89552> a ns1:TupleFact ;
-    rdfs:label "AjusteCambiosCriteriosContrables" ;
+    rdfs:label "Ajuste Cambios Criterios Contrables" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteCambiosCriteriosContrables> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89553> a ns1:TupleFact ;
-    rdfs:label "AjusteErrores" ;
+    rdfs:label "Ajuste Errores" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteErrores> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89554> a ns1:TupleFact ;
-    rdfs:label "SaldoInicialAjustado" ;
+    rdfs:label "Saldo Inicial Ajustado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicialAjustado> ;
     ns1:tupleOrder 5 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89555> a ns1:TupleFact ;
-    rdfs:label "IngresosGastosReconocidos" ;
+    rdfs:label "Ingresos Gastos Reconocidos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IngresosGastosReconocidos> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89556> a ns1:TupleFact ;
-    rdfs:label "OperacionesSociosPropietarios" ;
+    rdfs:label "Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesSociosPropietarios> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89557> a ns1:TupleFact ;
-    rdfs:label "AumentosReduccionesCapital" ;
+    rdfs:label "Aumentos Reducciones Capital" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AumentosReduccionesCapital> ;
     ns1:tupleOrder 8 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89558> a ns1:TupleFact ;
-    rdfs:label "ConversionPasivosFinancierosPatrimonioNeto" ;
+    rdfs:label "Conversion Pasivos Financieros Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/ConversionPasivosFinancierosPatrimonioNeto> ;
     ns1:tupleOrder 9 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89559> a ns1:TupleFact ;
-    rdfs:label "DistribucionDividendos" ;
+    rdfs:label "Distribucion Dividendos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DistribucionDividendos> ;
     ns1:tupleOrder 10 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89560> a ns1:TupleFact ;
-    rdfs:label "OperacionesAccionesPropias" ;
+    rdfs:label "Operaciones Acciones Propias" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesAccionesPropias> ;
     ns1:tupleOrder 11 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89561> a ns1:TupleFact ;
-    rdfs:label "IncrementoReduccionCombinacionesNegocios" ;
+    rdfs:label "Incremento Reduccion Combinaciones Negocios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IncrementoReduccionCombinacionesNegocios> ;
     ns1:tupleOrder 12 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89562> a ns1:TupleFact ;
-    rdfs:label "OtrasOperacionesSociosPropietarios" ;
+    rdfs:label "Otras Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasOperacionesSociosPropietarios> ;
     ns1:tupleOrder 13 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89563> a ns1:TupleFact ;
-    rdfs:label "OtrasVariacionesPatrimonioNeto" ;
+    rdfs:label "Otras Variaciones Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariacionesPatrimonioNeto> ;
     ns1:tupleOrder 14 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89564> a ns1:TupleFact ;
-    rdfs:label "PagosBasadosAcciones" ;
+    rdfs:label "Pagos Basados Acciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PagosBasadosAcciones> ;
     ns1:tupleOrder 15 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89565> a ns1:TupleFact ;
-    rdfs:label "TraspasosPartidasPatrimonioNeto" ;
+    rdfs:label "Traspasos Partidas Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/TraspasosPartidasPatrimonioNeto> ;
     ns1:tupleOrder 16 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89566> a ns1:TupleFact ;
-    rdfs:label "OtrasVariaciones" ;
+    rdfs:label "Otras Variaciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariaciones> ;
     ns1:tupleOrder 17 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89567> a ns1:TupleFact ;
-    rdfs:label "SaldoFinal" ;
+    rdfs:label "Saldo Final" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoFinal> ;
     ns1:tupleOrder 18 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89568> a ns1:TupleFact ;
-    rdfs:label "AjusteCambiosCriteriosContrables" ;
+    rdfs:label "Ajuste Cambios Criterios Contrables" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteCambiosCriteriosContrables> ;
     ns1:tupleOrder 19 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89569> a ns1:TupleFact ;
-    rdfs:label "AjusteErrores" ;
+    rdfs:label "Ajuste Errores" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AjusteErrores> ;
     ns1:tupleOrder 20 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89570> a ns1:TupleFact ;
-    rdfs:label "SaldoInicialAjustado" ;
+    rdfs:label "Saldo Inicial Ajustado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoInicialAjustado> ;
     ns1:tupleOrder 21 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89571> a ns1:TupleFact ;
-    rdfs:label "IngresosGastosReconocidos" ;
+    rdfs:label "Ingresos Gastos Reconocidos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IngresosGastosReconocidos> ;
     ns1:tupleOrder 22 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89572> a ns1:TupleFact ;
-    rdfs:label "OperacionesSociosPropietarios" ;
+    rdfs:label "Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesSociosPropietarios> ;
     ns1:tupleOrder 23 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89573> a ns1:TupleFact ;
-    rdfs:label "AumentosReduccionesCapital" ;
+    rdfs:label "Aumentos Reducciones Capital" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AumentosReduccionesCapital> ;
     ns1:tupleOrder 24 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89574> a ns1:TupleFact ;
-    rdfs:label "ConversionPasivosFinancierosPatrimonioNeto" ;
+    rdfs:label "Conversion Pasivos Financieros Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/ConversionPasivosFinancierosPatrimonioNeto> ;
     ns1:tupleOrder 25 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89575> a ns1:TupleFact ;
-    rdfs:label "DistribucionDividendos" ;
+    rdfs:label "Distribucion Dividendos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DistribucionDividendos> ;
     ns1:tupleOrder 26 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89576> a ns1:TupleFact ;
-    rdfs:label "OperacionesAccionesPropias" ;
+    rdfs:label "Operaciones Acciones Propias" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OperacionesAccionesPropias> ;
     ns1:tupleOrder 27 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89577> a ns1:TupleFact ;
-    rdfs:label "IncrementoReduccionCombinacionesNegocios" ;
+    rdfs:label "Incremento Reduccion Combinaciones Negocios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IncrementoReduccionCombinacionesNegocios> ;
     ns1:tupleOrder 28 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89578> a ns1:TupleFact ;
-    rdfs:label "OtrasOperacionesSociosPropietarios" ;
+    rdfs:label "Otras Operaciones Socios Propietarios" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasOperacionesSociosPropietarios> ;
     ns1:tupleOrder 29 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89579> a ns1:TupleFact ;
-    rdfs:label "OtrasVariacionesPatrimonioNeto" ;
+    rdfs:label "Otras Variaciones Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariacionesPatrimonioNeto> ;
     ns1:tupleOrder 30 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89580> a ns1:TupleFact ;
-    rdfs:label "PagosBasadosAcciones" ;
+    rdfs:label "Pagos Basados Acciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PagosBasadosAcciones> ;
     ns1:tupleOrder 31 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89581> a ns1:TupleFact ;
-    rdfs:label "TraspasosPartidasPatrimonioNeto" ;
+    rdfs:label "Traspasos Partidas Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/TraspasosPartidasPatrimonioNeto> ;
     ns1:tupleOrder 32 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89582> a ns1:TupleFact ;
-    rdfs:label "OtrasVariaciones" ;
+    rdfs:label "Otras Variaciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/OtrasVariaciones> ;
     ns1:tupleOrder 33 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89583> a ns1:TupleFact ;
-    rdfs:label "SaldoFinal" ;
+    rdfs:label "Saldo Final" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/SaldoFinal> ;
     ns1:tupleOrder 34 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88558> .
 
 <http://data.mondeca.com/id/fact/f89591> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89584> .
 
 <http://data.mondeca.com/id/fact/f89601> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89594> .
 
 <http://data.mondeca.com/id/fact/f89611> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89604> .
 
 <http://data.mondeca.com/id/fact/f89621> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89614> .
 
 <http://data.mondeca.com/id/fact/f89631> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89624> .
 
 <http://data.mondeca.com/id/fact/f89641> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89634> .
 
 <http://data.mondeca.com/id/fact/f89651> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89644> .
 
 <http://data.mondeca.com/id/fact/f89661> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89654> .
 
 <http://data.mondeca.com/id/fact/f89671> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89664> .
 
 <http://data.mondeca.com/id/fact/f89681> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89674> .
 
 <http://data.mondeca.com/id/fact/f89691> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89684> .
 
 <http://data.mondeca.com/id/fact/f89701> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89694> .
 
 <http://data.mondeca.com/id/fact/f89711> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89704> .
 
 <http://data.mondeca.com/id/fact/f89721> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89714> .
 
 <http://data.mondeca.com/id/fact/f89731> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89724> .
 
 <http://data.mondeca.com/id/fact/f89741> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89734> .
 
 <http://data.mondeca.com/id/fact/f89751> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89744> .
 
 <http://data.mondeca.com/id/fact/f89761> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89754> .
 
 <http://data.mondeca.com/id/fact/f89771> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89764> .
 
 <http://data.mondeca.com/id/fact/f89781> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89774> .
 
 <http://data.mondeca.com/id/fact/f89791> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89784> .
 
 <http://data.mondeca.com/id/fact/f89801> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89794> .
 
 <http://data.mondeca.com/id/fact/f89811> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89804> .
 
 <http://data.mondeca.com/id/fact/f89821> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89814> .
 
 <http://data.mondeca.com/id/fact/f89831> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89824> .
 
 <http://data.mondeca.com/id/fact/f89841> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89834> .
 
 <http://data.mondeca.com/id/fact/f89851> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89844> .
 
 <http://data.mondeca.com/id/fact/f89861> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89854> .
 
 <http://data.mondeca.com/id/fact/f89871> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89864> .
 
 <http://data.mondeca.com/id/fact/f89881> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89874> .
 
 <http://data.mondeca.com/id/fact/f89891> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89884> .
 
 <http://data.mondeca.com/id/fact/f89901> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89894> .
 
 <http://data.mondeca.com/id/fact/f89911> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89904> .
 
 <http://data.mondeca.com/id/fact/f89921> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNetoElemento" ;
+    rdfs:label "Patrimonio Neto Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNetoElemento> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89914> .
 
 <http://data.mondeca.com/id/fact/f90022> a ns1:TupleFact ;
-    rdfs:label "AccionesOrdinarias" ;
+    rdfs:label "Acciones Ordinarias" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AccionesOrdinarias> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88560> .
 
 <http://data.mondeca.com/id/fact/f90023> a ns1:TupleFact ;
-    rdfs:label "AccionesPrivilegiadas" ;
+    rdfs:label "Acciones Privilegiadas" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AccionesPrivilegiadas> ;
     ns1:tupleOrder 2 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88560> .
 
 <http://data.mondeca.com/id/fact/f90024> a ns1:TupleFact ;
-    rdfs:label "TotalAcciones" ;
+    rdfs:label "Total Acciones" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/TotalAcciones> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88560> .
 
 <http://data.mondeca.com/id/fact/f90025> a ns1:TupleFact ;
-    rdfs:label "DividendosCargoResultados" ;
+    rdfs:label "Dividendos Cargo Resultados" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosCargoResultados> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88560> .
 
 <http://data.mondeca.com/id/fact/f90026> a ns1:TupleFact ;
-    rdfs:label "DividendosCargoReservasPrimaEmision" ;
+    rdfs:label "Dividendos Cargo Reservas Prima Emision" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosCargoReservasPrimaEmision> ;
     ns1:tupleOrder 5 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88560> .
 
 <http://data.mondeca.com/id/fact/f90027> a ns1:TupleFact ;
-    rdfs:label "DividendosEspecie" ;
+    rdfs:label "Dividendos Especie" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosEspecie> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88560> .
 
 <http://data.mondeca.com/id/fact/f88508> a ns1:TupleFact ;
-    rdfs:label "IdentificacionInforme" ;
+    rdfs:label "Identificacion Informe" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/IdentificacionInforme> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88389> .
 
 <http://data.mondeca.com/id/fact/f88520> a ns1:TupleFact ;
-    rdfs:label "EntityAddress" ;
+    rdfs:label "Entity Address" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/EntityAddress> ;
     ns1:tupleOrder 2 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88509> .
 
 <http://data.mondeca.com/id/fact/f88389> a ns1:TupleFact ;
-    rdfs:label "InformeFinancieroGeneral"@es ;
+    rdfs:label "Informe Financiero General" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://data.mondeca.com/id/skos/ipp/InformeFinancieroGeneral> .
 
 <http://data.mondeca.com/id/fact/f88509> a ns1:TupleFact ;
-    rdfs:label "DatosIdentificativos" ;
+    rdfs:label "Datos Identificativos" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DatosIdentificativos> ;
     ns1:tupleOrder 2 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88389> .
 
 <http://data.mondeca.com/id/fact/f88536> a ns1:TupleFact ;
-    rdfs:label "ContactPerson" ;
+    rdfs:label "Contact Person" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/dgi> ;
     ns1:concept <http://data.mondeca.com/id/skos/dgi/ContactPerson> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88522> .
 
 <http://data.mondeca.com/id/fact/f88560> a ns1:TupleFact ;
-    rdfs:label "DividendosPagados" ;
+    rdfs:label "Dividendos Pagados" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagados> ;
     ns1:tupleOrder 11 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f90028> a ns1:TupleFact ;
-    rdfs:label "DividendosPagadosElemento" ;
+    rdfs:label "Dividendos Pagados Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagadosElemento> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f90022> .
 
 <http://data.mondeca.com/id/fact/f90035> a ns1:TupleFact ;
-    rdfs:label "DividendosPagadosElemento" ;
+    rdfs:label "Dividendos Pagados Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagadosElemento> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f90023> .
 
 <http://data.mondeca.com/id/fact/f90042> a ns1:TupleFact ;
-    rdfs:label "DividendosPagadosElemento" ;
+    rdfs:label "Dividendos Pagados Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagadosElemento> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f90024> .
 
 <http://data.mondeca.com/id/fact/f90049> a ns1:TupleFact ;
-    rdfs:label "DividendosPagadosElemento" ;
+    rdfs:label "Dividendos Pagados Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagadosElemento> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f90025> .
 
 <http://data.mondeca.com/id/fact/f90056> a ns1:TupleFact ;
-    rdfs:label "DividendosPagadosElemento" ;
+    rdfs:label "Dividendos Pagados Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagadosElemento> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f90026> .
 
 <http://data.mondeca.com/id/fact/f90063> a ns1:TupleFact ;
-    rdfs:label "DividendosPagadosElemento" ;
+    rdfs:label "Dividendos Pagados Elemento" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/DividendosPagadosElemento> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f90027> .
 
 <http://data.mondeca.com/id/fact/f88865> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88822> .
 
 <http://data.mondeca.com/id/fact/f88874> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88823> .
 
 <http://data.mondeca.com/id/fact/f88913> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88827> .
 
 <http://data.mondeca.com/id/fact/f88922> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88828> .
 
 <http://data.mondeca.com/id/fact/f88941> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88830> .
 
 <http://data.mondeca.com/id/fact/f88950> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88831> .
 
 <http://data.mondeca.com/id/fact/f88959> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88832> .
 
 <http://data.mondeca.com/id/fact/f88978> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88834> .
 
 <http://data.mondeca.com/id/fact/f88997> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88836> .
 
 <http://data.mondeca.com/id/fact/f88855> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88821> .
 
 <http://data.mondeca.com/id/fact/f88883> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88824> .
 
 <http://data.mondeca.com/id/fact/f88893> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88825> .
 
 <http://data.mondeca.com/id/fact/f88903> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88826> .
 
 <http://data.mondeca.com/id/fact/f88931> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88829> .
 
 <http://data.mondeca.com/id/fact/f88968> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88833> .
 
 <http://data.mondeca.com/id/fact/f88987> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88835> .
 
 <http://data.mondeca.com/id/fact/f89006> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88837> .
 
 <http://data.mondeca.com/id/fact/f89016> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88838> .
 
 <http://data.mondeca.com/id/fact/f89026> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88839> .
 
 <http://data.mondeca.com/id/fact/f89036> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88840> .
 
 <http://data.mondeca.com/id/fact/f89046> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88841> .
 
 <http://data.mondeca.com/id/fact/f89056> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88842> .
 
 <http://data.mondeca.com/id/fact/f89066> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88843> .
 
 <http://data.mondeca.com/id/fact/f89076> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88844> .
 
 <http://data.mondeca.com/id/fact/f89086> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88845> .
 
 <http://data.mondeca.com/id/fact/f89096> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88846> .
 
 <http://data.mondeca.com/id/fact/f89106> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88847> .
 
 <http://data.mondeca.com/id/fact/f89116> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88848> .
 
 <http://data.mondeca.com/id/fact/f89126> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88849> .
 
 <http://data.mondeca.com/id/fact/f89136> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88850> .
 
 <http://data.mondeca.com/id/fact/f89146> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88851> .
 
 <http://data.mondeca.com/id/fact/f89156> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88852> .
 
 <http://data.mondeca.com/id/fact/f89166> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88853> .
 
 <http://data.mondeca.com/id/fact/f89176> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88854> .
 
 <http://data.mondeca.com/id/fact/f89584> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89550> .
 
 <http://data.mondeca.com/id/fact/f89594> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89551> .
 
 <http://data.mondeca.com/id/fact/f89604> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89552> .
 
 <http://data.mondeca.com/id/fact/f89614> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89553> .
 
 <http://data.mondeca.com/id/fact/f89624> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89554> .
 
 <http://data.mondeca.com/id/fact/f89634> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89555> .
 
 <http://data.mondeca.com/id/fact/f89644> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89556> .
 
 <http://data.mondeca.com/id/fact/f89654> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89557> .
 
 <http://data.mondeca.com/id/fact/f89664> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89558> .
 
 <http://data.mondeca.com/id/fact/f89674> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89559> .
 
 <http://data.mondeca.com/id/fact/f89684> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89560> .
 
 <http://data.mondeca.com/id/fact/f89694> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89561> .
 
 <http://data.mondeca.com/id/fact/f89704> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89562> .
 
 <http://data.mondeca.com/id/fact/f89714> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89563> .
 
 <http://data.mondeca.com/id/fact/f89724> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89564> .
 
 <http://data.mondeca.com/id/fact/f89734> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89565> .
 
 <http://data.mondeca.com/id/fact/f89744> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89566> .
 
 <http://data.mondeca.com/id/fact/f89754> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89567> .
 
 <http://data.mondeca.com/id/fact/f89764> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89568> .
 
 <http://data.mondeca.com/id/fact/f89774> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89569> .
 
 <http://data.mondeca.com/id/fact/f89784> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89570> .
 
 <http://data.mondeca.com/id/fact/f89794> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89571> .
 
 <http://data.mondeca.com/id/fact/f89804> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89572> .
 
 <http://data.mondeca.com/id/fact/f89814> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89573> .
 
 <http://data.mondeca.com/id/fact/f89824> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89574> .
 
 <http://data.mondeca.com/id/fact/f89834> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89575> .
 
 <http://data.mondeca.com/id/fact/f89844> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89576> .
 
 <http://data.mondeca.com/id/fact/f89854> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89577> .
 
 <http://data.mondeca.com/id/fact/f89864> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89578> .
 
 <http://data.mondeca.com/id/fact/f89874> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89579> .
 
 <http://data.mondeca.com/id/fact/f89884> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89580> .
 
 <http://data.mondeca.com/id/fact/f89894> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89581> .
 
 <http://data.mondeca.com/id/fact/f89904> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89582> .
 
 <http://data.mondeca.com/id/fact/f89914> a ns1:TupleFact ;
-    rdfs:label "PatrimonioNeto" ;
+    rdfs:label "Patrimonio Neto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/PatrimonioNeto> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f89583> .
 
 <http://data.mondeca.com/id/fact/f88511> a ns1:TupleFact ;
-    rdfs:label "InformacionFinancieraSeleccionada" ;
+    rdfs:label "Informacion Financiera Seleccionada" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/InformacionFinancieraSeleccionada> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88389> .
 
 <http://data.mondeca.com/id/fact/f90070> a ns1:TupleFact ;
-    rdfs:label "AreaGeografica" ;
+    rdfs:label "Area Geografica" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/com/1-2008/AreaGeografica> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88561> .
 
 <http://data.mondeca.com/id/fact/f88553> a ns1:TupleFact ;
-    rdfs:label "EstadoTotalCambiosPatrimonioNetoIndividual" ;
+    rdfs:label "Estado Total Cambios Patrimonio Neto Individual" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/EstadoTotalCambiosPatrimonioNetoIndividual> ;
     ns1:tupleOrder 4 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88558> a ns1:TupleFact ;
-    rdfs:label "EstadoTotalCambiosPatrimonioNetoConsolidado" ;
+    rdfs:label "Estado Total Cambios Patrimonio Neto Consolidado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/EstadoTotalCambiosPatrimonioNetoConsolidado> ;
     ns1:tupleOrder 9 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88552> a ns1:TupleFact ;
-    rdfs:label "EstadoIngresosGastosReconocidosIndividual" ;
+    rdfs:label "Estado Ingresos Gastos Reconocidos Individual" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/EstadoIngresosGastosReconocidosIndividual> ;
     ns1:tupleOrder 3 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88557> a ns1:TupleFact ;
-    rdfs:label "EstadoIngresosGastosReconocidosConsolidado" ;
+    rdfs:label "Estado Ingresos Gastos Reconocidos Consolidado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/EstadoIngresosGastosReconocidosConsolidado> ;
     ns1:tupleOrder 8 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88554> a ns1:TupleFact ;
-    rdfs:label "EstadoFlujosEfectivoIndividual" ;
+    rdfs:label "Estado Flujos Efectivo Individual" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/EstadoFlujosEfectivoIndividual> ;
     ns1:tupleOrder 5 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88551> a ns1:TupleFact ;
-    rdfs:label "CuentaPerdidasGananciasIndividual" ;
+    rdfs:label "Cuenta Perdidas Ganancias Individual" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/CuentaPerdidasGananciasIndividual> ;
     ns1:tupleOrder 2 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88559> a ns1:TupleFact ;
-    rdfs:label "EstadoFlujosEfectivoConsolidadoMetodoIndirecto" ;
+    rdfs:label "Estado Flujos Efectivo Consolidado Metodo Indirecto" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/EstadoFlujosEfectivoConsolidadoMetodoIndirecto> ;
     ns1:tupleOrder 10 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88556> a ns1:TupleFact ;
-    rdfs:label "CuentaPerdidasGananciasConsolidada" ;
+    rdfs:label "Cuenta Perdidas Ganancias Consolidada" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/CuentaPerdidasGananciasConsolidada> ;
     ns1:tupleOrder 7 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88555> a ns1:TupleFact ;
-    rdfs:label "BalanceConsolidado" ;
+    rdfs:label "Balance Consolidado" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/BalanceConsolidado> ;
     ns1:tupleOrder 6 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/fact/f88550> a ns1:TupleFact ;
-    rdfs:label "BalanceIndividual" ;
+    rdfs:label "Balance Individual" ;
     ns3:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
     ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/BalanceIndividual> ;
     ns1:tupleOrder 1 ;
     ns1:tupleParent <http://data.mondeca.com/id/fact/f88511> .
 
 <http://data.mondeca.com/id/entity/A-78374725> a ns2:FinancialEntity ;
-    ns9:street-address "Méndez Álvaro, 44- 28045-Madrid" ;
-    ns6:legalName "REPSOL, S.A" ;
-    ns6:registration "CIF-A-78374725" .
+    ns6:street-address "Méndez Álvaro, 44- 28045-Madrid" ;
+    ns7:legalName "REPSOL, S.A" ;
+    ns7:registration "CIF-A-78374725" .
 
