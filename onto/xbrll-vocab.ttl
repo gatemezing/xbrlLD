@@ -177,6 +177,7 @@ xbrll:fiscalYear a rdf:Property, owl:DatatypeProperty;
 	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
+
 ## Restriction for the 2 members in the dimension part of axis
 ## todo: See if this is not too much restrictions
 xbrll:hasDimension a rdf:Property, owl:DatatypeProperty ;

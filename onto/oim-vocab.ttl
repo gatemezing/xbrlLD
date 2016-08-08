@@ -13,7 +13,7 @@
 @prefix v: <http://www.w3.org/2006/vcard/ns#>.
 @prefix schema: <http://schema.org/>.
 @prefix org: <http://www.w3.org/ns/org#> .
-@prefix oim: <http://data.cdp.net/def/oim#> .
+@prefix oim: <https://w3id.org/vocab/oim#> .
 @prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
 @prefix rov: <http://www.w3.org/ns/regorg#>.
 @prefix qb:  <http://purl.org/linked-data/cube#> .
@@ -26,7 +26,7 @@
 ## TODO: validate with the model presented by Maria
 
 # metadata info for the ontology here 
-<http://data.cdp.net/def/oim>
+<https://w3id.org/vocab/oim>
     a owl:Ontology, voaf:Vocabulary;
     rdfs:label "A leightweight XBRL vocabulary"@en;
     rdfs:label "El vocabulario para informe financiero"@es;
@@ -36,7 +36,7 @@
                  
     dct:issued "2016-06-17"^^xsd:date;
     dct:modified "2016-06-29"^^xsd:date;
-   # dct:modified "2016-06-01"^^xsd:date;
+    dct:modified "2016-08-08"^^xsd:date;
     vann:preferredNamespacePrefix "oim" ;
     owl:versionInfo "v1.0" ;
     .
@@ -48,19 +48,19 @@
 oim:Fact a rdfs:Class, owl:Class ;
 	rdfs:label "Fact"@en ;
 	rdfs:comment "a fact as defined in the OIM model"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 	
 
 oim:TupleFact a rdfs:Class, owl:Class ;
 	rdfs:label "Tuple Fact"@en ;
 	rdfs:comment "a tuple fact as defined in the OIM model and doesn't have instances"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:Period a rdfs:Class , owl:Class ;
 	rdfs:label "Period"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 
@@ -69,7 +69,7 @@ oim:Period a rdfs:Class , owl:Class ;
 oim:period a owl:ObjectProperty, rdf:Property ;
 	 rdfs:label "Period"@en ;
 	 rdfs:range oim:Period ;
-	 rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	 rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:dataPoint a owl:ObjectProperty, rdf:Property ;
@@ -77,7 +77,7 @@ oim:dataPoint a owl:ObjectProperty, rdf:Property ;
 	rdfs:label "Data point property"@en ;
 	rdfs:comment "Data point property from a financial report"@en ;
 	rdfs:range oim:DataPoint ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 
@@ -86,7 +86,7 @@ oim:contactPerson a rdf:Property, owl:ObjectProperty;
 	rdfs:label "Contact person"@en ;
 	rdfs:comment "The person of contact in the metadata info of a company"@en ;
 	rdfs:range foaf:Agent ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:concept a rdf:Property, owl:ObjectProperty;
@@ -103,14 +103,14 @@ oim:entity a rdf:Property, owl:ObjectProperty;
 	rdfs:range xbrll:FinancialEntity ;
 	.
 	
-##Data properties here
+## ---Data properties here ---
 
 oim:startPeriod a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Start date"@en ;
 	rdfs:comment "Starting date of a period"@en ;
 	rdfs:domain oim:Period ;
 	rdfs:range xsd:Date ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:endPeriod a rdf:Property, owl:DatatypeProperty;
@@ -118,28 +118,28 @@ oim:endPeriod a rdf:Property, owl:DatatypeProperty;
 	rdfs:comment "End date of a period"@en ;
 	rdfs:domain oim:Period ;
 	rdfs:range xsd:Date ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:tupleOrder a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Tuple order"@en ;
 	rdfs:comment "Tuple order of a tuple fact or a simple fact"@en ;
 	rdfs:range xsd:Integer ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:tupleParent a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Tuple Parent"@en ;
 	rdfs:comment "Tuple parent to which a fact points to"@en ;
 	rdfs:range xsd:anyURI ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:unitRef a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Unit ref"@en ;
 	rdfs:comment "The reference unit used in the fact"@en ;
 	rdfs:range xsd:string ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 oim:value a rdf:Property, owl:DatatypeProperty;
@@ -147,7 +147,7 @@ oim:value a rdf:Property, owl:DatatypeProperty;
 	rdfs:comment "The actual value of a Fact"@en ;
 	rdfs:domain oim:Fact ;
 	rdfs:range xsd:double ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 	
 ## Restriction for the 2 members in the dimension part of axis
@@ -157,7 +157,7 @@ oim:hasDimension a rdf:Property, owl:DatatypeProperty ;
 	rdfs:label "Has dimension"@en ;
 	rdfs:domain oim:Dimension ;
 	rdfs:range [ a owl:DataRange;  owl:oneOf ("Explicit Member" "Typed Member") ] ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/oim> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/oim> ;
 	.
 
 ## Axioms here 
