@@ -13,14 +13,14 @@
 @prefix v: <http://www.w3.org/2006/vcard/ns#>.
 @prefix schema: <http://schema.org/>.
 @prefix org: <http://www.w3.org/ns/org#> .
-@prefix xbrll: <http://data.cdp.net/def/xbrll#> .
+@prefix xbrll: <https://w3id.org/vocab/xbrll#> .
 @prefix geop: <http://aims.fao.org/aos/geopolitical.owl#> .
 @prefix rov: <http://www.w3.org/ns/regorg#>.
 
 #TODO: Write some rules with Shapes Constraint at https://www.w3.org/TR/shacl/
 
 # metadata info for the ontology here 
-<http://data.cdp.net/def/xbrll>
+<https://w3id.org/vocab/xbrll>
     a owl:Ontology, voaf:Vocabulary;
     rdfs:label "A leightweight XBRL vocabulary"@en;
     rdfs:label "El vocabulario para informe financiero"@es;
@@ -33,7 +33,7 @@
     dct:modified "2016-06-01"^^xsd:date;
     dct:modified "2016-06-29"^^xsd:date;
     vann:preferredNamespacePrefix "xbrll" ;
-    owl:versionInfo "0.1.1" ;
+    owl:versionInfo "0.1" ;
     .
 
 ## classes here 
@@ -46,7 +46,7 @@ xbrll:FinancialReport a rdfs:Class , owl:Class ;
 	rdfs:subClassOf [a owl:Restriction;
 			 owl:someValuesFrom xbrll:DataPoint;
 			 owl:onProperty xbrll:dataPoint] ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 
@@ -62,24 +62,24 @@ xbrll:DataPoint a rdfs:Class, owl:Class ;
                 owl:someValuesFrom xbrll:Dimension ;
                 owl:onProperty xbrll:hasDimension
               ] ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 # TODO: Do I need to put restriction with subclasses?
 xbrll:Context a rdfs:Class, owl:Class ;
 	rdfs:label "Context"@en ;
 	rdfs:comment "the context of a fact in a financial report"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:Period a rdfs:Class , owl:Class ;
 	rdfs:label "Period"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:Dimension a rdfs:Class , owl:Class ;
 	rdfs:label "Dimension"@en ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	rdfs:comment "The dimension defining whether the dimensions in the axis are explicit member or implicit ones"@en;
 	.
 
@@ -87,7 +87,7 @@ xbrll:Dimension a rdfs:Class , owl:Class ;
 xbrll:FinancialEntity a rdfs:Class , owl:Class ;
 	rdfs:label "Financial entity"@en ;
 	rdfs:subClassOf rov:RegisteredOrganization ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 ## object properties here 
@@ -95,7 +95,7 @@ xbrll:FinancialEntity a rdfs:Class , owl:Class ;
 xbrll:period a owl:ObjectProperty, rdf:Property ;
 	 rdfs:label "Period"@en ;
 	 rdfs:range xbrll:Period ;
-	 rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	 rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:dataPoint a owl:ObjectProperty, rdf:Property ;
@@ -103,7 +103,7 @@ xbrll:dataPoint a owl:ObjectProperty, rdf:Property ;
 	rdfs:label "Data point property"@en ;
 	rdfs:comment "Data point property from a financial report"@en ;
 	rdfs:range xbrll:DataPoint ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:context a owl:ObjectProperty, rdf:Property ;
@@ -111,7 +111,7 @@ xbrll:context a owl:ObjectProperty, rdf:Property ;
 	rdfs:label "Context property"@en ;
 	rdfs:comment "Context property from a data point"@en ;
 	rdfs:range xbrll:Context ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 #todo: see if this can be removed later
@@ -119,17 +119,17 @@ xbrll:contactPerson a rdf:Property, owl:ObjectProperty;
 	rdfs:label "Contact person"@en ;
 	rdfs:comment "The person of contact in the metadata info of a company"@en ;
 	rdfs:range foaf:Agent ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
-##Data properties here
+## --Data properties here --
 
 xbrll:startDate a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Start date"@en ;
 	rdfs:comment "Starting date of a period"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:Date ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:endDate a rdf:Property, owl:DatatypeProperty;
@@ -137,7 +137,7 @@ xbrll:endDate a rdf:Property, owl:DatatypeProperty;
 	rdfs:comment "End date of a period"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:Date ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:isInstant a rdf:Property, owl:DatatypeProperty;
@@ -145,7 +145,7 @@ xbrll:isInstant a rdf:Property, owl:DatatypeProperty;
 	rdfs:comment "boolean for the instant moment"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:boolean ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:isForever a rdf:Property, owl:DatatypeProperty;
@@ -153,28 +153,28 @@ xbrll:isForever a rdf:Property, owl:DatatypeProperty;
 	rdfs:comment "Boolean telling the period is forever or not"@en ;
 	rdfs:domain xbrll:Period ;
 	rdfs:range xsd:boolean ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:decimals a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Decimals"@en ;
 	rdfs:comment "Number of decimals used for a currency"@en ;
 	rdfs:range xsd:integer ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:reportYear a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Report year"@en ;
 	rdfs:comment "year of the report"@en ;
 	rdfs:range xsd:string ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 xbrll:fiscalYear a rdf:Property, owl:DatatypeProperty;
 	rdfs:label "Fiscal year"@en ;
 	rdfs:comment "End of fiscal year"@en ;
 	rdfs:range xsd:date ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 
 ## Restriction for the 2 members in the dimension part of axis
@@ -183,7 +183,7 @@ xbrll:hasDimension a rdf:Property, owl:DatatypeProperty ;
 	rdfs:label "Has dimension"@en ;
 	rdfs:domain xbrll:Dimension ;
 	rdfs:range [ a owl:DataRange;  owl:oneOf ("Explicit Member" "Typed Member") ] ;
-	rdfs:isDefinedBy <http://data.cdp.net/def/xbrll> ;
+	rdfs:isDefinedBy <https://w3id.org/vocab/xbrll> ;
 	.
 # TODO: find if we can use QUDT for currency here
 ## external resource.
