@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+		<LABEL>rdf</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+		<LABEL>rdfs</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+		<LABEL>owl</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://www.w3.org/2001/XMLSchema#</NAMESPACE>
+		<LABEL>xsd</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://taxo.dods.co.uk/onto#</NAMESPACE>
+		<LABEL>dods</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://purl.org/dc/terms/</NAMESPACE>
+		<LABEL>dc</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://xmlns.com/foaf/0.1/</NAMESPACE>
+		<LABEL>foaf</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://schema.org/</NAMESPACE>
+		<LABEL>sch</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>https://w3id.org/vocab/xbrll#</NAMESPACE>
+		<LABEL>xbrll</LABEL>
+	</PREFIX>
+	<PREFIX>
+		<NAMESPACE>http://dbpedia.org/property/</NAMESPACE>
+		<LABEL>dbp</LABEL>
+	</PREFIX>
+
+	<SOURCE>
+		<ID>source</ID>
+		<ENDPOINT>D:\research\xbrlLD\linking\repsol2015semester2.ttl</ENDPOINT>
+		<VAR>?x</VAR>
+		<PAGESIZE>-1</PAGESIZE>
+		<RESTRICTION>?x rdf:type xbrll:Entity</RESTRICTION>
+		<PROPERTY>rdfs:label AS nolang->lowercase</PROPERTY>
+		<TYPE>TURTLE</TYPE>
+	</SOURCE>
+	<TARGET>
+		<ID>target</ID>
+		<ENDPOINT>http://dbpedia.org/sparql</ENDPOINT>
+		<VAR>?s</VAR>
+		<PAGESIZE>1000</PAGESIZE>
+		<RESTRICTION>?s rdf:type sch:Organization</RESTRICTION>
+		<PROPERTY>foaf:name AS nolang->lowercase RENAME name</PROPERTY>
+	</TARGET>
+	<METRIC>TRIGRAM(x.rdfs:label,s.name)</METRIC>
+
+	<ACCEPTANCE>
+		<THRESHOLD>0.97</THRESHOLD>
+		<FILE>organization_almostGood.nt</FILE>
+		<RELATION>owl:sameAs</RELATION>
+	</ACCEPTANCE>
+
+	<REVIEW>
+		<THRESHOLD>0.90</THRESHOLD>
+		<FILE>organisation_reviewme.nt</FILE>
+		<RELATION>owl:sameAs</RELATION>
+	</REVIEW>
+
+	<EXECUTION>
+		<REWRITER>default</REWRITER>
+		<PLANNER>default</PLANNER>
+		<ENGINE>default</ENGINE>
+	</EXECUTION>
+
+	<OUTPUT>TTL</OUTPUT>
+	
+</LIMES>
+
