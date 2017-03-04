@@ -1,0 +1,189 @@
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:Petronor	dbo:parentCompany	dbr:Repsol .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Petronor	dbp:parent	dbr:Repsol .
+dbr:National_Hydrocarbons_Institute	dbo:successor	dbr:Repsol ;
+	dbp:successor	dbr:Repsol .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix wikipedia-en:	<http://en.wikipedia.org/wiki/> .
+wikipedia-en:Repsol	foaf:primaryTopic	dbr:Repsol .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix yago:	<http://dbpedia.org/class/yago/> .
+dbr:Repsol	rdf:type	yago:WikicatCompaniesEstablishedIn1987 .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbr:Repsol	rdf:type	wikidata:Q43229 ,
+		yago:OilCompany108069241 ,
+		yago:Service108186047 ,
+		yago:Utility108185758 ,
+		yago:YagoLegalActorGeo ,
+		yago:YagoLegalActor ,
+		yago:WikicatOilCompaniesOfSpain ,
+		dbo:Agent ,
+		yago:YagoPermanentlyLocatedEntity ,
+		yago:WikicatCompaniesListedOnTheBuenosAiresStockExchange ,
+		yago:WikicatMultinationalCompaniesHeadquarteredInSpain ,
+		yago:WikicatCompaniesOfSpain ,
+		yago:WikicatCompaniesListedOnTheMadridStockExchange ,
+		yago:WikicatNaturalGasCompaniesOfSpain ,
+		dbo:Organisation ,
+		dbo:Company ,
+		yago:Company108058098 ,
+		yago:WikicatMultinationalCompanies ,
+		yago:WikicatCompaniesListedOnThePinkSheets ,
+		yago:Group100031264 ,
+		yago:Organization108008335 ,
+		yago:GasCompany108186655 ,
+		yago:Institution108053576 ,
+		yago:SocialGroup107950920 ,
+		yago:WikicatCompaniesEstablishedIn1986 ,
+		yago:WikicatCompaniesBasedInTheCommunityOfMadrid .
+@prefix ns8:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbr:Repsol	rdf:type	ns8:Agent .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbr:Repsol	rdf:type	owl:Thing .
+@prefix schema:	<http://schema.org/> .
+dbr:Repsol	rdf:type	schema:Organization ,
+		ns8:SocialPerson ,
+		yago:Abstraction100002137 ,
+		yago:WikicatOilCompanies .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:Repsol	rdfs:label	"\u30EC\u30D7\u30BD\u30EB"@ja ,
+		"Repsol"@pl ,
+		"Repsol"@ru ,
+		"Repsol"@it ,
+		"Repsol"@es ,
+		"Repsol"@de ,
+		"Repsol"@pt ,
+		"\u897F\u73ED\u7259\u570B\u5BB6\u77F3\u6CB9\u516C\u53F8"@zh ,
+		"Repsol"@nl ,
+		"Repsol"@fr ,
+		"Repsol"@en ;
+	rdfs:comment	"Repsol S.A. (Ibex 35) est une soci\u00E9t\u00E9 anonyme espagnole, fond\u00E9e en octobre 1987. Elle centre ses activit\u00E9s autour de l'exploration, la production, le transport et le raffinage du p\u00E9trole et du gaz naturel. De plus, elle fabrique, distribue et commercialise des produits issus de la p\u00E9trochimie, et du gaz naturel."@fr ,
+		"Repsol YPF \u2013 hiszpa\u0144skie przedsi\u0119biorstwo zajmuj\u0105ce si\u0119 przetw\u00F3rstwem ropy naftowej i gazu ziemnego. Firma dzia\u0142a w 29 krajach.Przedsi\u0119biorstwo zosta\u0142o za\u0142o\u017Cone w 1986 roku i zatrudnia ponad 36000 ludzi."@pl ,
+		"Repsol S.A. ([rep\u02C8sol]) is an integrated global energy company based in Madrid, Spain. It carries out upstream and downstream activities throughout the entire world. It has more than 24,000 employees worldwide. It is vertically integrated and operates in all areas of the oil and gas industry, including exploration and production, refining, distribution and marketing, petrochemicals, power generation and trading.Repsol also partners with Honda Racing Corporation to compete in MotoGP under Repsol Honda Team."@en ,
+		"A Repsol S.A. \u00E9 uma companhia energ\u00E9tica de origem espanhola fundada em 1987.\u00C9 a 15\u00AA maior petroleira do mundo e a maior companhia energ\u00E9tica privada hispano-americana, em termos de volume de ativos. Opera em mais de 30 pa\u00EDses e emprega mais de 37.000 pessoas.Atua nas \u00E1reas de:Seus dois principais mercados s\u00E3o a Espanha e Portugal. No Brasil, iniciou as atividades em 1997 e atualmente atua na \u00E1rea de Upstream por meio de uma amplia\u00E7\u00E3o de capital subscrita em sua totalidade pela Sinopec, que deu origem \u00E0 Repsol Sinopec Brasil S.A."@pt ,
+		"Repsol S.A. (bis Mai 2012 Repsol YPF, S.A.; Refineria de Petr\u00F3leos de Escombreras Oil Yacimientos Petrol\u00EDferos Fiscales, Sociedad An\u00F3nima) mit Sitz in Madrid ist ein b\u00F6rsennotierter integrierter Erd\u00F6lkonzern mit Aktivit\u00E4ten in 29 L\u00E4ndern. Repsol ist Marktf\u00FChrer in Spanien und besch\u00E4ftigt weltweit rund 25.000 Mitarbeiter. Es ist eines der zehn gr\u00F6\u00DFten privaten Mineral\u00F6lunternehmen der Welt und erzielte 2014 bei einem Jahresumsatz von 47,3 Mrd. \u20AC einen Nettogewinn von 1,12 Mrd. \u20AC."@de ,
+		"Repsol is een Spaanse olie- en gasmaatschappij en tankstationketen. Repsol is actief in zo'n 29 landen, voornamelijk in Spanje en Algerije. Het hoofdkantoor is gevestigd in Madrid."@nl ,
+		"Repsol es una multinacional energ\u00E9tica y petroqu\u00EDmica espa\u00F1ola, con sede social en Madrid, que fue fundada en octubre de 1987. En su origen estuvo conformada por la agrupaci\u00F3n de una serie de compa\u00F1\u00EDas, previamente pertenecientes al Instituto Nacional de Hidrocarburos (INH), con actividades en la exploraci\u00F3n, producci\u00F3n, transporte y refino de petr\u00F3leo y gas. Adem\u00E1s produce, distribuye y comercializa derivados del petr\u00F3leo, productos petroqu\u00EDmicos y gas licuado y vende gas natural."@es ,
+		"\u30EC\u30D7\u30BD\u30EB S.A.\uFF08Repsol S.A., BMAD: REP\uFF09\u306F\u3001\u30B9\u30DA\u30A4\u30F3\u306E\u77F3\u6CB9\u3068\u30AC\u30B9\u306E\u8907\u5408\u591A\u56FD\u7C4D\u4F01\u696D\u3067\u3042\u308B\u3002\u4E16\u754C10\u5927\u77F3\u6CB9\u4F01\u696D\u306E1\u3064\u3067\u3042\u308A\u300128\u30AB\u56FD\u306B\u6D3B\u52D5\u62E0\u70B9\u3092\u6301\u3064\u3002\u4E2D\u5357\u7C73\u306B\u304A\u3051\u308B\u6700\u5927\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u95A2\u9023\u4F01\u696D\u3067\u3042\u308B\u3002\u30D5\u30A9\u30FC\u30C1\u30E5\u30F3\u30FB\u30B0\u30ED\u30FC\u30D0\u30EB500\u306B\u3088\u308B\u3068\u3001\u4E16\u754C15\u4F4D\u306E\u4F01\u696D\u3067\u3042\u308A\u3001\u5F93\u696D\u54E1\u6570\u306F\u4E16\u754C\u5404\u5730\u30674\u4E07\u4EBA\u3092\u8D85\u3048\u308B\u3002\u30EC\u30D7\u30BD\u30EB\u306F\u307E\u305F\u30DB\u30F3\u30C0\u30FB\u30EC\u30FC\u30B7\u30F3\u30B0\u3068\u5171\u306B\u30EC\u30D7\u30BD\u30EB\u30FB\u30DB\u30F3\u30C0\u30C1\u30FC\u30E0\u3092\u904B\u55B6\u3057\u3001MotoGP\u306B\u53C2\u6226\u3057\u3066\u3044\u308B\u3053\u3068\u3067\u3088\u304F\u77E5\u3089\u308C\u308B\u3002"@ja ,
+		"Repsol \u00E8 una societ\u00E0 spagnola attiva nei settori del petrolio e del gas naturale con interessi in 29 paesi."@it ,
+		"\u897F\u73ED\u7259\u570B\u5BB6\u77F3\u6CB9\u516C\u53F8\uFF08Repsol S.A.\uFF1B\u897F\u73ED\u7259\u8A9E\u767C\u97F3\uFF1A[rep\u02C8sol]\uFF09 \u662F\u4E00\u5BB6\u4E3B\u8981\u4E1A\u52A1\u4F4D\u4E8E\u897F\u73ED\u7259\u548C\u963F\u6839\u5EF7\u7684\u77F3\u6CB9\u5929\u7136\u6C14\u516C\u53F8\u3002\u8BE5\u516C\u53F8\u662F1999\u5E74\u7531Repsol\u6536\u8D2DYPF\u800C\u5F62\u6210\u7684\u3002\u76EE\u524D\u662F\u8CA1\u5BCC\u4E16\u754C500\u5F37\u7B2C\u5341\u4E94\u5927\u70BC\u6CB9\u4F01\u4E1A\uFF0C \u5168\u7403\u96C7\u54E1\u8D85\u904E\u56DB\u842C\u30022014\u5E7412\u670816\u65E5\u897F\u73ED\u7259\u570B\u5BB6\u77F3\u6CB9\u516C\u53F8\u4EE583\u5104\u7F8E\u5143\u548C\u627F\u64D447\u5104\u7F8E\u5143\u7684\u50B5\u52D9\u5408\u5171\u65A5\u8CC7130\u5104\u7F8E\u5143\u8CFC\u8CB7\u52A0\u62FF\u5927\u7B2C\u4E94\u5927\u7368\u7ACB\u77F3\u6CB9\u751F\u7522\u5546\u5854\u91CC\u65AF\u66FC\u80FD\u6E90\u3002"@zh ,
+		"Repsol (\u043F\u0440\u043E\u0438\u0437\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u0420\u0435\u043F\u0441\u043E\u043B\u044C) \u2014 \u043A\u0440\u0443\u043F\u043D\u0435\u0439\u0448\u0430\u044F \u043D\u0435\u0444\u0442\u0435\u0433\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u044F \u0432 \u0418\u0441\u043F\u0430\u043D\u0438\u0438 \u0438 \u041B\u0430\u0442\u0438\u043D\u0441\u043A\u043E\u0439 \u0410\u043C\u0435\u0440\u0438\u043A\u0435."@ru .
+@prefix dbpedia-it:	<http://it.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-it:Repsol .
+@prefix ns13:	<http://www4.wiwiss.fu-berlin.de/wikicompany/resource/> .
+dbr:Repsol	owl:sameAs	ns13:Repsol-YPF .
+@prefix dbpedia-es:	<http://es.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-es:Repsol .
+@prefix dbpedia-wikidata:	<http://wikidata.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-wikidata:Q174747 .
+@prefix dbpedia-ja:	<http://ja.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-ja:レプソル ,
+		<http://rdf.freebase.com/ns/m.03p31xx> .
+@prefix dbpedia-nl:	<http://nl.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-nl:Repsol ,
+		dbr:Repsol .
+@prefix dbpedia-eu:	<http://eu.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-eu:Repsol .
+@prefix dbpedia-pl:	<http://pl.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-pl:Repsol ,
+		wikidata:Q174747 .
+@prefix dbpedia-id:	<http://id.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-id:Repsol .
+@prefix dbpedia-fr:	<http://fr.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-fr:Repsol .
+@prefix dbpedia-ko:	<http://ko.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-ko:렙솔 ,
+		<http://yago-knowledge.org/resource/Repsol_S.A.> .
+@prefix dbpedia-pt:	<http://pt.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-pt:Repsol .
+@prefix dbpedia-de:	<http://de.dbpedia.org/resource/> .
+dbr:Repsol	owl:sameAs	dbpedia-de:Repsol .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbr:Repsol	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Repsol?oldid=706625188> ;
+	foaf:name	"Repsol S.A."@en ;
+	foaf:homepage	<http://www.repsol.com/es_en/> ,
+		<http://www.repsol.com/> ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/Repsol_headquarters_(Madrid)_01.jpg> ;
+	foaf:isPrimaryTopicOf	wikipedia-en:Repsol .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+dbr:Repsol	dct:subject	dbc:Multinational_companies_headquartered_in_Spain ,
+		dbc:Companies_listed_on_the_Pink_Sheets ,
+		dbc:Companies_established_in_1986 ,
+		<http://dbpedia.org/resource/Category:1986_establishments_in_Spain> ,
+		dbc:Oil_companies_of_Spain ,
+		dbc:Oil_and_gas_companies_of_Spain ,
+		dbc:Spanish_brands ,
+		dbc:Automotive_fuel_brands ,
+		dbc:IBEX-35 ,
+		dbc:Companies_based_in_the_Community_of_Madrid ,
+		dbc:Companies_listed_on_the_Madrid_Stock_Exchange ,
+		dbc:Natural_gas_companies_of_Spain ;
+	dbo:abstract	"Repsol S.A. (bis Mai 2012 Repsol YPF, S.A.; Refineria de Petr\u00F3leos de Escombreras Oil Yacimientos Petrol\u00EDferos Fiscales, Sociedad An\u00F3nima) mit Sitz in Madrid ist ein b\u00F6rsennotierter integrierter Erd\u00F6lkonzern mit Aktivit\u00E4ten in 29 L\u00E4ndern. Repsol ist Marktf\u00FChrer in Spanien und besch\u00E4ftigt weltweit rund 25.000 Mitarbeiter. Es ist eines der zehn gr\u00F6\u00DFten privaten Mineral\u00F6lunternehmen der Welt und erzielte 2014 bei einem Jahresumsatz von 47,3 Mrd. \u20AC einen Nettogewinn von 1,12 Mrd. \u20AC."@de ,
+		"\u30EC\u30D7\u30BD\u30EB S.A.\uFF08Repsol S.A., BMAD: REP\uFF09\u306F\u3001\u30B9\u30DA\u30A4\u30F3\u306E\u77F3\u6CB9\u3068\u30AC\u30B9\u306E\u8907\u5408\u591A\u56FD\u7C4D\u4F01\u696D\u3067\u3042\u308B\u3002\u4E16\u754C10\u5927\u77F3\u6CB9\u4F01\u696D\u306E1\u3064\u3067\u3042\u308A\u300128\u30AB\u56FD\u306B\u6D3B\u52D5\u62E0\u70B9\u3092\u6301\u3064\u3002\u4E2D\u5357\u7C73\u306B\u304A\u3051\u308B\u6700\u5927\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u95A2\u9023\u4F01\u696D\u3067\u3042\u308B\u3002\u30D5\u30A9\u30FC\u30C1\u30E5\u30F3\u30FB\u30B0\u30ED\u30FC\u30D0\u30EB500\u306B\u3088\u308B\u3068\u3001\u4E16\u754C15\u4F4D\u306E\u4F01\u696D\u3067\u3042\u308A\u3001\u5F93\u696D\u54E1\u6570\u306F\u4E16\u754C\u5404\u5730\u30674\u4E07\u4EBA\u3092\u8D85\u3048\u308B\u3002 \u30EC\u30D7\u30BD\u30EB\u306F\u307E\u305F\u30DB\u30F3\u30C0\u30FB\u30EC\u30FC\u30B7\u30F3\u30B0\u3068\u5171\u306B\u30EC\u30D7\u30BD\u30EB\u30FB\u30DB\u30F3\u30C0\u30C1\u30FC\u30E0\u3092\u904B\u55B6\u3057\u3001MotoGP\u306B\u53C2\u6226\u3057\u3066\u3044\u308B\u3053\u3068\u3067\u3088\u304F\u77E5\u3089\u308C\u308B\u3002"@ja ,
+		"A Repsol S.A. \u00E9 uma companhia energ\u00E9tica de origem espanhola fundada em 1987. \u00C9 a 15\u00AA maior petroleira do mundo e a maior companhia energ\u00E9tica privada hispano-americana, em termos de volume de ativos. Opera em mais de 30 pa\u00EDses e emprega mais de 37.000 pessoas. Atua nas \u00E1reas de: Seus dois principais mercados s\u00E3o a Espanha e Portugal. No Brasil, iniciou as atividades em 1997 e atualmente atua na \u00E1rea de Upstream por meio de uma amplia\u00E7\u00E3o de capital subscrita em sua totalidade pela Sinopec, que deu origem \u00E0 Repsol Sinopec Brasil S.A."@pt ,
+		"Repsol YPF \u2013 hiszpa\u0144skie przedsi\u0119biorstwo zajmuj\u0105ce si\u0119 przetw\u00F3rstwem ropy naftowej i gazu ziemnego. Firma dzia\u0142a w 29 krajach. Przedsi\u0119biorstwo zosta\u0142o za\u0142o\u017Cone w 1986 roku i zatrudnia ponad 36000 ludzi."@pl ,
+		"Repsol (\u043F\u0440\u043E\u0438\u0437\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u0420\u0435\u043F\u0441\u043E\u043B\u044C) \u2014 \u043A\u0440\u0443\u043F\u043D\u0435\u0439\u0448\u0430\u044F \u043D\u0435\u0444\u0442\u0435\u0433\u0430\u0437\u043E\u0432\u0430\u044F \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u044F \u0432 \u0418\u0441\u043F\u0430\u043D\u0438\u0438 \u0438 \u041B\u0430\u0442\u0438\u043D\u0441\u043A\u043E\u0439 \u0410\u043C\u0435\u0440\u0438\u043A\u0435."@ru ,
+		"Repsol \u00E8 una societ\u00E0 spagnola attiva nei settori del petrolio e del gas naturale con interessi in 29 paesi."@it ,
+		"Repsol is een Spaanse olie- en gasmaatschappij en tankstationketen. Repsol is actief in zo'n 29 landen, voornamelijk in Spanje en Algerije. Het hoofdkantoor is gevestigd in Madrid."@nl ,
+		"Repsol S.A. (Ibex 35) est une soci\u00E9t\u00E9 anonyme espagnole, fond\u00E9e en octobre 1987. Elle centre ses activit\u00E9s autour de l'exploration, la production, le transport et le raffinage du p\u00E9trole et du gaz naturel. De plus, elle fabrique, distribue et commercialise des produits issus de la p\u00E9trochimie, et du gaz naturel. La soci\u00E9t\u00E9, cr\u00E9\u00E9e en 1987, r\u00E9sulte de la fusion de plusieurs soci\u00E9t\u00E9s espagnoles du p\u00E9trole et de la p\u00E9trochimie, Hispanoil, Enpetrol, Butano, Campsa et Petronor, autour de l'Institut national des hydrocarbures (INH). Elle fusionne, en 1999, avec la soci\u00E9t\u00E9 argentine YPF sous le nom de Repsol YPF. En 2012, \u00E0 la suite de la nationalisation d'YPF par le gouvernement argentin, la soci\u00E9t\u00E9 retrouve son nom de Repsol."@fr ,
+		"\u897F\u73ED\u7259\u570B\u5BB6\u77F3\u6CB9\u516C\u53F8\uFF08Repsol S.A.\uFF1B\u897F\u73ED\u7259\u8A9E\u767C\u97F3\uFF1A[rep\u02C8sol]\uFF09 \u662F\u4E00\u5BB6\u4E3B\u8981\u4E1A\u52A1\u4F4D\u4E8E\u897F\u73ED\u7259\u548C\u963F\u6839\u5EF7\u7684\u77F3\u6CB9\u5929\u7136\u6C14\u516C\u53F8\u3002\u8BE5\u516C\u53F8\u662F1999\u5E74\u7531Repsol\u6536\u8D2DYPF\u800C\u5F62\u6210\u7684\u3002\u76EE\u524D\u662F\u8CA1\u5BCC\u4E16\u754C500\u5F37\u7B2C\u5341\u4E94\u5927\u70BC\u6CB9\u4F01\u4E1A\uFF0C \u5168\u7403\u96C7\u54E1\u8D85\u904E\u56DB\u842C\u30022014\u5E7412\u670816\u65E5\u897F\u73ED\u7259\u570B\u5BB6\u77F3\u6CB9\u516C\u53F8\u4EE583\u5104\u7F8E\u5143\u548C\u627F\u64D447\u5104\u7F8E\u5143\u7684\u50B5\u52D9\u5408\u5171\u65A5\u8CC7130\u5104\u7F8E\u5143\u8CFC\u8CB7\u52A0\u62FF\u5927\u7B2C\u4E94\u5927\u7368\u7ACB\u77F3\u6CB9\u751F\u7522\u5546\u5854\u91CC\u65AF\u66FC\u80FD\u6E90\u3002"@zh ,
+		"Repsol S.A. ([rep\u02C8sol]) is an integrated global energy company based in Madrid, Spain. It carries out upstream and downstream activities throughout the entire world. It has more than 24,000 employees worldwide. It is vertically integrated and operates in all areas of the oil and gas industry, including exploration and production, refining, distribution and marketing, petrochemicals, power generation and trading. Repsol also partners with Honda Racing Corporation to compete in MotoGP under Repsol Honda Team."@en ,
+		"Repsol es una multinacional energ\u00E9tica y petroqu\u00EDmica espa\u00F1ola, con sede social en Madrid, que fue fundada en octubre de 1987. En su origen estuvo conformada por la agrupaci\u00F3n de una serie de compa\u00F1\u00EDas, previamente pertenecientes al Instituto Nacional de Hidrocarburos (INH), con actividades en la exploraci\u00F3n, producci\u00F3n, transporte y refino de petr\u00F3leo y gas. Adem\u00E1s produce, distribuye y comercializa derivados del petr\u00F3leo, productos petroqu\u00EDmicos y gas licuado y vende gas natural."@es ;
+	dbp:name	"Repsol S.A."@en ;
+	dbo:wikiPageRevisionID	706625188 ;
+	dbo:wikiPageID	1076420 ;
+	dbo:wikiPageExternalLink	<http://www.repsol.com/> ,
+		<http://www.repsol.com/es_en/> ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Repsol_headquarters_(Madrid)_01.jpg?width=300> ;
+	dbo:keyPerson	dbr:Antonio_Brufau_Niubó ,
+		dbr:Josu_Jon_Imaz .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Repsol	dbo:internationally	"true"^^xsd:boolean ;
+	dbp:intl	"yes"@en ;
+	dbo:foundingYear	"1987"^^xsd:gYear ;
+	dbo:service	dbr:Filling_station ;
+	dbp:services	dbr:Filling_station .
+@prefix ns29:	<http://dbpedia.org/datatype/> .
+dbr:Repsol	dbo:assets	"6.5086E10"^^ns29:euro ;
+	dbo:equity	"2.792E10"^^ns29:euro ;
+	dbo:industry	dbr:Petroleum_industry ;
+	dbo:netIncome	"1.95E8"^^ns29:euro ;
+	dbo:numberOfEmployees	"24214"^^xsd:nonNegativeInteger ;
+	dbo:operatingIncome	"2.571E9"^^ns29:euro ;
+	dbo:revenue	"4.467E10"^^ns29:euro ;
+	dbp:assets	"6.5086E10"^^ns29:euro ;
+	dbp:equity	"2.792E10"^^ns29:euro ;
+	dbp:netIncome	"1.95E8"^^ns29:euro ;
+	dbp:numEmployees	24214 ;
+	dbp:operatingIncome	"2.571E9"^^ns29:euro ;
+	dbp:revenue	"4.467E10"^^ns29:euro ;
+	dbo:subsidiary	dbr:Petronor ;
+	dbp:subsid	"Repsol Petr\u00F3leo, Repsol Butano, Repsol Qu\u00EDmica, Repsol Exploraci\u00F3n, Petronor"@en ;
+	dbo:product	dbr:Natural_gas ,
+		dbr:Extraction_of_petroleum ,
+		dbr:Oil_refinery ,
+		dbr:Gasoline ,
+		dbr:Liquefied_natural_gas ,
+		dbr:Petrochemistry ;
+	dbp:industry	dbr:Petroleum_industry ;
+	dbp:keyPeople	"Josu Jon Imaz San Miguel"@en ,
+		"Antonio Brufau Niub\u00F3"@en ;
+	dbp:products	"Oil and gas exploration and production, natural gas and LNG trading and transportation, oil refining, petrochemistry"@en ;
+	dbo:predecessor	dbr:National_Hydrocarbons_Institute ;
+	dbp:predecessor	dbr:National_Hydrocarbons_Institute ;
+	dbo:type	<http://dbpedia.org/resource/S.A._(corporation)> ;
+	dbp:type	<http://dbpedia.org/resource/S.A._(corporation)> .
+dbr:Talisman_Energy	dbo:owningCompany	dbr:Repsol ;
+	dbo:parentCompany	dbr:Repsol ;
+	dbp:parent	dbr:Repsol ;
+	dbo:owner	dbr:Repsol ;
+	dbp:owner	dbr:Repsol .
+<http://dbpedia.org/resource/1991_World_Sportscar_Championship_season__9__1>	dbo:team	dbr:Repsol .
+dbr:Repsol-YPF	dbo:wikiPageRedirects	dbr:Repsol .
+<http://dbpedia.org/resource/Repsol_YPF_S.A.>	dbo:wikiPageRedirects	dbr:Repsol .
+dbr:Spanish_Reposol	dbo:wikiPageRedirects	dbr:Repsol .
+<http://dbpedia.org/resource/Repsol_YPF,_S.A.>	dbo:wikiPageRedirects	dbr:Repsol .
+<http://dbpedia.org/resource/Repsol_S.A.>	dbo:wikiPageRedirects	dbr:Repsol .

@@ -1,0 +1,190 @@
+@prefix ns1: <https://w3id.org/vocab/xbrll#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.mondeca.com/id/fact/f100262> a ns1:Fact ;
+    ns1:concept "cdp:Scope" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f100262> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:Scope2MarketBased" .
+
+<http://data.mondeca.com/id/fact/f124081> a ns1:Fact ;
+    ns1:concept "cdp:RationaleSourceExclusion" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f124081> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value """Temporary activities (less than 6 months and less than 5% of the total GHG inventory).
+""" .
+
+<http://data.mondeca.com/id/fact/f176386> a ns1:Fact ;
+    ns1:concept "cdp:RelevanceExclusionScope2MarketBased" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f176386> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:EmissionsAreNotRelevant" .
+
+<http://data.mondeca.com/id/fact/f218158> a ns1:Fact ;
+    ns1:concept "cdp:DescriptionSourceExcluded" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f218158> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "Temporary activities" .
+
+<http://data.mondeca.com/id/fact/f242638> a ns1:Fact ;
+    ns1:concept "cdp:RelevanceExclusionScope2LocationBased" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f242638> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:EmissionsAreNotEvaluated" .
+
+<http://data.mondeca.com/id/fact/f320593> a ns1:Fact ;
+    ns1:concept "cdp:Scope" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f320593> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:Scope2LocationBased" .
+
+<http://data.mondeca.com/id/fact/f322779> a ns1:Fact ;
+    ns1:concept "cdp:RelevanceExclusionScope1" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f322779> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:EmissionsAreNotRelevant" .
+
+<http://data.mondeca.com/id/fact/f397957> a ns1:Fact ;
+    ns1:concept "cdp:RationaleSourceExclusion" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f397957> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value """Scope 1 and 2 emissions from offices located outside industrial facilities are not included within the operational boundary based on the oil industry guidelines for the reporting of greenhouse gas emissions developed by IPIECA, IOGP and API. During 2015, Campus headquarter, Tres Cantos building (where the Company's main Data Processing Center is located) and the Tecnology Center verified their emissions following ISO 14064 standard.
+""" .
+
+<http://data.mondeca.com/id/fact/f567961> a ns1:Fact ;
+    ns1:concept "cdp:EmissionValueGrossCO2e" ;
+    ns1:decimals 0 ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f567961> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:unitRef "cdp:CO2e" ;
+    ns1:value 21068516.0 .
+
+<http://data.mondeca.com/id/fact/f648361> a ns1:Fact ;
+    ns1:concept "cdp:RelevanceExclusionScope1" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f648361> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:EmissionsAreNotEvaluated" .
+
+<http://data.mondeca.com/id/fact/f784363> a ns1:Fact ;
+    ns1:concept "cdp:EmissionValueGrossCO2e" ;
+    ns1:decimals 0 ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f784363> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:unitRef "cdp:CO2e" ;
+    ns1:value 574163.0 .
+
+<http://data.mondeca.com/id/fact/f795651> a ns1:Fact ;
+    ns1:concept "cdp:RelevanceExclusionScope2MarketBased" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f795651> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:EmissionsAreNotEvaluated" .
+
+<http://data.mondeca.com/id/fact/f801722> a ns1:Fact ;
+    ns1:concept "cdp:RelevanceExclusionScope2LocationBased" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f801722> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "cdp-enum:EmissionsAreNotRelevant" .
+
+<http://data.mondeca.com/id/fact/f81627> a ns1:Fact ;
+    ns1:concept "cdp:EmissionValueGrossCO2e" ;
+    ns1:decimals 0 ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f81627> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:unitRef "cdp:CO2e" ;
+    ns1:value 578368.0 .
+
+<http://data.mondeca.com/id/fact/f968814> a ns1:Fact ;
+    ns1:concept "cdp:DescriptionSourceExcluded" ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f968814> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-78374725> ;
+    ns1:period [ ns1:endPeriod "2016-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:value "Offices located outside industrial sites with the exception of Madrid headquarters Campus, IT Building (Tres Cantos) and the Tecnology Center." .
+
+<http://data.mondeca.com/id/dimension/f100262> a ns1:Dimension ;
+    ns1:dimension _:N81162f0142a04661ac1bc6fb23987d31 .
+
+<http://data.mondeca.com/id/dimension/f124081> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f176386> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f218158> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f242638> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f320593> a ns1:Dimension ;
+    ns1:dimension _:N81162f0142a04661ac1bc6fb23987d31 .
+
+<http://data.mondeca.com/id/dimension/f322779> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f397957> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f567961> a ns1:Dimension ;
+    ns1:dimension _:N81162f0142a04661ac1bc6fb23987d31 .
+
+<http://data.mondeca.com/id/dimension/f648361> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f784363> a ns1:Dimension ;
+    ns1:dimension [ ns1:axis "cdp:TotalEmissionDataAxis" ;
+            ns1:member "id02" ] .
+
+<http://data.mondeca.com/id/dimension/f795651> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f801722> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+<http://data.mondeca.com/id/dimension/f81627> a ns1:Dimension ;
+    ns1:dimension [ ns1:axis "cdp:TotalEmissionDataAxis" ;
+            ns1:member "id03" ] .
+
+<http://data.mondeca.com/id/dimension/f968814> a ns1:Dimension ;
+    ns1:dimension _:N149188ed68654abcbe0180fc5041a67e .
+
+_:N81162f0142a04661ac1bc6fb23987d31 ns1:axis "cdp:TotalEmissionDataAxis" ;
+    ns1:member "id01",
+        "id02",
+        "id03" .
+
+_:N149188ed68654abcbe0180fc5041a67e ns1:axis "cdp:GreenhouseInventoryBoundariesAxis" ;
+    ns1:member "id01",
+        "id02" .
+

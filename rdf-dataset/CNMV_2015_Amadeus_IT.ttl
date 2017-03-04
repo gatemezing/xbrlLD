@@ -1,0 +1,40 @@
+@prefix ns1: <https://w3id.org/vocab/xbrll#> .
+@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns5: <http://www.w3.org/ns/org#> .
+@prefix ns6: <http://www.w3.org/ns/regorg#> .
+@prefix ns7: <http://schema.org/> .
+@prefix ns8: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ipp: <http://www.cnmv.es/ipp/taxonomia/2008-01-01/ipp-gen-2008-01-01/> 
+
+
+<http://data.mondeca.com/id/fact/fa78374725169> a ns1:Fact ;
+    ns1:concept <http://xbrl.iasb.org/int/fr/ifrs/gp/2005-05-15/RevenueTotalByNature> ;
+    ns1:decimals 0 ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-84236934> ;
+    ns1:hasTuple <http://data.mondeca.com/id/tuple/f88551> ;
+    ns1:period [ ns1:endPeriod "2015-01-01"^^xsd:date ;
+            ns1:startPeriod "2015-12-31"^^xsd:date ] ;
+    ns1:unitRef <http://dbpedia.org/resource/EUR> ;
+    ns1:value 3912702000.0 ;
+    ns1:hasScenario <http://data.mondeca.com/id/scenario/s783747251585> ;
+    .
+
+<http://data.mondeca.com/id/scenario/s783747251585> a ns1:Scenario;
+    ns1:scenarioItem [ns1:concept ipp:Apartado; ns1:value "Consolidado" ] 
+    .
+
+<http://data.mondeca.com/id/entity/A-84236934> a ns1:Entity ;
+    ns5:legalName "Amadeus IT Holding, S.A" ;
+    ns5:registration "CIF-A-84236934" .
+
+<http://data.mondeca.com/id/tuple/f88551> a ns1:Tuple ;
+    rdfs:label "Cuenta Perdidas Ganancias Individual" ;
+    ns2:inScheme <http://data.mondeca.com/id/scheme/ipp> ;
+    ns1:concept <http://www.cnmv.es/ipp/gen/1-2008/2008-01-01/CuentaPerdidasGananciasIndividual> .

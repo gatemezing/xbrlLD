@@ -1,0 +1,32 @@
+@prefix ns1: <https://w3id.org/vocab/xbrll#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+<http://data.mondeca.com/id/fact/fa567961> a ns1:Fact ;
+    ns1:concept "cdp:EmissionValueGrossCO2e" ;
+    ns1:decimals 0 ;
+    ns1:hasDimension <http://data.mondeca.com/id/dimension/f567961> ;
+    ns1:hasEntity <http://data.mondeca.com/id/entity/A-84236934> ;
+    ns1:period [ ns1:endPeriod "2015-12-31"^^xsd:date ;
+            ns1:startPeriod "2015-01-01"^^xsd:date ] ;
+    ns1:unitRef "cdp:CO2e" ;
+    ns1:value 983.0 .
+
+
+    <http://data.mondeca.com/id/dimension/f567961> a ns1:Dimension ;
+    ns1:dimension _:N81162f0142a04661ac1bc6fb23987d31 .
+
+
+    _:N81162f0142a04661ac1bc6fb23987d31 ns1:axis "cdp:TotalEmissionDataAxis" ;
+    ns1:member "id01",
+        "id02",
+        "id03" .
+
+## linked to DBpedia
+
+<http://data.mondeca.com/id/entity/A-84236934> owl:sameAs <http://dbpedia.org/resource/Amadeus_IT_Group> .
+
